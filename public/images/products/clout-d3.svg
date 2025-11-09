@@ -1,0 +1,22 @@
+<svg width="640" height="480" viewBox="0 0 640 480" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="a" x1="0%" x2="100%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#003C8F"/>
+      <stop offset="100%" stop-color="#001E5C"/>
+    </linearGradient>
+    <linearGradient id="overlay" x1="0%" x2="100%" y1="100%" y2="0%">
+      <stop offset="0%" stop-color="#FF7A00" stop-opacity="0.45"/>
+      <stop offset="100%" stop-color="#FFB266" stop-opacity="0.1"/>
+    </linearGradient>
+  </defs>
+  <rect width="640" height="480" rx="36" fill="url(#a)"/>
+  <path d="M0 310C160 260 320 360 480 320C560 300 600 260 640 220V480H0V310Z" fill="url(#overlay)"/>
+  <g fill="#FFFFFF" font-family="Montserrat, Arial, sans-serif" text-anchor="middle">
+    <text x="320" y="190" font-size="56" font-weight="700">Stick-Onn Clout D3</text>
+    <text x="320" y="240" font-size="28" font-weight="500">D3 Grade High-Performance Adhesive</text>
+  </g>
+  <g fill="#FF7A00" font-family="Poppins, Arial, sans-serif" font-weight="600" text-anchor="middle">
+    <text x="320" y="320" font-size="24">Engineered for demanding builds</text>
+  </g>
+</svg>
+

@@ -1,0 +1,22 @@
+<svg width="640" height="480" viewBox="0 0 640 480" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="a" x1="0%" x2="100%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#0055C9"/>
+      <stop offset="100%" stop-color="#003C8F"/>
+    </linearGradient>
+    <linearGradient id="b" x1="0%" x2="100%" y1="100%" y2="0%">
+      <stop offset="0%" stop-color="#33A1FF" stop-opacity="0.2"/>
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect width="640" height="480" rx="36" fill="url(#a)"/>
+  <path d="M0 280C120 240 200 220 320 230C440 240 520 220 640 180V480H0V280Z" fill="url(#b)"/>
+  <g fill="#FFFFFF" font-family="Montserrat, Arial, sans-serif" font-weight="700" text-anchor="middle">
+    <text x="320" y="190" font-size="56">Stick-Onn Aqua+</text>
+    <text x="320" y="240" font-size="28" font-weight="500">Waterproof Wood Adhesive</text>
+  </g>
+  <g fill="#FF7A00" font-family="Poppins, Arial, sans-serif" font-weight="600" text-anchor="middle">
+    <text x="320" y="320" font-size="24">Smart Strength. Perfect Bond.</text>
+  </g>
+</svg>
+

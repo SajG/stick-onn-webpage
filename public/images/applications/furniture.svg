@@ -1,0 +1,15 @@
+<svg width="400" height="300" viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#004FB5"/>
+      <stop offset="100%" stop-color="#003C8F"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="300" rx="28" fill="url(#bg)"/>
+  <rect x="60" y="130" width="280" height="90" rx="16" fill="#FFFFFF" opacity="0.85"/>
+  <rect x="100" y="80" width="200" height="60" rx="12" fill="#FF7A00" opacity="0.85"/>
+  <rect x="90" y="220" width="20" height="40" rx="6" fill="#FFFFFF" opacity="0.7"/>
+  <rect x="290" y="220" width="20" height="40" rx="6" fill="#FFFFFF" opacity="0.7"/>
+  <text x="200" y="165" text-anchor="middle" font-family="Montserrat, Arial, sans-serif" font-weight="600" font-size="32" fill="#003C8F">Furniture</text>
+</svg>
+

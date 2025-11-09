@@ -1,0 +1,16 @@
+<svg width="400" height="300" viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="100%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#2F6DCC"/>
+      <stop offset="100%" stop-color="#003C8F"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="300" rx="28" fill="url(#bg)"/>
+  <circle cx="140" cy="160" r="60" fill="#FFFFFF" opacity="0.8"/>
+  <rect x="120" y="120" width="160" height="110" rx="28" fill="#FF7A00" opacity="0.9"/>
+  <circle cx="140" cy="150" r="6" fill="#FFFFFF" opacity="0.8"/>
+  <circle cx="180" cy="150" r="6" fill="#FFFFFF" opacity="0.8"/>
+  <circle cx="220" cy="150" r="6" fill="#FFFFFF" opacity="0.8"/>
+  <text x="210" y="250" text-anchor="middle" font-family="Montserrat, Arial, sans-serif" font-weight="600" font-size="26" fill="#FFFFFF">Upholstery & Spray</text>
+</svg>
+

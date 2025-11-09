@@ -1,0 +1,22 @@
+<svg width="640" height="480" viewBox="0 0 640 480" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="20%" x2="80%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#0064D8"/>
+      <stop offset="100%" stop-color="#003C8F"/>
+    </linearGradient>
+    <linearGradient id="spray" x1="0%" x2="100%" y1="0%" y2="0%">
+      <stop offset="0%" stop-color="#FF7A00" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#FFAC4D" stop-opacity="0.25"/>
+    </linearGradient>
+  </defs>
+  <rect width="640" height="480" rx="36" fill="url(#bg)"/>
+  <path d="M140 380C280 240 420 420 560 260" stroke="url(#spray)" stroke-width="140" stroke-linecap="round" opacity="0.35"/>
+  <g fill="#FFFFFF" font-family="Montserrat, Arial, sans-serif" text-anchor="middle">
+    <text x="320" y="190" font-size="56" font-weight="700">Stick-Onn AeroFix</text>
+    <text x="320" y="240" font-size="28" font-weight="500">Spray Adhesive</text>
+  </g>
+  <g fill="#FF7A00" font-family="Poppins, Arial, sans-serif" font-weight="600" text-anchor="middle">
+    <text x="320" y="320" font-size="24">Perfect for foam, fabric & panels</text>
+  </g>
+</svg>
+

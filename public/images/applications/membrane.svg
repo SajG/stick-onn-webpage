@@ -1,0 +1,13 @@
+<svg width="400" height="300" viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="100%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#336FD1"/>
+      <stop offset="100%" stop-color="#003C8F"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="300" rx="28" fill="url(#bg)"/>
+  <path d="M70 210L200 90L330 210" fill="#FFFFFF" opacity="0.18"/>
+  <path d="M100 220L200 130L300 220" fill="#FF7A00" opacity="0.8"/>
+  <text x="200" y="260" text-anchor="middle" font-family="Montserrat, Arial, sans-serif" font-weight="600" font-size="28" fill="#FFFFFF">Membrane Pressing</text>
+</svg>
+

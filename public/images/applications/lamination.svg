@@ -1,0 +1,14 @@
+<svg width="400" height="300" viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4080DD"/>
+      <stop offset="100%" stop-color="#003C8F"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="300" rx="28" fill="url(#bg)"/>
+  <rect x="90" y="90" width="220" height="140" rx="18" fill="#FFFFFF" opacity="0.75"/>
+  <rect x="110" y="110" width="180" height="100" rx="14" fill="#FF7A00" opacity="0.85"/>
+  <path d="M130 130H270V150H130z" fill="#FFFFFF" opacity="0.85"/>
+  <text x="200" y="240" text-anchor="middle" font-family="Montserrat, Arial, sans-serif" font-size="26" font-weight="600" fill="#FFFFFF">Paper & Lamination</text>
+</svg>
+
