@@ -19,13 +19,14 @@ const gradientMap: Record<string, string> = {
 export function ProductCard({ product }: ProductCardProps) {
   const gradientClass =
     gradientMap[product.slug] ?? "from-slate-200 via-white to-slate-100";
+  const orderNowHref = `/contact?product=${encodeURIComponent(
+    product.name,
+  )}#contact-form`;
 
   return (
-    <Link
-      href={`/products/${product.slug}`}
-      className="group flex flex-col overflow-hidden rounded-3xl border border-slate-200/80 bg-white/80 backdrop-blur transition-all duration-300 hover:-translate-y-1.5 hover:border-[var(--primary)]/60 hover:shadow-2xl hover:shadow-[var(--primary)]/10"
-    >
-      <div
+    <div className="group flex flex-col overflow-hidden rounded-3xl border border-slate-200/80 bg-white/80 backdrop-blur transition-all duration-300 hover:-translate-y-1.5 hover:border-[var(--primary)]/60 hover:shadow-2xl hover:shadow-[var(--primary)]/10">
+      <Link
+        href={`/products/${product.slug}`}
         className={cn(
           "relative flex h-64 items-center justify-center overflow-hidden rounded-b-[3rem] rounded-t-3xl bg-gradient-to-br transition duration-500 sm:h-72",
           gradientClass,
@@ -40,7 +41,7 @@ export function ProductCard({ product }: ProductCardProps) {
           className="z-10 scale-105 object-contain drop-shadow-xl transition-transform duration-500 group-hover:scale-110"
           sizes="(max-width: 768px) 100vw, 33vw"
         />
-      </div>
+      </Link>
       <div className="flex flex-1 flex-col gap-4 p-6 sm:p-7">
         <div className="space-y-3">
           <p className="inline-flex items-center gap-2 rounded-full bg-slate-100/60 px-3 py-1 text-[11px] font-semibold uppercase tracking-[0.35em] text-accent">
@@ -55,12 +56,23 @@ export function ProductCard({ product }: ProductCardProps) {
             </p>
           </div>
         </div>
-        <div className="mt-auto inline-flex items-center gap-2 text-sm font-semibold text-[var(--primary)] transition group-hover:text-[var(--primary-dark)]">
-          Learn More
-          <ArrowUpRight className="h-4 w-4 transition group-hover:translate-x-1" />
+        <div className="mt-auto flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
+          <Link
+            href={orderNowHref}
+            className="inline-flex items-center justify-center rounded-full bg-[var(--primary)] px-5 py-2 text-xs font-semibold uppercase tracking-[0.28em] text-white transition hover:bg-[var(--primary-dark)]"
+          >
+            Order Now
+          </Link>
+          <Link
+            href={`/products/${product.slug}`}
+            className="inline-flex items-center gap-2 text-sm font-semibold text-[var(--primary)] transition hover:text-[var(--primary-dark)]"
+          >
+            Learn More
+            <ArrowUpRight className="h-4 w-4 transition group-hover:translate-x-1" />
+          </Link>
         </div>
       </div>
-    </Link>
+    </div>
   );
 }
 
