@@ -281,7 +281,7 @@ export const companyInfo = {
   tagline: "Smart Strength. Perfect Bond.",
   email: "contact@stickonn.in",
   phone: "+91 90210 86995",
-  phoneAlt: "+91 93716 35315",
+  phoneAlt: "+91 77740 55316",
   address: "205, 4th Floor, Mont Vert Spectra, Pallod Farms, Baner 411045",
   plant: "Polygon Adhesive & Resins Pvt. Ltd., Chakan Plant",
   social: {

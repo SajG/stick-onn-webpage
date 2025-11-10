@@ -28,6 +28,11 @@ export const metadata: Metadata = {
   },
   description: siteDescription,
   metadataBase: new URL("https://stickonn.in"),
+  icons: {
+    icon: "/icon.png",
+    shortcut: "/icon.png",
+    apple: "/icon.png",
+  },
   openGraph: {
     title: siteTitle,
     description: siteDescription,
