@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { Suspense } from "react";
 import { Mail, Phone, MapPin, Clock } from "lucide-react";
 import { PageHeader } from "@/components/page-header";
 import { ContactForm } from "@/components/contact-form";
@@ -119,7 +120,15 @@ export default function ContactPage() {
         </div>
 
         <div id="contact-form">
-          <ContactForm />
+          <Suspense
+            fallback={
+              <div className="rounded-3xl border border-slate-200 bg-white p-8 text-sm text-slate-500">
+                Loading contact form...
+              </div>
+            }
+          >
+            <ContactForm />
+          </Suspense>
         </div>
       </div>
     </div>
