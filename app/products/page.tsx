@@ -1,14 +1,24 @@
-import type { Metadata } from "next";
 import Link from "next/link";
 import { PageHeader } from "@/components/page-header";
 import { ProductCard } from "@/components/product-card";
 import { products, upcomingProducts } from "@/lib/data";
+import { createPageMetadata } from "@/lib/seo";
+import { Reveal } from "@/components/reveal";
 
-export const metadata: Metadata = {
-  title: "Products",
+export const metadata = createPageMetadata({
+  title: "Stick-Onn Adhesive Products",
   description:
-    "Explore the full range of Stick-Onn premium adhesives designed for woodworking, WPC, laminates, and spray applications.",
-};
+    "Browse Stick-Onn’s complete adhesive portfolio engineered for woodworking, laminates, WPC substrates, upholstery, and industrial applications.",
+  path: "/products",
+  keywords: [
+    "Stick-Onn products",
+    "wood adhesive",
+    "spray adhesive",
+    "waterproof adhesive",
+    "industrial adhesive",
+    "adhesive manufacturer India",
+  ],
+});
 
 export default function ProductsPage() {
   return (
@@ -18,8 +28,11 @@ export default function ProductsPage() {
         title="Adhesives engineered for every substrate"
         description="Each Stick-Onn adhesive is formulated with modern chemistries to deliver reliable strength, speed, and finish quality for professional workshops."
       />
-      <section className="flex flex-col items-center justify-between gap-4 rounded-3xl border border-[var(--primary)]/20 bg-gradient-to-br from-white via-[#f8fbff] to-white p-6 text-center sm:flex-row sm:text-left">
-        <div className="space-y-2">
+      <Reveal
+        as="section"
+        className="flex flex-col items-center justify-between gap-4 rounded-3xl border border-[var(--primary)]/20 bg-gradient-to-br from-white via-[#f8fbff] to-white p-6 text-center sm:flex-row sm:text-left"
+      >
+        <Reveal as="div" className="space-y-2" delay={40}>
           <p className="text-xs font-semibold uppercase tracking-[0.28em] text-[var(--primary)]">
             Ready to order?
           </p>
@@ -29,24 +42,37 @@ export default function ProductsPage() {
           <p className="text-sm text-slate-600">
             Share your requirements and we’ll confirm pricing, availability, and delivery slots over WhatsApp.
           </p>
-        </div>
-        <Link
-          href="https://wa.me/919021086995?text=Hi%20Stick-Onn%20team%2C%20I%27d%20like%20to%20place%20an%20order."
-          target="_blank"
-          rel="noopener noreferrer"
-          className="inline-flex items-center justify-center rounded-full bg-[var(--primary)] px-8 py-3 text-sm font-semibold text-white transition hover:bg-[var(--primary-dark)]"
-        >
-          Order Now
-        </Link>
-      </section>
+        </Reveal>
+        <Reveal as="div" delay={80}>
+          <Link
+            href="https://wa.me/919021086995?text=Hi%20Stick-Onn%20team%2C%20I%27d%20like%20to%20place%20an%20order."
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center justify-center rounded-full bg-[var(--primary)] px-8 py-3 text-sm font-semibold text-white transition hover:bg-[var(--primary-dark)]"
+          >
+            Order Now
+          </Link>
+        </Reveal>
+      </Reveal>
       <div className="grid gap-5 md:grid-cols-2 lg:grid-cols-3">
-        {products.map((product) => (
-          <ProductCard key={product.slug} product={product} />
+        {products.map((product, index) => (
+          <ProductCard
+            key={product.slug}
+            product={product}
+            animationDelay={index * 90}
+          />
         ))}
       </div>
 
-      <section className="space-y-6 rounded-3xl border border-slate-200 bg-white p-8">
-        <div className="flex flex-col gap-2 text-center sm:text-left">
+      <Reveal
+        as="section"
+        className="space-y-6 rounded-3xl border border-slate-200 bg-white p-8"
+      >
+        <Reveal
+          as="div"
+          className="flex flex-col gap-2 text-center sm:text-left"
+          delay={40}
+        >
           <p className="text-xs font-semibold uppercase tracking-[0.32em] text-accent">
             Industrial line
           </p>
@@ -58,12 +84,14 @@ export default function ProductsPage() {
             pressing, label lines, and automated packaging environments. Preview the
             solutions slated for release.
           </p>
-        </div>
+        </Reveal>
         <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-3">
-          {upcomingProducts.map((item) => (
-            <div
+          {upcomingProducts.map((item, index) => (
+            <Reveal
+              as="div"
               key={item.name}
               className="flex flex-col gap-3 rounded-3xl border border-dashed border-[var(--primary)]/30 bg-gradient-to-br from-white via-[#f5f9ff] to-white p-6"
+              delay={index * 80}
             >
               <span className="w-fit rounded-full border border-[var(--primary)]/20 bg-[var(--primary)]/10 px-3 py-1 text-[11px] font-semibold uppercase tracking-[0.35em] text-[var(--primary)]">
                 {item.status}
@@ -77,10 +105,10 @@ export default function ProductsPage() {
                 </h3>
               </div>
               <p className="text-sm text-slate-600">{item.description}</p>
-            </div>
+            </Reveal>
           ))}
         </div>
-      </section>
+      </Reveal>
     </div>
   );
 }

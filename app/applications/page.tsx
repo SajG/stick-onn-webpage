@@ -1,4 +1,3 @@
-import type { Metadata } from "next";
 import { PageHeader } from "@/components/page-header";
 import { ApplicationCard } from "@/components/application-card";
 import {
@@ -6,12 +5,23 @@ import {
   products,
   upcomingProducts,
 } from "@/lib/data";
+import { createPageMetadata } from "@/lib/seo";
+import { Reveal } from "@/components/reveal";
 
-export const metadata: Metadata = {
-  title: "Applications",
+export const metadata = createPageMetadata({
+  title: "Stick-Onn Adhesive Applications",
   description:
-    "Discover Stick-Onn adhesive recommendations across furniture, laminates, WPC, upholstery, and specialty applications.",
-};
+    "Explore how Stick-Onn adhesives power furniture manufacturing, laminate pressing, WPC installations, upholstery lines, and specialised industrial bonding.",
+  path: "/applications",
+  keywords: [
+    "adhesive applications",
+    "furniture adhesive",
+    "laminate adhesive",
+    "WPC adhesive",
+    "spray adhesive",
+    "Stick-Onn applications",
+  ],
+});
 
 function getPrimaryProductHref(productSlugs: string[]) {
   const primarySlug = productSlugs[0];
@@ -31,7 +41,7 @@ export default function ApplicationsPage() {
         description="Stick-Onn elevates production quality across carpentry, furniture, interiors, and industrial fabrication. Explore focus areas and find the adhesive curated for your substrate."
       />
       <div className="grid gap-5 md:grid-cols-2 lg:grid-cols-3">
-        {applications.map((application) => (
+        {applications.map((application, index) => (
           <ApplicationCard
             key={application.title}
             title={application.title}
@@ -39,6 +49,7 @@ export default function ApplicationsPage() {
             image={application.image}
             href={getPrimaryProductHref(application.products)}
             points={application.points}
+            animationDelay={index * 90}
             products={application.products
               .map((slug) => {
                 const product = productLookup.get(slug);
@@ -50,8 +61,15 @@ export default function ApplicationsPage() {
           />
         ))}
       </div>
-      <section className="space-y-6 rounded-3xl border border-slate-200 bg-white p-8">
-        <div className="flex flex-col gap-2 text-center sm:text-left">
+      <Reveal
+        as="section"
+        className="space-y-6 rounded-3xl border border-slate-200 bg-white p-8"
+      >
+        <Reveal
+          as="div"
+          className="flex flex-col gap-2 text-center sm:text-left"
+          delay={40}
+        >
           <p className="text-xs font-semibold uppercase tracking-[0.32em] text-accent">
             Industrial formats
           </p>
@@ -63,12 +81,14 @@ export default function ApplicationsPage() {
             post forming, automated labelling, and packaging lines. Preview the
             solutions you can expect in the next release cycle.
           </p>
-        </div>
+        </Reveal>
         <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-3">
-          {upcomingProducts.map((item) => (
-            <div
+          {upcomingProducts.map((item, index) => (
+            <Reveal
+              as="div"
               key={item.name}
               className="flex flex-col gap-3 rounded-3xl border border-dashed border-[var(--primary)]/30 bg-gradient-to-br from-white via-[#f4f8ff] to-white p-6"
+              delay={index * 80}
             >
               <span className="w-fit rounded-full border border-[var(--primary)]/20 bg-[var(--primary)]/10 px-3 py-1 text-[11px] font-semibold uppercase tracking-[0.35em] text-[var(--primary)]">
                 {item.status}
@@ -82,10 +102,10 @@ export default function ApplicationsPage() {
                 </h3>
               </div>
               <p className="text-sm text-slate-600">{item.description}</p>
-            </div>
+            </Reveal>
           ))}
         </div>
-      </section>
+      </Reveal>
     </div>
   );
 }

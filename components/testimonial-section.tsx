@@ -1,11 +1,18 @@
+"use client";
+
 import { Quote } from "lucide-react";
 import { testimonials } from "@/lib/data";
+import { Reveal } from "@/components/reveal";
 
 export function TestimonialSection() {
   return (
-    <section className="py-16">
+    <Reveal as="section" className="py-16">
       <div className="container-balanced">
-        <div className="mb-10 flex flex-col gap-2 text-center">
+        <Reveal
+          as="div"
+          className="mb-10 flex flex-col gap-2 text-center"
+          delay={40}
+        >
           <p className="text-xs font-semibold uppercase tracking-[0.32em] text-accent">
             Trusted by Professionals
           </p>
@@ -16,12 +23,14 @@ export function TestimonialSection() {
             From modular furniture manufacturers to upholstery specialists,
             Stick-Onn adhesives power production lines across India.
           </p>
-        </div>
+        </Reveal>
         <div className="grid gap-4 md:grid-cols-3">
-          {testimonials.map((testimonial) => (
-            <article
+          {testimonials.map((testimonial, index) => (
+            <Reveal
+              as="article"
               key={testimonial.name}
               className="flex h-full flex-col gap-4 rounded-2xl border border-slate-200 bg-white p-6"
+              delay={index * 90}
             >
               <Quote className="h-6 w-6 text-accent" />
               <p className="flex-1 text-sm leading-relaxed text-slate-700">
@@ -35,11 +44,11 @@ export function TestimonialSection() {
                   {testimonial.role}
                 </p>
               </div>
-            </article>
+            </Reveal>
           ))}
         </div>
       </div>
-    </section>
+    </Reveal>
   );
 }
 

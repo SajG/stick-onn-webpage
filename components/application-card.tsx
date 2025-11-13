@@ -1,5 +1,8 @@
+"use client";
+
 import Image from "next/image";
 import Link from "next/link";
+import { Reveal } from "@/components/reveal";
 
 type ApplicationCardProps = {
   title: string;
@@ -8,6 +11,7 @@ type ApplicationCardProps = {
   href: string;
   products: { name: string; slug: string }[];
   points?: string[];
+  animationDelay?: number;
 };
 
 export function ApplicationCard({
@@ -17,9 +21,14 @@ export function ApplicationCard({
   href,
   products,
   points,
+  animationDelay = 0,
 }: ApplicationCardProps) {
   return (
-    <div className="group flex flex-col overflow-hidden rounded-3xl border border-slate-200/80 bg-white/80 backdrop-blur transition hover:-translate-y-1.5 hover:border-[var(--primary)]/50 hover:shadow-[0_25px_60px_rgba(0,60,143,0.08)]">
+    <Reveal
+      as="div"
+      className="group flex flex-col overflow-hidden rounded-3xl border border-slate-200/80 bg-white/80 backdrop-blur transition hover:-translate-y-1.5 hover:border-[var(--primary)]/50 hover:shadow-[0_25px_60px_rgba(0,60,143,0.08)]"
+      delay={animationDelay}
+    >
       <div className="relative h-56 w-full overflow-hidden bg-gradient-to-br from-[#f4f7ff] via-white to-[#fdf7f2]">
         <Image
           src={image}
@@ -68,7 +77,7 @@ export function ApplicationCard({
           Explore {title}
         </Link>
       </div>
-    </div>
+    </Reveal>
   );
 }
 
