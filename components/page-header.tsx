@@ -1,3 +1,6 @@
+"use client";
+
+import { Reveal } from "@/components/reveal";
 import { cn } from "@/lib/utils";
 
 type PageHeaderProps = {
@@ -21,33 +24,48 @@ export function PageHeader({
       : "items-center text-center";
 
   return (
-    <section
+    <Reveal
+      as="section"
       className={cn(
         "relative overflow-hidden rounded-3xl border border-slate-200 bg-white px-6 py-10",
         className,
       )}
     >
-      <div
+      <Reveal
+        as="div"
         className={cn(
           "relative mx-auto flex max-w-4xl flex-col gap-2",
           alignmentClasses,
         )}
+        delay={60}
       >
         {eyebrow && (
-          <p className="text-xs font-semibold uppercase tracking-[0.32em] text-accent">
+          <Reveal
+            as="p"
+            className="text-xs font-semibold uppercase tracking-[0.32em] text-accent"
+            delay={20}
+          >
             {eyebrow}
-          </p>
+          </Reveal>
         )}
-        <h1 className="mt-1 text-3xl font-semibold text-[var(--primary)] sm:text-4xl">
+        <Reveal
+          as="h1"
+          className="mt-1 text-3xl font-semibold text-[var(--primary)] sm:text-4xl"
+          delay={40}
+        >
           {title}
-        </h1>
+        </Reveal>
         {description && (
-          <p className="mt-3 max-w-3xl text-sm text-slate-600 sm:text-base">
+          <Reveal
+            as="p"
+            className="mt-3 max-w-3xl text-sm text-slate-600 sm:text-base"
+            delay={70}
+          >
             {description}
-          </p>
+          </Reveal>
         )}
-      </div>
-    </section>
+      </Reveal>
+    </Reveal>
   );
 }
 

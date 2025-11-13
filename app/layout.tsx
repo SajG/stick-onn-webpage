@@ -3,6 +3,8 @@ import { Montserrat, Poppins } from "next/font/google";
 import "./globals.css";
 import { Navbar } from "@/components/navbar";
 import { Footer } from "@/components/footer";
+import { companyInfo } from "@/lib/data";
+import { absoluteUrl } from "@/lib/seo";
 const montserrat = Montserrat({
   variable: "--font-heading",
   subsets: ["latin"],
@@ -51,6 +53,38 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+  const structuredData = [
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      name: companyInfo.name,
+      legalName: companyInfo.legal,
+      url: "https://stickonn.in",
+      logo: absoluteUrl("/images/brand-logo.png"),
+      sameAs: Object.values(companyInfo.social),
+      contactPoint: [
+        {
+          "@type": "ContactPoint",
+          telephone: companyInfo.phone,
+          contactType: "customer service",
+          areaServed: "IN",
+          availableLanguage: ["English"],
+        },
+      ],
+      address: {
+        "@type": "PostalAddress",
+        streetAddress: companyInfo.address,
+        addressCountry: "IN",
+      },
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      name: companyInfo.name,
+      url: "https://stickonn.in",
+    },
+  ];
+
   return (
     <html lang="en">
       <body
@@ -61,6 +95,11 @@ export default function RootLayout({
           <main className="flex-1 pb-24 pt-10">{children}</main>
           <Footer />
         </div>
+        <script
+          type="application/ld+json"
+          suppressHydrationWarning
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
+        />
       </body>
     </html>
   );

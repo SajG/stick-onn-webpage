@@ -1,15 +1,24 @@
-import type { Metadata } from "next";
 import { Suspense } from "react";
 import { Mail, Phone, MapPin, Clock } from "lucide-react";
 import { PageHeader } from "@/components/page-header";
 import { ContactForm } from "@/components/contact-form";
 import { companyInfo } from "@/lib/data";
+import { createPageMetadata } from "@/lib/seo";
+import { Reveal } from "@/components/reveal";
 
-export const metadata: Metadata = {
-  title: "Contact",
+export const metadata = createPageMetadata({
+  title: "Contact Stick-Onn Adhesives",
   description:
-    "Reach out to Stick-Onn for product support, dealer inquiries, and technical assistance.",
-};
+    "Connect with Stick-Onn for product assistance, dealer partnerships, technical guidance, and bulk adhesive orders.",
+  path: "/contact",
+  keywords: [
+    "contact Stick-Onn",
+    "Stick-Onn dealers",
+    "adhesive support",
+    "adhesive supplier contact",
+    "Synergy Bonding Solutions contact",
+  ],
+});
 
 const contactDetails = [
   {
@@ -53,7 +62,11 @@ export default function ContactPage() {
 
       <div className="grid gap-12 md:grid-cols-[1fr,1.1fr]">
         <div className="space-y-6">
-          <div className="rounded-3xl border border-slate-200 bg-white p-8">
+          <Reveal
+            as="div"
+            className="rounded-3xl border border-slate-200 bg-white p-8"
+            delay={40}
+          >
             <h2 className="text-xl font-semibold text-[var(--primary)]">
               Dealer & distributor desk
             </h2>
@@ -98,9 +111,13 @@ export default function ContactPage() {
                 </div>
               </li>
             </ul>
-          </div>
+          </Reveal>
 
-          <div className="overflow-hidden rounded-3xl border border-slate-200 bg-slate-50 p-6 text-slate-700">
+          <Reveal
+            as="div"
+            className="overflow-hidden rounded-3xl border border-slate-200 bg-slate-50 p-6 text-slate-700"
+            delay={80}
+          >
             <h3 className="text-lg font-semibold text-[var(--primary)]">
               Visit our demo center
             </h3>
@@ -116,10 +133,10 @@ export default function ContactPage() {
             >
               Get directions
             </a>
-          </div>
+          </Reveal>
         </div>
 
-        <div id="contact-form">
+        <Reveal as="div" id="contact-form" delay={60}>
           <Suspense
             fallback={
               <div className="rounded-3xl border border-slate-200 bg-white p-8 text-sm text-slate-500">
@@ -129,7 +146,7 @@ export default function ContactPage() {
           >
             <ContactForm />
           </Suspense>
-        </div>
+        </Reveal>
       </div>
     </div>
   );

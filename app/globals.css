@@ -59,3 +59,34 @@ a {
   padding-left: 1.5rem;
   padding-right: 1.5rem;
 }
+
+.reveal-element {
+  opacity: 0;
+  transform: translate3d(
+      var(--reveal-translate-x, 0px),
+      var(--reveal-translate-y, 28px),
+      0
+    )
+    scale(0.98);
+  filter: blur(14px);
+  transition:
+    opacity 0.7s cubic-bezier(0.16, 1, 0.3, 1),
+    transform 0.7s cubic-bezier(0.16, 1, 0.3, 1),
+    filter 0.7s cubic-bezier(0.16, 1, 0.3, 1);
+  will-change: opacity, transform, filter;
+}
+
+.reveal-element[data-visible="true"] {
+  opacity: 1;
+  transform: translate3d(0, 0, 0) scale(1);
+  filter: blur(0);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .reveal-element {
+    opacity: 1 !important;
+    transform: none !important;
+    filter: none !important;
+    transition: none !important;
+  }
+}

@@ -1,11 +1,15 @@
+"use client";
+
 import Image from "next/image";
 import Link from "next/link";
 import { ArrowUpRight } from "lucide-react";
 import type { Product } from "@/lib/data";
 import { cn } from "@/lib/utils";
+import { Reveal } from "@/components/reveal";
 
 type ProductCardProps = {
   product: Product;
+  animationDelay?: number;
 };
 
 const gradientMap: Record<string, string> = {
@@ -16,7 +20,7 @@ const gradientMap: Record<string, string> = {
   wpcfix: "from-[#cbead1] via-white to-[#f0fff4]",
 };
 
-export function ProductCard({ product }: ProductCardProps) {
+export function ProductCard({ product, animationDelay = 0 }: ProductCardProps) {
   const gradientClass =
     gradientMap[product.slug] ?? "from-slate-200 via-white to-slate-100";
   const orderNowHref = `/contact?product=${encodeURIComponent(
@@ -24,7 +28,11 @@ export function ProductCard({ product }: ProductCardProps) {
   )}#contact-form`;
 
   return (
-    <div className="group flex flex-col overflow-hidden rounded-3xl border border-slate-200/80 bg-white/80 backdrop-blur transition-all duration-300 hover:-translate-y-1.5 hover:border-[var(--primary)]/60 hover:shadow-2xl hover:shadow-[var(--primary)]/10">
+    <Reveal
+      as="div"
+      className="group flex flex-col overflow-hidden rounded-3xl border border-slate-200/80 bg-white/80 backdrop-blur transition-all duration-300 hover:-translate-y-1.5 hover:border-[var(--primary)]/60 hover:shadow-2xl hover:shadow-[var(--primary)]/10"
+      delay={animationDelay}
+    >
       <Link
         href={`/products/${product.slug}`}
         className={cn(
@@ -72,7 +80,7 @@ export function ProductCard({ product }: ProductCardProps) {
           </Link>
         </div>
       </div>
-    </div>
+    </Reveal>
   );
 }
 

@@ -1,4 +1,3 @@
-import Link from "next/link";
 import { HeroBanner } from "@/components/hero-banner";
 import { FeatureIconRow } from "@/components/feature-icon-row";
 import { ProductCard } from "@/components/product-card";
@@ -10,6 +9,9 @@ import {
   products,
   upcomingProducts,
 } from "@/lib/data";
+import { createPageMetadata } from "@/lib/seo";
+import Link from "next/link";
+import { Reveal } from "@/components/reveal";
 
 const customerSegments = [
   {
@@ -55,6 +57,22 @@ const quickFacts = [
   { label: "Application Support", value: "On-site & virtual" },
 ];
 
+export const metadata = createPageMetadata({
+  title: "Stick-Onn Adhesives | Smart Strength. Perfect Bond.",
+  description:
+    "Stick-Onn crafts premium adhesives engineered for Indian workshops, offering waterproof, heat resistant, and spray solutions with on-call technical support.",
+  path: "/",
+  keywords: [
+    "Stick-Onn adhesives",
+    "premium wood adhesive",
+    "waterproof adhesive India",
+    "industrial bonding solutions",
+    "Synergy Bonding Solutions",
+    "carpentry adhesive",
+  ],
+  images: ["/images/hero-carpenter.png"],
+});
+
 export default function Home() {
   const productLookup = new Map(products.map((p) => [p.slug, p]));
 
@@ -75,7 +93,10 @@ export default function Home() {
           ]}
         />
 
-        <section className="flex flex-col gap-6 rounded-3xl border border-slate-200 bg-white/80 p-6 text-center sm:flex-row sm:items-center sm:justify-between sm:p-8 sm:text-left">
+        <Reveal
+          as="section"
+          className="flex flex-col gap-6 rounded-3xl border border-slate-200 bg-white/80 p-6 text-center sm:flex-row sm:items-center sm:justify-between sm:p-8 sm:text-left"
+        >
           <div className="space-y-3">
             <p className="text-xs font-semibold uppercase tracking-[0.32em] text-accent">
               Trusted nationwide
@@ -93,14 +114,19 @@ export default function Home() {
           >
             Become a partner
           </Link>
-        </section>
+        </Reveal>
 
-        <section className="rounded-3xl border border-slate-200 bg-white p-6 sm:p-8">
+        <Reveal
+          as="section"
+          className="rounded-3xl border border-slate-200 bg-white p-6 sm:p-8"
+        >
           <div className="grid gap-4 sm:grid-cols-4">
-            {quickFacts.map((fact) => (
-              <div
+            {quickFacts.map((fact, index) => (
+              <Reveal
+                as="div"
                 key={fact.label}
                 className="flex flex-col gap-2 rounded-2xl border border-slate-200 bg-slate-50/60 px-4 py-5 text-sm text-slate-600"
+                delay={index * 70}
               >
                 <span className="text-xs font-semibold uppercase tracking-[0.32em] text-slate-400">
                   {fact.label}
@@ -108,13 +134,17 @@ export default function Home() {
                 <span className="text-lg font-semibold text-[var(--primary)]">
                   {fact.value}
                 </span>
-              </div>
+              </Reveal>
             ))}
           </div>
-        </section>
+        </Reveal>
 
-        <section className="space-y-6">
-          <div className="flex flex-col gap-2 text-center">
+        <Reveal as="section" className="space-y-6">
+          <Reveal
+            as="div"
+            className="flex flex-col gap-2 text-center"
+            delay={60}
+          >
             <p className="text-xs font-semibold uppercase tracking-[0.32em] text-accent">
               Core performance pillars
             </p>
@@ -124,12 +154,12 @@ export default function Home() {
             <p className="mx-auto max-w-2xl text-sm text-slate-500 sm:text-base">
               Built to handle heat, humidity, and the daily rhythm of Indian production floors.
             </p>
-          </div>
+          </Reveal>
           <FeatureIconRow />
-        </section>
+        </Reveal>
 
-        <section className="space-y-10">
-          <div className="flex flex-col gap-2 text-center">
+        <Reveal as="section" className="space-y-10">
+          <Reveal as="div" className="flex flex-col gap-2 text-center" delay={60}>
             <p className="text-xs font-semibold uppercase tracking-[0.32em] text-accent">
               Top performers
             </p>
@@ -139,24 +169,32 @@ export default function Home() {
             <p className="mx-auto max-w-2xl text-sm text-slate-500 sm:text-base">
               A focused lineup that balances premium strength with everyday practicality.
             </p>
-          </div>
+          </Reveal>
           <div className="grid gap-5 md:grid-cols-2 lg:grid-cols-3">
-            {products.slice(0, 5).map((product) => (
-              <ProductCard key={product.slug} product={product} />
+            {products.slice(0, 5).map((product, index) => (
+              <ProductCard
+                key={product.slug}
+                product={product}
+                animationDelay={index * 90}
+              />
             ))}
           </div>
-          <div className="text-center">
+          <Reveal as="div" className="text-center" delay={80}>
             <Link
               href="/products"
               className="inline-flex items-center gap-2 text-sm font-semibold text-[var(--primary)] transition hover:text-[var(--primary-dark)]"
             >
               View the complete portfolio
             </Link>
-          </div>
-        </section>
+          </Reveal>
+        </Reveal>
 
-        <section className="space-y-8">
-          <div className="flex flex-col gap-2 text-center sm:text-left">
+        <Reveal as="section" className="space-y-8">
+          <Reveal
+            as="div"
+            className="flex flex-col gap-2 text-center sm:text-left"
+            delay={40}
+          >
             <p className="text-xs font-semibold uppercase tracking-[0.32em] text-accent">
               Designed around real users
             </p>
@@ -164,12 +202,14 @@ export default function Home() {
               Whether you build, fabricate, or distribute — Stick-Onn fits in
               effortlessly
             </h3>
-          </div>
+          </Reveal>
           <div className="grid gap-5 md:grid-cols-3">
-            {customerSegments.map((segment) => (
-              <div
+            {customerSegments.map((segment, index) => (
+              <Reveal
+                as="div"
                 key={segment.title}
                 className="flex flex-col gap-4 rounded-2xl border border-slate-200 bg-white p-6 shadow-sm shadow-slate-200/60"
+                delay={index * 90}
               >
                 <h4 className="text-lg font-semibold text-[var(--primary)]">
                   {segment.title}
@@ -181,24 +221,39 @@ export default function Home() {
                 >
                   {segment.cta.label}
                 </Link>
-              </div>
+              </Reveal>
             ))}
           </div>
-        </section>
+        </Reveal>
 
-        <section className="grid gap-6 rounded-3xl border border-slate-200 bg-white p-8 md:grid-cols-[1.05fr,0.95fr] md:items-center">
+        <Reveal
+          as="section"
+          className="grid gap-6 rounded-3xl border border-slate-200 bg-white p-8 md:grid-cols-[1.05fr,0.95fr] md:items-center"
+        >
           <div className="space-y-4">
-            <p className="text-xs font-semibold uppercase tracking-[0.32em] text-accent">
+            <Reveal
+              as="p"
+              className="text-xs font-semibold uppercase tracking-[0.32em] text-accent"
+              delay={30}
+            >
               Applications
-            </p>
-            <h3 className="text-2xl font-semibold text-[var(--primary)] sm:text-3xl">
+            </Reveal>
+            <Reveal
+              as="h3"
+              className="text-2xl font-semibold text-[var(--primary)] sm:text-3xl"
+              delay={60}
+            >
               One brand, every bonding challenge
-            </h3>
-            <p className="text-sm text-slate-500 sm:text-base">
+            </Reveal>
+            <Reveal
+              as="p"
+              className="text-sm text-slate-500 sm:text-base"
+              delay={90}
+            >
               Waterproof joinery, high-heat laminates, and composite installs handled with the same dependable range.
-            </p>
+            </Reveal>
             <div className="grid gap-3 text-sm text-slate-700 md:grid-cols-2">
-              {applications.slice(0, 4).map((app) => {
+              {applications.slice(0, 4).map((app, index) => {
                 const recommended = app.products
                   .map((slug) => {
                     const product = productLookup.get(slug);
@@ -208,9 +263,11 @@ export default function Home() {
                   })
                   .filter(Boolean) as { name: string; slug: string }[];
                 return (
-                  <div
+                  <Reveal
+                    as="div"
                     key={app.title}
                     className="rounded-2xl border border-slate-200 bg-slate-50/80 p-4"
+                    delay={120 + index * 70}
                   >
                     <p className="font-semibold text-[var(--primary)]">
                       {app.title}
@@ -231,19 +288,21 @@ export default function Home() {
                         ))}
                       </div>
                     )}
-                  </div>
+                  </Reveal>
                 );
               })}
             </div>
+            <Reveal as="div" delay={160}>
             <Link
               href="/applications"
               className="inline-flex w-fit items-center gap-2 rounded-full border border-slate-300 px-5 py-2.5 text-sm font-semibold text-[var(--primary)] transition hover:border-[var(--primary)]"
             >
               Explore application insights
             </Link>
+            </Reveal>
           </div>
           <div className="grid gap-4 rounded-2xl border border-slate-200 bg-slate-50 p-6 text-slate-700">
-            <div>
+            <Reveal as="div" delay={80}>
               <p className="text-xs font-semibold uppercase tracking-[0.32em] text-accent">
                 Why Stick-Onn
               </p>
@@ -253,46 +312,71 @@ export default function Home() {
               <p className="mt-3 text-sm text-slate-500">
                 Led by {companyInfo.legal} with two decades of bonding know-how and a support crew that stays involved well after delivery.
               </p>
-            </div>
+            </Reveal>
             <dl className="grid gap-3 text-sm">
-              <div className="flex items-center justify-between border-b border-slate-200 pb-3">
+              <Reveal
+                as="div"
+                className="flex items-center justify-between border-b border-slate-200 pb-3"
+                delay={120}
+              >
                 <dt className="text-slate-500">Industry Focus</dt>
                 <dd className="font-semibold text-[var(--primary)]">
                   Furniture & OEM
                 </dd>
-              </div>
-              <div className="flex items-center justify-between border-b border-slate-200 pb-3">
+              </Reveal>
+              <Reveal
+                as="div"
+                className="flex items-center justify-between border-b border-slate-200 pb-3"
+                delay={150}
+              >
                 <dt className="text-slate-500">Service Footprint</dt>
                 <dd className="font-semibold text-[var(--primary)]">Pan-India</dd>
-              </div>
-              <div className="flex items-center justify-between border-b border-slate-200 pb-3">
+              </Reveal>
+              <Reveal
+                as="div"
+                className="flex items-center justify-between border-b border-slate-200 pb-3"
+                delay={180}
+              >
                 <dt className="text-slate-500">Quality Benchmark</dt>
                 <dd className="font-semibold text-[var(--primary)]">
                   ISO & EN Standards
                 </dd>
-              </div>
-              <div className="flex items-center justify-between">
+              </Reveal>
+              <Reveal
+                as="div"
+                className="flex items-center justify-between"
+                delay={210}
+              >
                 <dt className="text-slate-500">Support</dt>
                 <dd className="font-semibold text-[var(--primary)]">
                   Technical Specialists
                 </dd>
-              </div>
+              </Reveal>
             </dl>
           </div>
-        </section>
+        </Reveal>
 
-        <section className="space-y-8">
-          <div className="flex flex-col gap-2 text-center sm:text-left">
+        <Reveal as="section" className="space-y-8">
+          <Reveal
+            as="div"
+            className="flex flex-col gap-2 text-center sm:text-left"
+            delay={50}
+          >
             <p className="text-xs font-semibold uppercase tracking-[0.32em] text-accent">
               Smooth handover, every time
             </p>
             <h3 className="text-2xl font-semibold text-[var(--primary)] sm:text-3xl">
               Our technical team stays with you through the bonding journey
             </h3>
-          </div>
+          </Reveal>
           <div className="grid gap-4 rounded-3xl border border-slate-200 bg-white p-6 sm:grid-cols-4">
             {workflowSteps.map((step, index) => (
-              <div key={step.title} className="flex flex-col gap-3">
+              <Reveal
+                as="div"
+                key={step.title}
+                className="flex flex-col gap-3"
+                delay={index * 80}
+              >
                 <span className="inline-flex h-8 w-8 items-center justify-center rounded-full bg-slate-100 text-sm font-semibold text-[var(--primary)]">
                   {index + 1}
                 </span>
@@ -300,13 +384,20 @@ export default function Home() {
                   {step.title}
                 </h4>
                 <p className="text-sm text-slate-600">{step.description}</p>
-              </div>
+              </Reveal>
             ))}
           </div>
-        </section>
+        </Reveal>
 
-        <section className="space-y-8 rounded-3xl border border-slate-200 bg-white p-8">
-          <div className="flex flex-col gap-2 text-center sm:text-left">
+        <Reveal
+          as="section"
+          className="space-y-8 rounded-3xl border border-slate-200 bg-white p-8"
+        >
+          <Reveal
+            as="div"
+            className="flex flex-col gap-2 text-center sm:text-left"
+            delay={40}
+          >
             <p className="text-xs font-semibold uppercase tracking-[0.32em] text-accent">
               Industrial lab preview
             </p>
@@ -316,12 +407,14 @@ export default function Home() {
             <p className="max-w-3xl text-sm text-slate-500 sm:text-base">
               Purpose-built ranges for membrane, postforming, sticker work, and other high-throughput lines are in the pipeline.
             </p>
-          </div>
+          </Reveal>
           <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-3">
-            {upcomingProducts.map((item) => (
-              <div
+            {upcomingProducts.map((item, index) => (
+              <Reveal
+                as="div"
                 key={item.name}
                 className="flex flex-col gap-3 rounded-3xl border border-dashed border-[var(--primary)]/30 bg-gradient-to-br from-white via-[#f8fbff] to-white p-6"
+                delay={index * 80}
               >
                 <span className="w-fit rounded-full border border-[var(--primary)]/20 bg-[var(--primary)]/10 px-3 py-1 text-[11px] font-semibold uppercase tracking-[0.35em] text-[var(--primary)]">
                   Coming soon
@@ -335,25 +428,40 @@ export default function Home() {
                   </h4>
                 </div>
                 <p className="text-sm text-slate-600">{item.description}</p>
-              </div>
+              </Reveal>
             ))}
           </div>
-        </section>
+        </Reveal>
       </div>
 
       <TestimonialSection />
 
-      <section className="container-balanced rounded-3xl border border-slate-200 bg-white px-6 py-12 text-center sm:px-10">
-        <p className="text-xs font-semibold uppercase tracking-[0.32em] text-accent">
+      <Reveal
+        as="section"
+        className="container-balanced rounded-3xl border border-slate-200 bg-white px-6 py-12 text-center sm:px-10"
+      >
+        <Reveal
+          as="p"
+          className="text-xs font-semibold uppercase tracking-[0.32em] text-accent"
+          delay={20}
+        >
           Ready to partner?
-        </p>
-        <h3 className="mt-3 text-3xl font-semibold text-[var(--primary)] sm:text-4xl">
+        </Reveal>
+        <Reveal
+          as="h3"
+          className="mt-3 text-3xl font-semibold text-[var(--primary)] sm:text-4xl"
+          delay={60}
+        >
           Build with Stick-Onn confidence
-        </h3>
-        <p className="mx-auto mt-4 max-w-2xl text-sm text-slate-500 sm:text-base">
+        </Reveal>
+        <Reveal
+          as="p"
+          className="mx-auto mt-4 max-w-2xl text-sm text-slate-500 sm:text-base"
+          delay={90}
+        >
           Tell us about your build, meet the closest dealer, and map support in one easy conversation.
-        </p>
-        <div className="mt-6 flex flex-wrap justify-center gap-3">
+        </Reveal>
+        <Reveal as="div" className="mt-6 flex flex-wrap justify-center gap-3" delay={120}>
           <Link
             href="/contact"
             className="rounded-full bg-[var(--primary)] px-6 py-3 text-sm font-semibold text-white transition hover:bg-[var(--primary-dark)]"
@@ -366,8 +474,8 @@ export default function Home() {
           >
             Browse products
           </Link>
-        </div>
-      </section>
+        </Reveal>
+      </Reveal>
     </div>
   );
 }

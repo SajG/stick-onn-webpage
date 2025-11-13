@@ -25,6 +25,7 @@ export const products: Product[] = [
       "Superior waterproof bond for kitchens and bathrooms",
       "High shear strength for hardwoods and laminates",
       "Brushable viscosity with clean, even spread",
+      "Available packaging: pouch, pouch in box, pouch in drum, jar box, drum, loose drum (60 kg), pouch in drum (60 kg)",
     ],
     applications: [
       "Kitchen and bathroom cabinetry",
@@ -38,7 +39,7 @@ export const products: Product[] = [
       "Press the surfaces together within 10 minutes for best adhesion.",
       "Clamp for 25–30 minutes; allow full cure for 24 hours.",
     ],
-    packs: ["500 g", "1 kg", "5 kg", "10 kg"],
+    packs: ["800 g", "4 kg", "8 kg", "16 kg", "60 kg"],
     heroImage: "/images/products/aqua-plus.png",
     datasheetUrl: "/pdfs/stick-onn-technical-data-sheet.pdf",
   },
@@ -55,6 +56,7 @@ export const products: Product[] = [
       "Rapid 2-hour drying to accelerate assembly lines",
       "High bond strength for edge and face joints",
       "Low VOC formulation for healthier workshops",
+      "Available packaging: pouch, pouch in box, pouch in drum, jar box, drum, loose drum (60 kg), pouch in drum (60 kg)",
     ],
     applications: [
       "Modular kitchen manufacturing",
@@ -68,7 +70,7 @@ export const products: Product[] = [
       "Assemble components and apply consistent pressure or clamping.",
       "Allow a minimum of 2 hours before machining; full strength in 24 hours.",
     ],
-    packs: ["500 g", "1 kg", "5 kg", "10 kg"],
+    packs: ["800 g", "4 kg", "8 kg", "16 kg", "60 kg"],
     heroImage: "/images/products/clout-d3.png",
     datasheetUrl: "/pdfs/stick-onn-technical-data-sheet.pdf",
   },
