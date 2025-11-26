@@ -18,6 +18,7 @@ const gradientMap: Record<string, string> = {
   aerofix: "from-[#ffd9bf] via-white to-[#fff2e5]",
   heatfix: "from-[#ffc9aa] via-white to-[#ffe9dc]",
   wpcfix: "from-[#cbead1] via-white to-[#f0fff4]",
+  "stick-onn-pur-adhesive": "from-[#e8d5ff] via-white to-[#f5edff]",
 };
 
 export function ProductCard({ product, animationDelay = 0 }: ProductCardProps) {
