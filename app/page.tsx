@@ -171,7 +171,7 @@ export default function Home() {
             </p>
           </Reveal>
           <div className="grid gap-5 md:grid-cols-2 lg:grid-cols-3">
-            {products.slice(0, 5).map((product, index) => (
+            {products.map((product, index) => (
               <ProductCard
                 key={product.slug}
                 product={product}

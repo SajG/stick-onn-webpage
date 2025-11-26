@@ -164,6 +164,40 @@ export const products: Product[] = [
     heroImage: "/images/products/wpcfix.png",
     datasheetUrl: "/pdfs/stick-onn-technical-data-sheet.pdf",
   },
+  {
+    slug: "stick-onn-pur-adhesive",
+    name: "Stick-Onn 1K PUR Adhesive",
+    tagline: "Moisture-curing polyurethane adhesive for demanding applications",
+    shortDescription:
+      "Moisture-curing polyurethane adhesive with exceptional bond strength.",
+    description:
+      "Stick-Onn 1K PUR Adhesive is a high-performance moisture-curing polyurethane adhesive engineered for demanding applications. It delivers exceptional bond strength for door manufacturing, WPC sheet bonding, modular furniture, solid wood bonding, and exterior-grade assemblies. The one-component formulation cures upon exposure to atmospheric moisture, creating durable, flexible bonds that withstand environmental stress.",
+    features: [
+      "Moisture-curing polyurethane technology for superior bond strength",
+      "Excellent adhesion to WPC boards, solid wood, and composite materials",
+      "High demand for door manufacturers and modular furniture applications",
+      "Suitable for exterior-grade assemblies with weather resistance",
+      "Flexible bond line that accommodates thermal expansion",
+      "Available packaging: pouch, pouch in box, pouch in drum, jar box, drum, loose drum (60 kg), pouch in drum (60 kg)",
+    ],
+    applications: [
+      "Door manufacturers",
+      "WPC sheet bonding",
+      "Modular furniture",
+      "Solid wood bonding",
+      "Exterior-grade assemblies",
+    ],
+    howToApply: [
+      "Ensure the substrate is clean and free from dust, oil, or contaminants.",
+      "For optimal adhesion, brush the substrate with sanding paper or cut it diagonally in a zig-zag pattern to create a textured surface.",
+      "Apply the adhesive evenly to the WPC board using a brush, roller, or applicator gun.",
+      "Press the surfaces together firmly and maintain consistent pressure or clamping.",
+      "Allow the adhesive to cure for 24–48 hours depending on ambient humidity and temperature.",
+    ],
+    packs: ["800 g", "4 kg", "8 kg", "16 kg", "60 kg"],
+    heroImage: "/images/products/stick-onn-pur-adhesive.png",
+    datasheetUrl: "/pdfs/stick-onn-1k-pur-adhesive-tds.pdf",
+  },
 ];
 
 export const highlightFeatures = [
