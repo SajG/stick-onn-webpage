@@ -8,7 +8,7 @@ type ApplicationCardProps = {
   title: string;
   description: string;
   image: string;
-  href: string;
+  slug: string;
   products: { name: string; slug: string }[];
   points?: string[];
   animationDelay?: number;
@@ -18,7 +18,7 @@ export function ApplicationCard({
   title,
   description,
   image,
-  href,
+  slug,
   products,
   points,
   animationDelay = 0,
@@ -32,7 +32,7 @@ export function ApplicationCard({
       <div className="relative h-56 w-full overflow-hidden bg-gradient-to-br from-[#f4f7ff] via-white to-[#fdf7f2]">
         <Image
           src={image}
-          alt={title}
+          alt={`${title} adhesive application — Stick-Onn India`}
           fill
           className="object-contain p-6 transition duration-500 group-hover:scale-[1.03]"
           sizes="(max-width: 768px) 100vw, 33vw"
@@ -41,18 +41,7 @@ export function ApplicationCard({
       <div className="flex flex-1 flex-col gap-4 p-6 sm:p-7">
         <div className="space-y-3">
           <h3 className="text-lg font-semibold text-[var(--primary)]">{title}</h3>
-          {points && points.length > 0 ? (
-            <ul className="space-y-2 text-sm text-slate-600">
-              {points.map((point) => (
-                <li key={point} className="flex items-start gap-2">
-                  <span className="mt-1 h-1.5 w-1.5 flex-shrink-0 rounded-full bg-accent" />
-                  <span>{point}</span>
-                </li>
-              ))}
-            </ul>
-          ) : (
-            <p className="text-sm text-slate-600">{description}</p>
-          )}
+          <p className="text-sm text-slate-600 line-clamp-2">{description}</p>
         </div>
         <div className="mt-auto space-y-3 pt-2">
           <div className="text-[11px] font-semibold uppercase tracking-[0.35em] text-slate-400">
@@ -71,10 +60,10 @@ export function ApplicationCard({
           </div>
         </div>
         <Link
-          href={href}
+          href={`/applications/${slug}`}
           className="mt-4 inline-flex w-fit items-center gap-2 text-sm font-semibold text-[var(--primary)] transition hover:text-[var(--primary-dark)]"
         >
-          Explore {title}
+          Explore application guide
         </Link>
       </div>
     </Reveal>

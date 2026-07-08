@@ -8,13 +8,25 @@ import {
   type FormEvent,
 } from "react";
 import { useSearchParams } from "next/navigation";
+import { products } from "@/lib/data";
 
 const WHATSAPP_NUMBER = "919021086995";
+
+function resolveProductName(param: string | null): string | null {
+  if (!param) return null;
+  const bySlug = products.find((p) => p.slug === param);
+  if (bySlug) return bySlug.name;
+  const byName = products.find(
+    (p) => p.name.toLowerCase() === param.toLowerCase(),
+  );
+  return byName?.name ?? param;
+}
 
 export function ContactForm() {
   const searchParams = useSearchParams();
   const hasPrefilledFromQuery = useRef(false);
   const productParam = searchParams.get("product");
+  const resolvedProduct = resolveProductName(productParam);
   const [formValues, setFormValues] = useState({
     name: "",
     email: "",
@@ -23,16 +35,16 @@ export function ContactForm() {
   });
 
   useEffect(() => {
-    if (productParam && !hasPrefilledFromQuery.current) {
+    if (resolvedProduct && !hasPrefilledFromQuery.current) {
       setFormValues((prev) => ({
         ...prev,
         message:
           prev.message ||
-          `I’d like to place an order for ${productParam}. Please share pricing and delivery details.`,
+          `I'd like to get a quote for ${resolvedProduct}. Please share pricing, packaging options, and delivery details.`,
       }));
       hasPrefilledFromQuery.current = true;
     }
-  }, [productParam]);
+  }, [resolvedProduct]);
 
   const handleChange = (event: ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
     const { name, value } = event.target;
@@ -48,9 +60,12 @@ export function ContactForm() {
       `Name: ${name}`,
       `Email: ${email}`,
       `Phone: ${phone}`,
+      resolvedProduct ? `Product: ${resolvedProduct}` : "",
       "",
       message,
-    ].join("\n");
+    ]
+      .filter(Boolean)
+      .join("\n");
 
     const encodedMessage = encodeURIComponent(whatsappMessage);
     const whatsappUrl = `https://wa.me/${WHATSAPP_NUMBER}?text=${encodedMessage}`;
@@ -60,9 +75,14 @@ export function ContactForm() {
 
   return (
     <form
-      className="grid gap-4 rounded-3xl border border-slate-200 bg-white p-8"
+      className="grid gap-4 rounded-3xl border border-slate-200 bg-white p-8 shadow-sm"
       onSubmit={handleSubmit}
     >
+      {resolvedProduct && (
+        <div className="rounded-xl border border-[var(--primary)]/20 bg-[var(--primary)]/5 px-4 py-3 text-sm text-[var(--primary)]">
+          Enquiring about: <strong>{resolvedProduct}</strong>
+        </div>
+      )}
       <div className="grid gap-1">
         <label htmlFor="name" className="text-sm font-semibold text-[var(--primary)]">
           Name
@@ -138,7 +158,7 @@ export function ContactForm() {
         type="submit"
         className="mt-2 inline-flex items-center justify-center rounded-full bg-[var(--primary)] px-6 py-3 text-sm font-semibold text-white transition hover:bg-[var(--primary-dark)]"
       >
-        Submit Inquiry
+        Send via WhatsApp
       </button>
       <p className="text-xs text-slate-500">
         By submitting this form you agree to be contacted by the Stick-Onn team.
@@ -146,4 +166,3 @@ export function ContactForm() {
     </form>
   );
 }
-

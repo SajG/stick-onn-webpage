@@ -19,6 +19,10 @@ const gradientMap: Record<string, string> = {
   heatfix: "from-[#ffc9aa] via-white to-[#ffe9dc]",
   wpcfix: "from-[#cbead1] via-white to-[#f0fff4]",
   "stick-onn-pur-adhesive": "from-[#e8d5ff] via-white to-[#f5edff]",
+  "drill-free": "from-[#d4e8ff] via-white to-[#edf4ff]",
+  lam2lam: "from-[#ffe4cc] via-white to-[#fff5eb]",
+  hotmelt: "from-[#ffd6e0] via-white to-[#fff0f3]",
+  "epoxy-resin": "from-[#d9d4f5] via-white to-[#f0eeff]",
 };
 
 export function ProductCard({ product, animationDelay = 0 }: ProductCardProps) {
@@ -45,25 +49,20 @@ export function ProductCard({ product, animationDelay = 0 }: ProductCardProps) {
         <span className="pointer-events-none absolute -right-6 bottom-4 h-28 w-28 rounded-full bg-accent/40 blur-3xl opacity-40" />
         <Image
           src={product.heroImage}
-          alt={product.name}
+          alt={`${product.name} — speciality adhesive by Stick-Onn India`}
           fill
           className="z-10 scale-105 object-contain drop-shadow-xl transition-transform duration-500 group-hover:scale-110"
           sizes="(max-width: 768px) 100vw, 33vw"
         />
       </Link>
       <div className="flex flex-1 flex-col gap-4 p-6 sm:p-7">
-        <div className="space-y-3">
-          <p className="inline-flex items-center gap-2 rounded-full bg-slate-100/60 px-3 py-1 text-[11px] font-semibold uppercase tracking-[0.35em] text-accent">
-            {product.tagline}
+        <div className="space-y-2">
+          <h3 className="text-lg font-semibold text-[var(--primary)]">
+            {product.name.replace("Stick-Onn ", "")}
+          </h3>
+          <p className="text-sm text-slate-600 line-clamp-2">
+            {product.shortDescription}
           </p>
-          <div>
-            <h3 className="text-xl font-semibold text-[var(--primary)]">
-              {product.name}
-            </h3>
-            <p className="mt-2 text-sm text-slate-600">
-              {product.shortDescription}
-            </p>
-          </div>
         </div>
         <div className="mt-auto flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
           <Link

@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { Mail, MapPin, Phone, Linkedin, Instagram, Youtube } from "lucide-react";
-import { companyInfo, products } from "@/lib/data";
+import { companyInfo, landingPages, products } from "@/lib/data";
 
 const socialIcons = [
   { name: "LinkedIn", href: companyInfo.social.linkedin, icon: Linkedin },
@@ -18,7 +18,7 @@ export function Footer() {
             <span className="relative flex h-9 w-36 items-center">
               <Image
                 src="/images/brand-logo.png"
-                alt="Stick-Onn logo"
+                alt="Stick-Onn Adhesives — premium speciality adhesive brand India"
                 fill
                 className="object-contain"
                 sizes="144px"
@@ -35,6 +35,20 @@ export function Footer() {
           >
             Learn about our journey
           </Link>
+          <div className="pt-2">
+            <p className="text-[10px] font-semibold uppercase tracking-[0.3em] text-slate-400">
+              Popular guides
+            </p>
+            <ul className="mt-2 space-y-1.5 text-sm">
+              {landingPages.slice(0, 3).map((page) => (
+                <li key={page.slug}>
+                  <Link href={`/${page.slug}`} className="transition hover:text-[var(--primary)]">
+                    {page.slug.replace(/-/g, " ").replace(/\b\w/g, (c) => c.toUpperCase())}
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </div>
         </div>
         <div>
           <h4 className="text-xs font-semibold uppercase tracking-[0.3em] text-slate-400">

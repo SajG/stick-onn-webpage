@@ -1,34 +1,26 @@
 import { PageHeader } from "@/components/page-header";
 import { ApplicationCard } from "@/components/application-card";
-import {
-  applications,
-  products,
-  upcomingProducts,
-} from "@/lib/data";
+import { WhatsAppCta } from "@/components/whatsapp-cta";
+import { applications, products, upcomingProducts } from "@/lib/data";
 import { createPageMetadata } from "@/lib/seo";
 import { Reveal } from "@/components/reveal";
 
 export const metadata = createPageMetadata({
-  title: "Stick-Onn Adhesive Applications",
+  title: "Adhesive Applications for Furniture, WPC, Upholstery & Industry | Stick-Onn",
   description:
-    "Explore how Stick-Onn adhesives power furniture manufacturing, laminate pressing, WPC installations, upholstery lines, and specialised industrial bonding.",
+    "Explore Stick-Onn adhesive applications for furniture manufacturing, laminate bonding, WPC installation, upholstery, construction mounting, and industrial assembly across India.",
   path: "/applications",
   keywords: [
-    "adhesive applications",
-    "furniture adhesive",
-    "laminate adhesive",
-    "WPC adhesive",
-    "spray adhesive",
+    "adhesive applications India",
+    "furniture adhesive Mumbai",
+    "laminate bonding adhesive Pune",
+    "WPC adhesive Delhi",
+    "upholstery spray adhesive",
+    "construction mounting adhesive",
+    "industrial assembly adhesive",
     "Stick-Onn applications",
   ],
 });
-
-function getPrimaryProductHref(productSlugs: string[]) {
-  const primarySlug = productSlugs[0];
-  if (!primarySlug) return "/products";
-  const match = products.find((product) => product.slug === primarySlug);
-  return match ? `/products/${match.slug}` : "/products";
-}
 
 export default function ApplicationsPage() {
   const productLookup = new Map(products.map((product) => [product.slug, product]));
@@ -37,17 +29,17 @@ export default function ApplicationsPage() {
     <div className="container-balanced flex flex-col gap-12">
       <PageHeader
         eyebrow="Application Expertise"
-        title="Adhesive solutions engineered for real-world builds"
-        description="Stick-Onn elevates production quality across carpentry, furniture, interiors, and industrial fabrication. Explore focus areas and find the adhesive curated for your substrate."
+        title="Adhesive solutions for your industry"
+        description="Find the right Stick-Onn formula for furniture, WPC, upholstery, construction, and industrial assembly."
       />
       <div className="grid gap-5 md:grid-cols-2 lg:grid-cols-3">
         {applications.map((application, index) => (
           <ApplicationCard
-            key={application.title}
+            key={application.slug}
+            slug={application.slug}
             title={application.title}
             description={application.description}
             image={application.image}
-            href={getPrimaryProductHref(application.products)}
             points={application.points}
             animationDelay={index * 90}
             products={application.products
@@ -61,6 +53,12 @@ export default function ApplicationsPage() {
           />
         ))}
       </div>
+
+      <WhatsAppCta
+        heading="Need help choosing?"
+        description="Tell us your substrate and volume — we'll recommend the right formula."
+      />
+
       <Reveal
         as="section"
         className="space-y-6 rounded-3xl border border-slate-200 bg-white p-8"
@@ -78,12 +76,11 @@ export default function ApplicationsPage() {
           </h2>
           <p className="max-w-3xl text-sm text-slate-600">
             Our R&D wing is developing specialist adhesives for membrane press shops,
-            post forming, automated labelling, and packaging lines. Preview the
-            solutions you can expect in the next release cycle.
+            post forming, automated labelling, and packaging lines.
           </p>
         </Reveal>
         <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-3">
-          {upcomingProducts.map((item, index) => (
+          {upcomingProducts.slice(0, 6).map((item, index) => (
             <Reveal
               as="div"
               key={item.name}
@@ -109,4 +106,3 @@ export default function ApplicationsPage() {
     </div>
   );
 }
-

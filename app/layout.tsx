@@ -3,8 +3,14 @@ import { Montserrat, Poppins } from "next/font/google";
 import "./globals.css";
 import { Navbar } from "@/components/navbar";
 import { Footer } from "@/components/footer";
+import { JsonLd } from "@/components/json-ld";
 import { companyInfo } from "@/lib/data";
-import { absoluteUrl } from "@/lib/seo";
+import {
+  createLocalBusinessSchema,
+  createOrganizationSchema,
+  createWebSiteSchema,
+} from "@/lib/seo";
+
 const montserrat = Montserrat({
   variable: "--font-heading",
   subsets: ["latin"],
@@ -19,14 +25,14 @@ const poppins = Poppins({
   weight: ["300", "400", "500", "600"],
 });
 
-const siteTitle = "Stick-Onn Adhesives | Smart Strength. Perfect Bond.";
+const siteTitle = "Stick-Onn Adhesives | Premium Speciality Adhesives in India";
 const siteDescription =
-  "Discover Stick-Onn premium adhesives engineered by Synergy Bonding Solutions for carpenters, furniture makers, and industrial partners across India.";
+  "Stick-Onn crafts premium speciality adhesives engineered by Synergy Bonding Solutions for furniture manufacturers, fabricators, and industrial partners across India.";
 
 export const metadata: Metadata = {
   title: {
     default: siteTitle,
-    template: "%s | Stick-Onn Adhesives",
+    template: "%s",
   },
   description: siteDescription,
   metadataBase: new URL("https://stickonn.in"),
@@ -42,9 +48,26 @@ export const metadata: Metadata = {
     siteName: "Stick-Onn Adhesives",
     locale: "en_IN",
     type: "website",
+    images: [
+      {
+        url: "https://stickonn.in/images/brand-logo.png",
+        width: 1200,
+        height: 630,
+        alt: "Stick-Onn Adhesives — Premium speciality adhesives in India",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: siteTitle,
+    description: siteDescription,
+    images: ["https://stickonn.in/images/brand-logo.png"],
   },
   alternates: {
     canonical: "https://stickonn.in",
+    languages: {
+      "en-IN": "https://stickonn.in",
+    },
   },
 };
 
@@ -54,39 +77,13 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   const structuredData = [
-    {
-      "@context": "https://schema.org",
-      "@type": "Organization",
-      name: companyInfo.name,
-      legalName: companyInfo.legal,
-      url: "https://stickonn.in",
-      logo: absoluteUrl("/images/brand-logo.png"),
-      sameAs: Object.values(companyInfo.social),
-      contactPoint: [
-        {
-          "@type": "ContactPoint",
-          telephone: companyInfo.phone,
-          contactType: "customer service",
-          areaServed: "IN",
-          availableLanguage: ["English"],
-        },
-      ],
-      address: {
-        "@type": "PostalAddress",
-        streetAddress: companyInfo.address,
-        addressCountry: "IN",
-      },
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "WebSite",
-      name: companyInfo.name,
-      url: "https://stickonn.in",
-    },
+    createOrganizationSchema(),
+    createLocalBusinessSchema(),
+    createWebSiteSchema(),
   ];
 
   return (
-    <html lang="en">
+    <html lang="en-IN">
       <body
         className={`${montserrat.variable} ${poppins.variable} antialiased bg-[var(--background)] text-[var(--foreground)]`}
       >
@@ -95,11 +92,7 @@ export default function RootLayout({
           <main className="flex-1 pb-24 pt-10">{children}</main>
           <Footer />
         </div>
-        <script
-          type="application/ld+json"
-          suppressHydrationWarning
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
-        />
+        <JsonLd data={structuredData} />
       </body>
     </html>
   );
