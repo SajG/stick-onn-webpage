@@ -84,8 +84,9 @@ export const companyInfo = {
   address: "205, 4th Floor, Mont Vert Spectra, Pallod Farms, Baner 411045",
   plant: "Polygon Adhesive & Resins Pvt. Ltd., Chakan Plant",
   social: {
+    facebook: "https://www.facebook.com/profile.php?id=61591396277538",
+    instagram: "https://www.instagram.com/stickonn_adhesive/",
     linkedin: "https://www.linkedin.com/company/stickonn",
-    instagram: "https://www.instagram.com/stickonn.in",
     youtube: "https://www.youtube.com/@stickonn",
   },
 };

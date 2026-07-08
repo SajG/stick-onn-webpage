@@ -3,6 +3,7 @@ import { Montserrat, Poppins } from "next/font/google";
 import "./globals.css";
 import { Navbar } from "@/components/navbar";
 import { Footer } from "@/components/footer";
+import { WhatsAppSticky } from "@/components/whatsapp-sticky";
 import { JsonLd } from "@/components/json-ld";
 import { companyInfo } from "@/lib/data";
 import {
@@ -92,6 +93,7 @@ export default function RootLayout({
           <main className="flex-1 pb-24 pt-10">{children}</main>
           <Footer />
         </div>
+        <WhatsAppSticky />
         <JsonLd data={structuredData} />
       </body>
     </html>
