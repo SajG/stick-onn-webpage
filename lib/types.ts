@@ -61,6 +61,12 @@ export type LandingPageCta = {
   productName: string;
 };
 
+export type LandingPageHeroCta = {
+  primaryLabel: string;
+  secondaryLabel: string;
+  productName: string;
+};
+
 export type LandingPage = {
   slug: string;
   seoTitle: string;
@@ -73,8 +79,11 @@ export type LandingPage = {
   productShowcase?: ProductShowcaseItem[];
   productShowcaseTitle?: string;
   rangeSectionTitle?: string;
+  heroCta?: LandingPageHeroCta;
   midPageCta?: LandingPageCta;
   bottomCta?: LandingPageCta;
+  /** Display label in footer navigation */
+  navLabel?: string;
   faqs: FaqItem[];
   relatedLinks: { href: string; label: string }[];
   /** When true, render full content instead of truncated preview sections */

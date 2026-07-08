@@ -86,8 +86,8 @@ export const companyInfo = {
   social: {
     facebook: "https://www.facebook.com/profile.php?id=61591396277538",
     instagram: "https://www.instagram.com/stickonn_adhesive/",
-    linkedin: "https://www.linkedin.com/company/stickonn",
-    youtube: "https://www.youtube.com/@stickonn",
+    linkedin: "https://www.linkedin.com/company/synergy-bonding-solution-pvt-ltd",
+    youtube: "https://www.youtube.com/@SynergyBondingSolutions",
   },
 };
 

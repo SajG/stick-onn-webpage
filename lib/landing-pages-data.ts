@@ -2,193 +2,6 @@ import type { LandingPage } from "./types";
 
 export const landingPages: LandingPage[] = [
   {
-    slug: "pur-adhesive-india",
-    fullContent: true,
-    seoTitle:
-      "PUR Adhesive Manufacturer India | Stick-Onn 1K Polyurethane Reactive Adhesive",
-    seoDescription:
-      "Stick-Onn 1K PUR adhesive manufacturer in India. Moisture-curing polyurethane for doors, WPC, and modular furniture. B2B supply from Synergy Bonding Solutions.",
-    keywords: [
-      "PUR adhesive India",
-      "polyurethane reactive adhesive",
-      "1K PUR adhesive manufacturer",
-      "moisture curing PUR adhesive",
-      "PUR adhesive for doors",
-      "WPC bonding adhesive",
-      "modular furniture adhesive",
-      "Stick-Onn PUR adhesive",
-      "Synergy Bonding Solutions",
-      "industrial PUR adhesive supplier",
-    ],
-    h1: "PUR Adhesive Manufacturer in India for Demanding Industrial Bonding",
-    intro:
-      "Stick-Onn by Synergy Bonding Solutions delivers high-performance 1K polyurethane reactive (PUR) adhesive engineered for door manufacturers, WPC fabricators, and modular furniture plants across India. Our moisture-curing formulation creates flexible, weather-resistant bonds that outperform conventional white glues on composite and solid wood substrates — with consistent batch quality, technical support, and bulk packaging for production lines.",
-    rangeSectionTitle: "PUR Adhesive Range",
-    productShowcaseTitle: "Stick-Onn PUR Adhesive Products",
-    midPageCta: {
-      title: "Need help selecting the right PUR grade?",
-      description:
-        "Share your substrate and assembly process — our technical team will recommend the optimal moisture-curing PUR formulation.",
-      productName: "1K PUR Adhesive",
-    },
-    bottomCta: {
-      title: "Partner with Stick-Onn for Reliable PUR Supply",
-      description:
-        "Whether you are scaling a WPC door line or upgrading adhesive performance for export compliance, Stick-Onn PUR adhesive delivers bond strength, flexibility, and supply reliability. Request samples or speak with our bonding specialists.",
-      productName: "1K PUR Adhesive",
-    },
-    sections: [
-      {
-        title: "What is PUR Adhesive?",
-        paragraphs: [
-          "Polyurethane reactive adhesive — commonly known as PUR adhesive — cures through a chemical reaction with ambient moisture, forming a cross-linked bond that combines exceptional shear strength with flexibility. Unlike PVA-based wood glues, PUR penetrates micro-pores in WPC boards, MDF, plywood, and solid timber while creating a resilient bond line that accommodates thermal expansion and vibration.",
-          "Key characteristics of PUR adhesive include:",
-        ],
-        bullets: [
-          "Moisture-curing chemistry for strong, flexible permanent bonds",
-          "Superior adhesion to WPC, composite, and solid wood substrates",
-          "Gap-filling capability with high green strength",
-          "Resistance to heat, moisture, and mechanical stress",
-          "Single-component application — no mixing required",
-        ],
-      },
-      {
-        title: "Why Choose Stick-Onn as Your PUR Adhesive Supplier",
-        paragraphs: [
-          "As a dedicated PUR adhesive manufacturer in India, Stick-Onn combines advanced polyurethane chemistry with hands-on technical support for door, furniture, and WPC manufacturers.",
-        ],
-      },
-      {
-        title: "Moisture-Curing Polyurethane Technology",
-        layout: "card",
-        paragraphs: [
-          "Stick-Onn 1K PUR Adhesive uses single-component, moisture-curing technology that eliminates mixing complexity while delivering industrial-grade bond strength across varied Indian climate conditions.",
-        ],
-      },
-      {
-        title: "Application-Specific Formulations",
-        layout: "card",
-        paragraphs: [
-          "Purpose-engineered PUR grades tailored to door manufacturing, WPC sheet bonding, and modular furniture assembly — rather than one generic formula for every substrate.",
-        ],
-      },
-      {
-        title: "Production-Friendly Packaging",
-        layout: "card",
-        paragraphs: [
-          "Supplied in pouches, pouch-in-box, drums, and 60 kg bulk containers sized for artisan workshops through high-volume OEM production lines.",
-        ],
-      },
-      {
-        title: "Dedicated Technical Support",
-        layout: "card",
-        paragraphs: [
-          "Our bonding specialists guide surface preparation, open-time management, and grade selection — from trial runs through full-scale line rollout.",
-        ],
-      },
-      {
-        title: "Pan-India Supply Network",
-        layout: "card",
-        paragraphs: [
-          "With 120+ dealers across India, Stick-Onn ensures consistent PUR adhesive availability for manufacturers and workshops nationwide.",
-        ],
-      },
-      {
-        title: "Consistent, Benchmarked Quality",
-        layout: "card",
-        paragraphs: [
-          "Batch-wise viscosity testing and bond strength validation at our Chakan plant ensure predictable performance shift after shift.",
-        ],
-      },
-      {
-        title: "Applications of Stick-Onn PUR Adhesive",
-        paragraphs: ["Stick-Onn PUR adhesives excel across demanding applications, including:"],
-        bullets: [
-          "Door Manufacturing – WPC door frames, flush doors, and solid-core entrance doors",
-          "WPC Sheet Bonding – profiles, skirting, cladding panels, and modular furniture components",
-          "Modular Furniture – kitchen carcasses, wardrobe systems, and structural panel bonds",
-          "Exterior-Grade Assemblies – weather-exposed joints requiring flexible, durable bonds",
-          "Hybrid Builds – combining composite and traditional wood elements in one assembly",
-        ],
-      },
-      {
-        title: "PUR Adhesive Range",
-        paragraphs: ["Stick-Onn's PUR adhesive offering includes:"],
-        bullets: [
-          "Stick-Onn 1K PUR Adhesive – moisture-curing polyurethane for structural and demanding bonding",
-          "Stick-Onn WPCfix – complementary adhesive for WPC and composite substrate bonding",
-          "Stick-Onn Clout D3 – D3-grade PVA for interior panel bonds alongside PUR structural joints",
-        ],
-      },
-      {
-        title: "Manufacturing Quality & Consistency",
-        paragraphs: [
-          "Synergy Bonding Solutions manufactures Stick-Onn adhesives at a dedicated production facility, giving Indian B2B buyers direct access to quality-controlled inventory without import delays. Every batch is tested for viscosity, bond strength, and cure performance before dispatch.",
-        ],
-      },
-    ],
-    productSlugs: ["stick-onn-pur-adhesive", "wpcfix", "clout-d3"],
-    productShowcase: [
-      {
-        name: "Stick-Onn 1K PUR Adhesive",
-        description:
-          "Industrial-grade, moisture-curing polyurethane — waterproof, all-weather, and non-hazardous for structural bonding on wood, WPC, and composites.",
-        image: "/images/products/stick-onn-pur-adhesive.png",
-        href: "/products/stick-onn-pur-adhesive",
-        badge: "Moisture-curing PUR",
-      },
-      {
-        name: "Stick-Onn WPCfix Adhesive",
-        description:
-          "Purpose-engineered for WPC boards and profiles with high initial tack and flexible bond lines.",
-        image: "/images/products/wpcfix.png",
-        href: "/products/wpcfix",
-        badge: "WPC bonding",
-      },
-      {
-        name: "Stick-Onn Clout D3",
-        description:
-          "D3-grade wood adhesive for interior panel bonding and edge joints where fast-drying PVA is preferred.",
-        image: "/images/products/clout-d3.png",
-        href: "/products/clout-d3",
-        badge: "D3 grade",
-      },
-    ],
-    faqs: [
-      {
-        question: "What is PUR adhesive and how does it differ from PVA wood glue?",
-        answer:
-          "PUR (polyurethane reactive) adhesive is a one-component moisture-curing adhesive that forms a cross-linked, flexible bond. Unlike PVA wood glue, PUR offers superior adhesion to WPC and composite substrates, better gap filling, and higher resistance to heat, moisture, and mechanical stress.",
-      },
-      {
-        question: "Which substrates can Stick-Onn 1K PUR Adhesive bond?",
-        answer:
-          "Stick-Onn 1K PUR Adhesive bonds WPC boards, solid wood, plywood, MDF, particle board, and many composite materials. Proper surface cleaning and light abrasion on smooth substrates significantly improve adhesion results.",
-      },
-      {
-        question: "How long does PUR adhesive take to cure?",
-        answer:
-          "Initial handling strength develops within hours, but full cure typically requires 24–48 hours depending on ambient humidity, temperature, and bond line thickness. Higher humidity accelerates the moisture-curing reaction.",
-      },
-      {
-        question: "Is Stick-Onn PUR adhesive suitable for exterior door manufacturing?",
-        answer:
-          "Yes. The moisture-curing polyurethane chemistry provides weather-resistant bonds suitable for exterior-grade door assemblies and outdoor WPC installations when applied per our technical guidelines.",
-      },
-      {
-        question: "What packaging sizes are available for bulk orders?",
-        answer:
-          "Stick-Onn 1K PUR Adhesive is available in 800 g, 4 kg, 8 kg, and 16 kg consumer formats, plus 60 kg drums and pouch-in-drum configurations for industrial production lines. Contact us for distributor pricing.",
-      },
-    ],
-    relatedLinks: [
-      { href: "/polyurethane-adhesive-manufacturer", label: "Polyurethane adhesive manufacturer" },
-      { href: "/applications/wpc-pvc-installation", label: "WPC board installation solutions" },
-      { href: "/applications/furniture-manufacturing", label: "Furniture and carpentry applications" },
-      { href: "/contact", label: "Request PUR adhesive samples or a quote" },
-    ],
-  },
-  {
     slug: "epoxy-adhesive-india",
     fullContent: true,
     seoTitle:
@@ -373,380 +186,6 @@ export const landingPages: LandingPage[] = [
       { href: "/applications/construction-mounting", label: "Construction and mounting solutions" },
       { href: "/applications/furniture-manufacturing", label: "Furniture manufacturing applications" },
       { href: "/contact", label: "Speak with our epoxy bonding specialists" },
-    ],
-  },
-  {
-    slug: "hotmelt-adhesive-india",
-    fullContent: true,
-    seoTitle:
-      "Hot Melt Adhesive Supplier India | Industrial Hotmelt for Production Lines",
-    seoDescription:
-      "Stick-Onn hot melt adhesive supplier India. Fast-setting hotmelt for furniture, packaging, and assembly lines. Consistent viscosity, strong tack, B2B supply.",
-    keywords: [
-      "hot melt adhesive India",
-      "hotmelt adhesive supplier",
-      "industrial hot melt glue",
-      "hotmelt for furniture",
-      "EVA hot melt adhesive",
-      "polyamide hotmelt",
-      "assembly line adhesive",
-      "Stick-Onn hotmelt",
-      "bulk hot melt adhesive",
-      "B2B hotmelt supplier India",
-    ],
-    h1: "Hot Melt Adhesive Supplier in India for High-Speed Production",
-    intro:
-      "Hot melt adhesive is the backbone of high-throughput assembly — instant tack, no solvent flash-off, and clean bonds that keep packaging lines, furniture plants, and component assembly operations moving. Stick-Onn by Synergy Bonding Solutions supplies industrial hotmelt adhesive formulations across India, engineered for consistent melt viscosity, reliable open time, and strong final bonds on wood, board, foam, and mixed substrates.",
-    rangeSectionTitle: "Hot Melt Adhesive Range",
-    productShowcaseTitle: "Stick-Onn Hot Melt Products",
-    midPageCta: {
-      title: "Need a hot melt grade recommendation?",
-      description:
-        "Share your equipment type and substrates — our technical team will match the right EVA hot melt formulation to your line.",
-      productName: "Hot Melt Adhesive",
-    },
-    bottomCta: {
-      title: "Your Hot Melt Partner for Consistent B2B Supply in India",
-      description:
-        "Whether you are optimising edge banding or consolidating adhesive vendors across plant locations, Stick-Onn delivers product consistency and technical support. Contact us for grade recommendations and volume pricing.",
-      productName: "Hot Melt Adhesive",
-    },
-    sections: [
-      {
-        title: "What is Hot Melt Adhesive?",
-        paragraphs: [
-          "Hot melt adhesives are thermoplastic polymers applied in molten form that solidify on cooling, creating an immediate bond without chemical curing or solvent evaporation. This instant-set characteristic makes hotmelt indispensable on automated lines where PVA drying times or epoxy mix-and-wait cycles would create unacceptable bottlenecks.",
-          "Key characteristics of hot melt adhesive include:",
-        ],
-        bullets: [
-          "Instant bond formation — no drying or curing wait time",
-          "Consistent melt viscosity for automated and manual applicators",
-          "Low VOC emissions compared to solvent-based adhesives",
-          "Strong tack on wood, MDF, foam, and packaging board",
-          "Available in pellets, pillows, and bulk formats for every scale",
-        ],
-      },
-      {
-        title: "Why Choose Stick-Onn as Your Hot Melt Adhesive Supplier",
-        paragraphs: [
-          "Stick-Onn hotmelt products are manufactured under quality-controlled conditions, ensuring your dispensing equipment receives material that performs predictably shift after shift.",
-        ],
-      },
-      {
-        title: "Batch-to-Batch Consistency",
-        layout: "card",
-        paragraphs: [
-          "Every batch is formulated for consistent melt point, viscosity, and bond strength — so production lines run without unexpected failures or rework.",
-        ],
-      },
-      {
-        title: "Application-Specific Grades",
-        layout: "card",
-        paragraphs: [
-          "EVA and polyolefin formulations tuned for edge banding, packaging, upholstery point bonds, and automotive trim — mapped to your substrates and equipment.",
-        ],
-      },
-      {
-        title: "Equipment Compatibility",
-        layout: "card",
-        paragraphs: [
-          "Supplied in stick, pillow, pellet, and bulk formats for handheld guns, tank melters, and automated multi-head dispensing systems.",
-        ],
-      },
-      {
-        title: "Dedicated Technical Support",
-        layout: "card",
-        paragraphs: [
-          "Grade selection guidance, temperature settings, and line optimisation support from Stick-Onn's technical team.",
-        ],
-      },
-      {
-        title: "Pan-India Supply Network",
-        layout: "card",
-        paragraphs: [
-          "120+ dealers and factory-direct supply ensure fast replenishment for furniture plants, packaging units, and workshops nationwide.",
-        ],
-      },
-      {
-        title: "Consistent, Benchmarked Quality",
-        layout: "card",
-        paragraphs: [
-          "Quality-controlled manufacturing with testing for viscosity, thermal stability, and bond strength before every dispatch.",
-        ],
-      },
-      {
-        title: "Applications of Stick-Onn Hot Melt Adhesives",
-        paragraphs: ["Stick-Onn hotmelt is used across industries, including:"],
-        bullets: [
-          "Furniture Manufacturing – edge banding, back panels, and foam lamination",
-          "Packaging – carton sealing, case erecting, and tray assembly",
-          "Upholstery & Seating – automated foam lamination and point bonds",
-          "Automotive Interiors – trim attachment and filter media bonding",
-          "General Industrial Assembly – high-speed component bonding on production lines",
-        ],
-      },
-      {
-        title: "Hot Melt Adhesive Range",
-        paragraphs: ["Stick-Onn's hot melt offering includes:"],
-        bullets: [
-          "Standard EVA hot melt for edge banding and general assembly",
-          "Throughfeed and manual grades for furniture edge banding lines",
-          "Fast-set formulations for high-speed packaging and assembly operations",
-        ],
-      },
-      {
-        title: "Manufacturing Quality & Consistency",
-        paragraphs: [
-          "Synergy Bonding Solutions positions Stick-Onn as a comprehensive adhesive partner. When you source hotmelt from us, you gain access to complementary products, application expertise, and a supply chain built for Indian manufacturing realities.",
-        ],
-      },
-    ],
-    productSlugs: ["hotmelt", "aerofix", "stick-onn-pur-adhesive"],
-    productShowcase: [
-      {
-        name: "Stick-Onn Hot Melt Adhesive — 1 KG",
-        description:
-          "EVA-based hot melt pellets for edge banding and PVC sheet bonding. Ideal for carpenters and manual operations.",
-        image: "/images/products/hotmelt-1kg.png",
-        href: "/products/hotmelt",
-        badge: "Best for edge banding",
-      },
-      {
-        name: "Hot Melt — Throughfeed 30 KG",
-        description:
-          "Industrial-grade formulation for automatic throughfeed edge banding machines on high-volume furniture lines.",
-        image: "/images/products/hotmelt-throughfeed-30kg.png",
-        href: "/products/hotmelt",
-        badge: "Machine application",
-      },
-      {
-        name: "Hot Melt — Manual 30 KG",
-        description:
-          "EVA-based industrial grade hot melt for manual edge banding and PVC sheet bonding in production workshops.",
-        image: "/images/products/hotmelt-manual-30kg.png",
-        href: "/products/hotmelt",
-        badge: "Manual application",
-      },
-    ],
-    faqs: [
-      {
-        question: "What temperature should hot melt adhesive be applied at?",
-        answer:
-          "Application temperature depends on the specific hotmelt grade — typically 150°C to 180°C for EVA formulations. Always follow the product technical data sheet and your dispensing equipment manufacturer guidelines.",
-      },
-      {
-        question: "Can hot melt adhesive bond wood and MDF?",
-        answer:
-          "Yes. Hotmelt bonds effectively to wood, MDF, particle board, and many plastics. Surface cleanliness and adequate application temperature are key to achieving strong bonds on porous substrates.",
-      },
-      {
-        question: "How does hotmelt compare to spray adhesive for upholstery work?",
-        answer:
-          "Hotmelt suits linear joints, edge banding, and automated point bonding. Spray adhesive like Stick-Onn AeroFix is better for large surface-area lamination such as foam-to-fabric. Many upholstery shops use both.",
-      },
-      {
-        question: "Is Stick-Onn hotmelt available in bulk for automated lines?",
-        answer:
-          "Yes. We supply hotmelt in stick, pillow, pellet, and bulk formats suitable for manual guns and automated melt systems. Contact our sales team for format options and industrial pricing.",
-      },
-      {
-        question: "Does hot melt adhesive have a shelf life?",
-        answer:
-          "Unopened hotmelt typically has a shelf life of 12–24 months when stored in a cool, dry place away from direct sunlight. Once melted and reheated repeatedly, performance may gradually decline.",
-      },
-    ],
-    relatedLinks: [
-      { href: "/hot-melt-adhesive-manufacturer", label: "Hot melt adhesive manufacturer" },
-      { href: "/applications/furniture-manufacturing", label: "Furniture production applications" },
-      { href: "/applications/upholstery-foam-fabric", label: "Upholstery and spray bonding" },
-      { href: "/contact", label: "Request hotmelt samples or bulk pricing" },
-    ],
-  },
-  {
-    slug: "waterproof-wood-adhesive",
-    fullContent: true,
-    seoTitle:
-      "Waterproof Wood Adhesive India | D3 Grade Wood Glue for Kitchens & Bathrooms",
-    seoDescription:
-      "D3 waterproof wood adhesive from Stick-Onn India. For kitchens, bathrooms, and export furniture. High bond strength, humidity resistance, fast drying.",
-    keywords: [
-      "waterproof wood adhesive",
-      "D3 wood adhesive India",
-      "waterproof wood glue",
-      "kitchen cabinet adhesive",
-      "bathroom furniture glue",
-      "D3 grade adhesive",
-      "moisture resistant wood glue",
-      "Stick-Onn Clout D3",
-      "export furniture adhesive",
-      "premium wood bonding",
-    ],
-    h1: "D3 Waterproof Wood Adhesive for Kitchens, Bathrooms, and Export Builds",
-    intro:
-      "Standard wood glue fails where moisture lives — kitchen sink cabinets, bathroom vanities, outdoor furniture, and coastal installations all punish bonds with humidity, splashes, and temperature swings. Stick-Onn delivers D3-grade waterproof wood adhesive engineered for these demanding environments. From Clout D3 for production-line speed to Aqua Adhesive for rapid-cure wet-area work and 1K PUR for structural exterior joints, Synergy Bonding Solutions gives Indian carpenters and furniture manufacturers the right waterproof solution for every joint.",
-    rangeSectionTitle: "Waterproof Adhesive Range",
-    productShowcaseTitle: "Stick-Onn Waterproof Wood Adhesives",
-    midPageCta: {
-      title: "Need the right waterproof adhesive for your project?",
-      description:
-        "Tell us whether you're on a production line or on-site — we'll recommend Clout D3, Aqua, or PUR for your moisture exposure level.",
-      productName: "Clout D3 Adhesive",
-    },
-    bottomCta: {
-      title: "Trusted by Furniture Makers and Export Houses Across India",
-      description:
-        "Whether you are certifying a modular kitchen line for export or upgrading from general-purpose glue to D3-grade performance, Stick-Onn provides the product quality and supply reliability you need. Request samples or technical advice.",
-      productName: "Clout D3 Adhesive",
-    },
-    sections: [
-      {
-        title: "What is Waterproof Wood Adhesive?",
-        paragraphs: [
-          "Waterproof wood adhesive — particularly D3-grade formulations under EN 204 standards — maintains bond integrity after repeated exposure to moisture, elevated temperature, and humidity fluctuations. This is essential for kitchen cabinetry, bathroom furniture, and export builds where international durability standards must be met.",
-          "Key characteristics of waterproof wood adhesive include:",
-        ],
-        bullets: [
-          "D3 moisture resistance for kitchens, bathrooms, and humid environments",
-          "Strong bond strength that withstands temperature and humidity swings",
-          "Rapid drying options for production lines and on-site carpentry",
-          "Low-VOC formulations for healthier workshop environments",
-          "Complementary PUR grades for exterior and structural joints",
-        ],
-      },
-      {
-        title: "Why Choose Stick-Onn as Your Waterproof Adhesive Supplier",
-        paragraphs: [
-          "Stick-Onn engineers a complete waterproof portfolio — from fast-drying D3 PVA to rapid-cure Aqua and structural 1K PUR — with technical guidance for every application.",
-        ],
-      },
-      {
-        title: "D3-Grade Performance",
-        layout: "card",
-        paragraphs: [
-          "Stick-Onn Clout D3 meets EN 204 D3 classification with 2-hour drying and high bond strength for modular kitchens, joinery, and export furniture.",
-        ],
-      },
-      {
-        title: "Rapid-Cure Wet-Area Solutions",
-        layout: "card",
-        paragraphs: [
-          "Stick-Onn Aqua Adhesive cures three times faster than conventional waterproof glues — ideal for on-site kitchen and bathroom carpentry.",
-        ],
-      },
-      {
-        title: "Exterior & Structural Bonding",
-        layout: "card",
-        paragraphs: [
-          "Stick-Onn 1K PUR Adhesive provides moisture-curing polyurethane technology for WPC doors, outdoor furniture, and assemblies beyond D3 PVA limits.",
-        ],
-      },
-      {
-        title: "Dedicated Technical Support",
-        layout: "card",
-        paragraphs: [
-          "Our team advises on joint geometry, adhesive selection, and curing schedules to prevent premature bond failure in moisture-exposed applications.",
-        ],
-      },
-      {
-        title: "Pan-India Supply Network",
-        layout: "card",
-        paragraphs: [
-          "From 800 g pouches for site carpenters to 60 kg drums for factory lines — consistent availability through 120+ dealers nationwide.",
-        ],
-      },
-      {
-        title: "Consistent, Benchmarked Quality",
-        layout: "card",
-        paragraphs: [
-          "Batch testing and EN compliance documentation support export furniture manufacturers and quality auditors across India.",
-        ],
-      },
-      {
-        title: "Applications of Stick-Onn Waterproof Adhesives",
-        paragraphs: ["Stick-Onn waterproof adhesives are used across applications, including:"],
-        bullets: [
-          "Modular Kitchen Manufacturing – carcass assembly and panel bonding",
-          "Bathroom & Wet-Area Furniture – vanities and humidity-exposed cabinetry",
-          "Export Furniture Production – EN-standard moisture resistance assurance",
-          "Flush Door & Joinery – edge joints and hardwood assemblies",
-          "Exterior & WPC Assemblies – structural PUR bonding for weather-exposed builds",
-        ],
-      },
-      {
-        title: "Waterproof Adhesive Range",
-        paragraphs: ["Stick-Onn's waterproof wood adhesive offering includes:"],
-        bullets: [
-          "Stick-Onn Clout D3 – D3-grade wood adhesive for production-line speed and export builds",
-          "Stick-Onn Aqua Adhesive – rapid-cure waterproof glue for on-site wet-area work",
-          "Stick-Onn 1K PUR Adhesive – structural moisture-curing polyurethane for exterior joints",
-        ],
-      },
-      {
-        title: "Manufacturing Quality & Consistency",
-        paragraphs: [
-          "Synergy Bonding Solutions manufactures Stick-Onn waterproof wood adhesives at scale with rigorous quality control. Every batch is tested for bond strength, moisture resistance, and curing performance before dispatch.",
-        ],
-      },
-    ],
-    productSlugs: ["clout-d3", "aqua-plus", "stick-onn-pur-adhesive"],
-    productShowcase: [
-      {
-        name: "Stick-Onn Clout D3",
-        description:
-          "D3-grade wood adhesive with 2-hour fast drying, anti-termite protection, and export-quality bond strength. Available in pouches and bulk drums.",
-        image: "/images/products/clout-d3.png",
-        href: "/products/clout-d3",
-        badge: "D3 waterproof",
-      },
-      {
-        name: "Stick-Onn Aqua Adhesive",
-        description:
-          "Rapid-cure waterproof wood adhesive — dries three times faster for on-site kitchen and bathroom carpentry.",
-        image: "/images/products/aqua-plus.png",
-        href: "/products/aqua-plus",
-        badge: "Fast cure",
-      },
-      {
-        name: "Stick-Onn 1K PUR Adhesive",
-        description:
-          "Moisture-curing polyurethane for exterior-grade and structural joints where D3 PVA alone is not sufficient.",
-        image: "/images/products/stick-onn-pur-adhesive.png",
-        href: "/products/stick-onn-pur-adhesive",
-        badge: "Exterior grade",
-      },
-    ],
-    faqs: [
-      {
-        question: "What is the difference between D2 and D3 wood adhesive?",
-        answer:
-          "D2 adhesives withstand occasional moisture exposure such as indoor humidity. D3 adhesives pass more rigorous water resistance testing with repeated soak-dry cycles, making them suitable for kitchens, bathrooms, and covered outdoor applications.",
-      },
-      {
-        question: "Is Stick-Onn Clout D3 suitable for modular kitchen manufacturing?",
-        answer:
-          "Yes. Clout D3 is engineered for modular kitchen carcasses, panel bonding, and edge joints where D3-grade moisture resistance and fast drying are essential for production efficiency.",
-      },
-      {
-        question: "How does Aqua Adhesive differ from Clout D3?",
-        answer:
-          "Aqua Adhesive emphasises rapid cure — drying three times faster than conventional waterproof glues — making it ideal for on-site carpentry in wet areas. Clout D3 focuses on D3-grade production-line performance with a two-hour dry time for factory assembly.",
-      },
-      {
-        question: "Can I use waterproof wood glue for outdoor furniture?",
-        answer:
-          "D3 PVA adhesives suit covered outdoor applications. For fully exposed exterior assemblies and WPC substrates, Stick-Onn 1K PUR Adhesive provides superior weather resistance and flexibility.",
-      },
-      {
-        question: "What pack sizes are available for waterproof wood adhesive?",
-        answer:
-          "Clout D3 and Aqua Adhesive are available in 800 g, 4 kg, 8 kg, 16 kg, and 60 kg formats. PUR adhesive shares the same packaging range. Contact us for bulk and distributor pricing.",
-      },
-    ],
-    relatedLinks: [
-      { href: "/d3-adhesive-manufacturer", label: "D3 adhesive manufacturer" },
-      { href: "/applications/furniture-manufacturing", label: "Furniture and cabinetry applications" },
-      { href: "/applications/laminate-bonding", label: "Laminate and panel bonding" },
-      { href: "/contact", label: "Get waterproof adhesive samples or technical advice" },
     ],
   },
   {
@@ -939,6 +378,7 @@ export const landingPages: LandingPage[] = [
   {
     slug: "hot-melt-adhesive-manufacturer",
     fullContent: true,
+    navLabel: "Hot Melt Adhesive Manufacturer",
     seoTitle:
       "Hot Melt Adhesive Manufacture in India | Hot Melt Glue Supplier",
     seoDescription:
@@ -958,6 +398,11 @@ export const landingPages: LandingPage[] = [
     h1: "Hot Melt Adhesive Manufacturer in India",
     intro:
       "Looking for a reliable hot melt adhesive manufacturer in India? Stick-Onn formulates and supplies high-performance hot melt adhesives engineered for fast bonding, strong hold, and consistent quality across furniture, packaging, woodworking, and industrial applications. With 20+ years of bonding technology experience and a pan-India dealer network, Stick-Onn is the preferred hot melt glue manufacturer for OEMs, carpenters, and industrial fabricators who need adhesives that perform under real production conditions.",
+    heroCta: {
+      primaryLabel: "Get a Quote",
+      secondaryLabel: "Talk on WhatsApp",
+      productName: "Hot Melt Adhesive",
+    },
     rangeSectionTitle: "Our Hot Melt Adhesive Range",
     productShowcaseTitle: "Stick-Onn Hot Melt Products",
     midPageCta: {
@@ -1118,6 +563,7 @@ export const landingPages: LandingPage[] = [
   {
     slug: "polyurethane-adhesive-manufacturer",
     fullContent: true,
+    navLabel: "Polyurethane Adhesive Manufacturer",
     seoTitle:
       "Polyurethane Adhesive Manufacturer in India | PUR Adhesive Supplier",
     seoDescription:
@@ -1137,6 +583,11 @@ export const landingPages: LandingPage[] = [
     h1: "Polyurethane Adhesive Manufacturer in India",
     intro:
       "Looking for a dependable polyurethane adhesive manufacturer in India? Stick-Onn formulates high-performance PUR (polyurethane reactive) adhesives engineered for superior bond strength, flexibility, and durability across wood, composite, and industrial substrates. As a trusted polyurethane adhesive supplier, Stick-Onn combines advanced bonding chemistry with hands-on technical support to help manufacturers achieve consistent, reliable results on the production floor.",
+    heroCta: {
+      primaryLabel: "Get a Quote",
+      secondaryLabel: "Talk on WhatsApp",
+      productName: "1K PUR Adhesive",
+    },
     rangeSectionTitle: "Polyurethane Adhesive Range",
     productShowcaseTitle: "Stick-Onn PUR Adhesive Products",
     midPageCta: {
@@ -1307,6 +758,7 @@ export const landingPages: LandingPage[] = [
   {
     slug: "d3-adhesive-manufacturer",
     fullContent: true,
+    navLabel: "D3 Adhesive Manufacturer",
     seoTitle: "D3 Adhesive Manufacturer in India | D3 Adhesive Supplier",
     seoDescription:
       "Stick-Onn is a trusted D3 adhesive manufacturer in India, offering high-strength D3-grade wood adhesives for export-quality furniture. Get a quote today.",
@@ -1325,6 +777,11 @@ export const landingPages: LandingPage[] = [
     h1: "D3 Adhesive Manufacturer in India",
     intro:
       "Looking for a reliable D3 adhesive manufacturer in India? Stick-Onn formulates high-performance D3-grade wood adhesives engineered to meet international bonding standards for furniture, joinery, and export-quality woodworking. As a dedicated D3 adhesive manufacturer, Stick-Onn combines precise formulation science with hands-on technical support to help carpenters and manufacturers achieve consistent, durable bonds that hold up to real-world conditions.",
+    heroCta: {
+      primaryLabel: "Get a Quote",
+      secondaryLabel: "Talk on WhatsApp",
+      productName: "Clout D3 Adhesive",
+    },
     rangeSectionTitle: "D3 Adhesive Range",
     productShowcaseTitle: "Stick-Onn D3 Adhesive Products",
     midPageCta: {
@@ -1486,7 +943,7 @@ export const landingPages: LandingPage[] = [
     relatedLinks: [
       { href: "/products/clout-d3", label: "View Stick-Onn Clout D3" },
       { href: "/applications/furniture-manufacturing", label: "Furniture manufacturing applications" },
-      { href: "/waterproof-wood-adhesive", label: "Waterproof wood adhesive solutions" },
+      { href: "/products/aqua-plus", label: "Rapid-cure Aqua waterproof adhesive" },
       { href: "/contact", label: "Request a quote or product trial" },
     ],
   },

@@ -64,12 +64,6 @@ export const metadata: Metadata = {
     description: siteDescription,
     images: ["https://stickonn.in/images/brand-logo.png"],
   },
-  alternates: {
-    canonical: "https://stickonn.in",
-    languages: {
-      "en-IN": "https://stickonn.in",
-    },
-  },
 };
 
 export default function RootLayout({

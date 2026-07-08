@@ -40,8 +40,11 @@ const companyLinks = [
   { href: "/contact", label: "Contact & Dealers" },
 ];
 
-function guideTitle(slug: string) {
-  return slug.replace(/-/g, " ").replace(/\b\w/g, (c) => c.toUpperCase());
+function guideTitle(page: (typeof landingPages)[number]) {
+  return (
+    page.navLabel ??
+    page.slug.replace(/-/g, " ").replace(/\b\w/g, (c) => c.toUpperCase())
+  );
 }
 
 export function Footer() {
@@ -121,7 +124,7 @@ export function Footer() {
             {landingPages.map((page) => (
               <li key={page.slug}>
                 <Link href={`/${page.slug}`} className="transition hover:text-white">
-                  {guideTitle(page.slug)}
+                  {guideTitle(page)}
                 </Link>
               </li>
             ))}

@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
+import { ArrowRight, MessageCircle } from "lucide-react";
 import type { LandingPage } from "@/lib/types";
 import { products } from "@/lib/data";
 import { Breadcrumbs } from "@/components/breadcrumbs";
@@ -12,6 +13,7 @@ import {
   createBreadcrumbSchema,
   createFaqSchema,
   createProductSchema,
+  whatsappUrl,
 } from "@/lib/seo";
 
 type LongFormLandingTemplateProps = {
@@ -123,6 +125,28 @@ export function LongFormLandingTemplate({ page }: LongFormLandingTemplateProps) 
         <p className="mt-4 max-w-3xl text-sm leading-relaxed text-slate-600 sm:text-base">
           {page.intro}
         </p>
+        {page.heroCta && (
+          <div className="mt-6 flex flex-wrap gap-3">
+            <Link
+              href={`/contact?product=${encodeURIComponent(page.heroCta.productName)}#contact-form`}
+              className="inline-flex items-center gap-2 rounded-full bg-[var(--primary)] px-6 py-3 text-sm font-semibold text-white transition hover:bg-[var(--primary-dark)]"
+            >
+              {page.heroCta.primaryLabel}
+              <ArrowRight className="h-4 w-4" />
+            </Link>
+            <a
+              href={whatsappUrl(
+                `Hi Stick-Onn team, I'd like a quote for ${page.heroCta.productName}. Please share pricing and technical details.`,
+              )}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-2 rounded-full border border-slate-300 px-6 py-3 text-sm font-semibold text-[var(--primary)] transition hover:border-[var(--primary)]"
+            >
+              <MessageCircle className="h-4 w-4" />
+              {page.heroCta.secondaryLabel}
+            </a>
+          </div>
+        )}
       </header>
 
       {mainSections.map((section, index) => {
