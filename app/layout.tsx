@@ -80,6 +80,7 @@ export default function RootLayout({
   return (
     <html lang="en-IN">
       <body
+        suppressHydrationWarning
         className={`${montserrat.variable} ${poppins.variable} antialiased bg-[var(--background)] text-[var(--foreground)]`}
       >
         <div className="flex min-h-screen flex-col bg-white">
