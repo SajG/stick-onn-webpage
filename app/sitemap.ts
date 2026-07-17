@@ -1,6 +1,6 @@
 import type { MetadataRoute } from "next";
 import { applicationPages, landingPages, products } from "@/lib/data";
-import { client } from "@/lib/sanity/client";
+import { getClient } from "@/lib/sanity/client";
 import {
   postSitemapEntriesQuery,
   type PostSitemapEntry,
@@ -22,7 +22,8 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   let blogRoutes: MetadataRoute.Sitemap = [];
   try {
     const posts =
-      (await client.fetch<PostSitemapEntry[]>(postSitemapEntriesQuery)) ?? [];
+      (await getClient().fetch<PostSitemapEntry[]>(postSitemapEntriesQuery)) ??
+      [];
     blogRoutes = posts.map((post) => ({
       url: absoluteUrl(`/blog/${post.slug}`),
       lastModified: post._updatedAt ? new Date(post._updatedAt) : lastModified,

@@ -3,7 +3,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import { PortableText, type PortableTextComponents } from '@portabletext/react';
-import { client } from '@/lib/sanity/client';
+import { getClient } from '@/lib/sanity/client';
 import { urlFor } from '@/lib/sanity/image';
 import {
   postBySlugQuery,
@@ -19,7 +19,7 @@ type Props = {
 
 export async function generateStaticParams() {
   try {
-    const slugs = (await client.fetch<string[]>(postSlugsQuery)) ?? [];
+    const slugs = (await getClient().fetch<string[]>(postSlugsQuery)) ?? [];
     return slugs.map((slug) => ({ slug }));
   } catch (error) {
     console.error('Failed to fetch post slugs:', error);
@@ -29,7 +29,7 @@ export async function generateStaticParams() {
 
 async function getPost(slug: string): Promise<Post | null> {
   try {
-    return await client.fetch<Post | null>(postBySlugQuery, { slug });
+    return await getClient().fetch<Post | null>(postBySlugQuery, { slug });
   } catch (error) {
     console.error('Failed to fetch post:', error);
     return null;

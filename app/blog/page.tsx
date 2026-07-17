@@ -1,7 +1,7 @@
 import type { Metadata } from 'next';
 import Image from 'next/image';
 import Link from 'next/link';
-import { client } from '@/lib/sanity/client';
+import { getClient } from '@/lib/sanity/client';
 import { urlFor } from '@/lib/sanity/image';
 import { allPostsQuery, type PostListItem } from '@/lib/sanity/queries';
 
@@ -28,7 +28,7 @@ function formatDate(date?: string) {
 export default async function BlogPage() {
   let posts: PostListItem[] = [];
   try {
-    posts = (await client.fetch<PostListItem[]>(allPostsQuery)) ?? [];
+    posts = (await getClient().fetch<PostListItem[]>(allPostsQuery)) ?? [];
   } catch (error) {
     console.error('Failed to fetch blog posts:', error);
   }
