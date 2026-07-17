@@ -1,31 +1,29 @@
 import { groq } from 'next-sanity';
 import type { PortableTextBlock } from '@portabletext/react';
 
-export const allPostsQuery = groq`
-*[_type == "post" && defined(slug.current)] | order(publishedAt desc) {
+const postFields = groq`
   _id,
   title,
   "slug": slug.current,
-  mainImage,
+  coverImage,
   excerpt,
-  publishedAt,
-  "category": category[]->title
+  date,
+  _createdAt,
+  "categories": categories[]->name
+`;
+
+export const allPostsQuery = groq`
+*[_type == "post" && defined(slug.current)] | order(coalesce(date, _createdAt) desc) {
+  ${postFields}
 }`;
 
 export const postBySlugQuery = groq`
 *[_type == "post" && slug.current == $slug][0] {
-  _id,
-  title,
-  "slug": slug.current,
-  mainImage,
-  excerpt,
-  publishedAt,
-  body,
+  ${postFields},
+  content,
   metaTitle,
   metaDescription,
-  ogImage,
-  "category": category[]->title,
-  author->{name, image, bio}
+  author->{name, picture}
 }`;
 
 export const postSlugsQuery = groq`
@@ -33,7 +31,7 @@ export const postSlugsQuery = groq`
 `;
 
 export const postSitemapEntriesQuery = groq`
-*[_type == "post" && defined(slug.current)] | order(publishedAt desc) {
+*[_type == "post" && defined(slug.current)] | order(coalesce(date, _createdAt) desc) {
   "slug": slug.current,
   _updatedAt
 }`;
@@ -46,6 +44,7 @@ export interface PostSitemapEntry {
 export interface SanityImage {
   asset?: { _ref?: string };
   alt?: string;
+  caption?: string;
   hotspot?: { x: number; y: number };
 }
 
@@ -53,22 +52,21 @@ export interface PostListItem {
   _id: string;
   title?: string;
   slug?: string;
-  mainImage?: SanityImage;
+  coverImage?: SanityImage;
   excerpt?: string;
-  publishedAt?: string;
-  category?: string[];
+  date?: string;
+  _createdAt?: string;
+  categories?: string[];
 }
 
 export interface Author {
   name?: string;
-  image?: SanityImage;
-  bio?: PortableTextBlock[];
+  picture?: SanityImage;
 }
 
 export interface Post extends PostListItem {
-  body?: PortableTextBlock[];
+  content?: PortableTextBlock[];
   metaTitle?: string;
   metaDescription?: string;
-  ogImage?: SanityImage;
   author?: Author;
 }
