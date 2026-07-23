@@ -36,7 +36,7 @@ export const metadata: Metadata = {
     template: "%s",
   },
   description: siteDescription,
-  metadataBase: new URL("https://stickonn.in"),
+  metadataBase: new URL("https://www.stickonn.in"),
   icons: {
     icon: "/icon.png",
     shortcut: "/icon.png",
@@ -45,13 +45,13 @@ export const metadata: Metadata = {
   openGraph: {
     title: siteTitle,
     description: siteDescription,
-    url: "https://stickonn.in",
+    url: "https://www.stickonn.in",
     siteName: "Stick-Onn Adhesives",
     locale: "en_IN",
     type: "website",
     images: [
       {
-        url: "https://stickonn.in/images/brand-logo.png",
+        url: "https://www.stickonn.in/images/brand-logo.png",
         width: 1200,
         height: 630,
         alt: "Stick-Onn Adhesives — Premium speciality adhesives in India",
@@ -62,7 +62,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: siteTitle,
     description: siteDescription,
-    images: ["https://stickonn.in/images/brand-logo.png"],
+    images: ["https://www.stickonn.in/images/brand-logo.png"],
   },
 };
 

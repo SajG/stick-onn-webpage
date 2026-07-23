@@ -51,7 +51,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     title: post.metaTitle || post.title,
     description: post.metaDescription || post.excerpt,
     alternates: {
-      canonical: `https://stickonn.in/blog/${slug}`,
+      canonical: `https://www.stickonn.in/blog/${slug}`,
     },
     openGraph: {
       title: post.metaTitle || post.title,

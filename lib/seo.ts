@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { companyInfo } from "@/lib/data";
 import type { FaqItem, Product } from "@/lib/types";
 
-const siteUrl = "https://stickonn.in";
+const siteUrl = "https://www.stickonn.in";
 const defaultOgImage = "/images/brand-logo.png";
 const locale = "en-IN";
 

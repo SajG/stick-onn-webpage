@@ -12,7 +12,7 @@ export const metadata: Metadata = {
   description:
     'Insights, guides, and updates on speciality adhesives from Stick-Onn.',
   alternates: {
-    canonical: 'https://stickonn.in/blog',
+    canonical: 'https://www.stickonn.in/blog',
   },
 };
 
