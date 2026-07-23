@@ -325,7 +325,7 @@ export const landingPages: LandingPage[] = [
         badge: "Contact spray",
       },
       {
-        name: "Stick-Onn Lam2Lam Adhesive",
+        name: "Stick-Onn Lam2Lam MS Polymer Adhesive",
         description:
           "Specialty contact adhesive for laminate-to-laminate, HPL, and countertop fabrication with clean, heat-resistant bonds.",
         image: "/images/products/lam2lam.png",
@@ -1873,7 +1873,7 @@ export const landingPages: LandingPage[] = [
         badge: "Fast, even coverage",
       },
       {
-        name: "Stick-Onn Lam2Lam Adhesive",
+        name: "Stick-Onn Lam2Lam MS Polymer Adhesive",
         description:
           "Specialty contact adhesive for laminate-to-laminate, HPL, and countertop fabrication with clean, heat-resistant bonds.",
         image: "/images/products/lam2lam.png",

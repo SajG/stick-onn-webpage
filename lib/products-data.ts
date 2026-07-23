@@ -358,26 +358,26 @@ export const products: Product[] = [
   },
   {
     slug: "lam2lam",
-    name: "Stick-Onn Lam2Lam Adhesive",
+    name: "Stick-Onn Lam2Lam MS Polymer Adhesive",
     tagline: "Precision adhesive for laminate-to-laminate and HPL panel bonding",
     shortDescription:
       "Specialty contact adhesive for bonding decorative laminates, HPL, and melamine surfaces.",
     description:
-      "Stick-Onn Lam2Lam Adhesive is formulated specifically for bonding laminate to laminate, HPL to HPL, and decorative surface-to-surface applications. It delivers clean bonds without telegraphing, ideal for countertop fabrication and panel lamination shops.",
+      "Stick-Onn Lam2Lam MS Polymer Adhesive is formulated specifically for bonding laminate to laminate, HPL to HPL, and decorative surface-to-surface applications. It delivers clean bonds without telegraphing, ideal for countertop fabrication and panel lamination shops.",
     longDescription: [
-      "Stick-Onn Lam2Lam Adhesive is a premium neoprene-contact adhesive engineered for the precise requirements of laminate-to-laminate bonding in countertop fabrication, postforming workshops, and decorative panel manufacturing. When bonding high-pressure laminate (HPL) to itself or to melamine-faced boards, generic wood glues fail to provide the instant grab, heat resistance, and clean appearance that Lam2Lam delivers.",
+      "Stick-Onn Lam2Lam MS Polymer Adhesive is a premium neoprene-contact adhesive engineered for the precise requirements of laminate-to-laminate bonding in countertop fabrication, postforming workshops, and decorative panel manufacturing. When bonding high-pressure laminate (HPL) to itself or to melamine-faced boards, generic wood glues fail to provide the instant grab, heat resistance, and clean appearance that Lam2Lam delivers.",
       "The solvent-based contact adhesive system creates an immediate bond upon surface contact after controlled flash-off, enabling fabricators to align and join laminate strips, edge profiles, and seam overlays with confidence. The cured film resists heat from hot cookware on countertops, steam from commercial kitchen environments, and the plasticizer migration common in flexible PVC edge trims.",
       "Countertop fabricators in Mumbai, Pune, and Delhi NCR processing brands like Merino, Greenlam, and Stylam rely on contact adhesives that leave no read-through lines or adhesive ghosting on dark and high-gloss laminate surfaces. Stick-Onn Lam2Lam's spray-grade and brush-grade viscosities spread thin, uniform films that cure to optically clear bond lines.",
       "Postforming operations benefit from Lam2Lam's flexibility and heat stability. When laminates are heated and formed around curved edges, the adhesive film flexes without cracking or delaminating at the bend radius. This performance is critical for kitchen shutter postforming, reception desk fabrication, and retail fixture manufacturing across India modular furniture and commercial fit-out sectors.",
       "Application follows the dual-coat contact method: apply thin, even coats to both surfaces, allow solvent flash-off until tacky-dry (typically 10–20 minutes depending on ambient conditions), align components carefully, and apply firm roller pressure from centre outward to eliminate air pockets. Vertical and overhead installations are supported by high green tack. Bond is immediate and permanent.",
       "Safety and compliance are priorities in professional lamination shops. Use in well-ventilated areas with appropriate PPE including nitrile gloves and respiratory protection where required. Stick-Onn Lam2Lam meets the performance requirements of Indian laminate fabricators while offering competitive pricing against imported contact adhesive brands with longer lead times.",
       "Colour-matched and low-odour variants support premium residential projects where solvent smell and visible adhesive lines are unacceptable to homeowners. Fabricators processing high-gloss and metallic laminate finishes in Ahmedabad, Surat, and Jaipur report significantly reduced rework rates after switching to Stick-Onn Lam2Lam from generic contact adhesive brands with inconsistent batch quality and visible read-through on dark surfaces.",
-      "Order Stick-Onn Lam2Lam Adhesive through Synergy Bonding Solutions for pan-India delivery. WhatsApp +91 90210 86995 for bulk pricing in 1 L, 5 L, and 20 L packs suited to lamination shop consumption rates.",
+      "Order Stick-Onn Lam2Lam MS Polymer Adhesive through Synergy Bonding Solutions for pan-India delivery. WhatsApp +91 90210 86995 for bulk pricing in 1 L, 5 L, and 20 L packs suited to lamination shop consumption rates.",
     ],
     seoTitle:
-      "Stick-Onn Lam2Lam Adhesive — HPL & Laminate Bonding | Stick-Onn Adhesives India",
+      "Stick-Onn Lam2Lam MS Polymer Adhesive — HPL & Laminate Bonding | Stick-Onn Adhesives India",
     seoDescription:
-      "Stick-Onn Lam2Lam Adhesive bonds laminate to laminate and HPL panels with clean, heat-resistant contact bonds. For countertop fabricators across India.",
+      "Stick-Onn Lam2Lam MS Polymer Adhesive bonds laminate to laminate and HPL panels with clean, heat-resistant contact bonds. For countertop fabricators across India.",
     keyBenefit: "HPL & Laminate Bonding",
     keywords: [
       "laminate to laminate adhesive India",
@@ -419,14 +419,14 @@ export const products: Product[] = [
     datasheetUrl: "/pdfs/stick-onn-technical-data-sheet.pdf",
     faqs: [
       {
-        question: "Can Stick-Onn Lam2Lam Adhesive bond HPL laminate to HPL without visible glue lines?",
+        question: "Can Stick-Onn Lam2Lam MS Polymer Adhesive bond HPL laminate to HPL without visible glue lines?",
         answer:
           "Yes. Stick-Onn Lam2Lam is specifically formulated for laminate-to-laminate applications where optical clarity is critical. Apply thin, uniform coats and allow proper flash-off for invisible bond lines on dark and gloss laminates — standard practice in Mumbai and Pune countertop shops.",
       },
       {
         question: "Is Lam2Lam suitable for postforming laminate edges on kitchen shutters?",
         answer:
-          "Stick-Onn Lam2Lam Adhesive provides the flexibility and heat resistance required for postformed laminate edges. The cured film flexes at bend radii without cracking, making it suitable for kitchen shutter postforming and curved panel fabrication across India.",
+          "Stick-Onn Lam2Lam MS Polymer Adhesive provides the flexibility and heat resistance required for postformed laminate edges. The cured film flexes at bend radii without cracking, making it suitable for kitchen shutter postforming and curved panel fabrication across India.",
       },
       {
         question: "What is the flash-off time for Stick-Onn Lam2Lam in humid Mumbai conditions?",
