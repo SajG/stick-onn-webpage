@@ -722,26 +722,26 @@ export const products: Product[] = [
   },
   {
     slug: "aerofix",
-    name: "Stick-Onn AeroFix Spray Adhesive",
-    tagline: "Spray adhesive for instant bonding across large surfaces",
+    name: "Stick-Onn Wood to Laminate Instant Spray Adhesive",
+    tagline: "Instant spray adhesive for wood to laminate bonding across large surfaces",
     shortDescription:
       "Fast tack spray adhesive ideal for foam, fabric, and panel lamination.",
     description:
-      "Stick-Onn AeroFix Spray Adhesive makes quick work of upholstery, insulation, and panel lamination tasks. The controlled spray pattern offers consistent coverage, reduces wastage, and delivers a clean bond without bleed-through.",
+      "Stick-Onn Wood to Laminate Instant Spray Adhesive makes quick work of upholstery, insulation, and panel lamination tasks. The controlled spray pattern offers consistent coverage, reduces wastage, and delivers a clean bond without bleed-through.",
     longDescription: [
-      "Stick-Onn AeroFix Spray Adhesive is a premium aerosol contact adhesive delivering instant tack for large-surface bonding applications across upholstery, insulation, automotive interior, and acoustic panel manufacturing. The fine mist spray pattern ensures uniform coverage on foam, fabric, leather, plywood, and insulation substrates without the uneven application common with brush-on contact adhesives.",
+      "Stick-Onn Wood to Laminate Instant Spray Adhesive is a premium aerosol contact adhesive delivering instant tack for large-surface bonding applications across upholstery, insulation, automotive interior, and acoustic panel manufacturing. The fine mist spray pattern ensures uniform coverage on foam, fabric, leather, plywood, and insulation substrates without the uneven application common with brush-on contact adhesives.",
       "Upholstery manufacturers in Mumbai, Pune, and Chennai process thousands of sofa and mattress units daily, requiring adhesives that bond foam-to-foam, foam-to-fibre, and fabric-to-foam quickly without soaking through delicate materials. AeroFix's low-soak-in formulation prevents adhesive strike-through on light-coloured fabrics while providing aggressive initial tack that holds components during assembly.",
       "The controlled spray pattern with adjustable fan width reduces overspray and adhesive waste on production floors. A repositioning window of 30–60 seconds allows workers to align large fabric panels and foam layers before the bond sets permanently — a critical feature for quality upholstery work where misalignment is costly to rectify.",
       "Automotive interior suppliers across Delhi NCR and Chennai use spray adhesives for headliner lamination, door panel trim attachment, carpet bonding, and insulation placement. Stick-Onn AeroFix meets the performance requirements of automotive trim assembly with heat resistance adequate for cabin temperature exposure and low-VOC emissions suitable for enclosed workshop environments.",
       "Acoustic panel and HVAC insulation contractors benefit from AeroFix's ability to bond large format materials quickly. Spray application covers ceiling and wall panel backings efficiently, reducing installation time on commercial fit-out projects in Bengaluru tech parks and Mumbai commercial towers compared to trowel-applied contact adhesives requiring longer flash-off and higher labour input.",
       "Application protocol: shake can vigorously for 30 seconds, hold 6–8 inches from surface, apply sweeping coats to both substrates, wait 30–60 seconds until tacky, join with firm pressure, and roll or press for complete contact. Use in ventilated areas with appropriate respiratory protection as with all aerosol products.",
       "Flammability and VOC compliance documentation supports upholstery and automotive suppliers participating in OEM audit programmes requiring material safety data sheets and emissions testing certificates. Stick-Onn AeroFix production batches are tested for spray pattern consistency, can pressure stability, and tack development time to ensure every can performs identically on high-speed production lines in Mumbai, Pune, and Chennai upholstery hubs.",
-      "Stick-Onn AeroFix Spray Adhesive is available in 500 ml and 1 L cans with bulk 5 L options for high-volume users. Order through Synergy Bonding Solutions — WhatsApp +91 90210 86995 for B2B pricing and delivery to upholstery and automotive plants across India.",
+      "Stick-Onn Wood to Laminate Instant Spray Adhesive is available in 500 ml and 1 L cans with bulk 5 L options for high-volume users. Order through Synergy Bonding Solutions — WhatsApp +91 90210 86995 for B2B pricing and delivery to upholstery and automotive plants across India.",
     ],
     seoTitle:
-      "Stick-Onn AeroFix Spray Adhesive — Instant Tack Foam & Fabric Bonding | Stick-Onn Adhesives India",
+      "Stick-Onn Wood to Laminate Instant Spray Adhesive — Instant Tack Foam & Fabric Bonding | Stick-Onn Adhesives India",
     seoDescription:
-      "Stick-Onn AeroFix Spray Adhesive bonds foam, fabric and panels with even spray coverage and instant tack. For upholstery plants in Mumbai, Pune and Delhi.",
+      "Stick-Onn Wood to Laminate Instant Spray Adhesive bonds foam, fabric and panels with even spray coverage and instant tack. For upholstery plants in Mumbai, Pune and Delhi.",
     keyBenefit: "Instant Tack Foam & Fabric Bonding",
     keywords: [
       "spray adhesive India",
@@ -782,14 +782,14 @@ export const products: Product[] = [
     datasheetUrl: "/pdfs/stick-onn-technical-data-sheet.pdf",
     faqs: [
       {
-        question: "Does Stick-Onn AeroFix Spray Adhesive soak through upholstery fabric?",
+        question: "Does Stick-Onn Wood to Laminate Instant Spray Adhesive soak through upholstery fabric?",
         answer:
           "Stick-Onn AeroFix is formulated with low soak-in characteristics to prevent strike-through on light-coloured and delicate fabrics. Apply controlled coats from 6–8 inches distance and allow proper flash-off. Widely used by upholstery manufacturers in Mumbai and Pune for premium sofa production.",
       },
       {
         question: "Can AeroFix bond foam to plywood for mattress and sofa manufacturing?",
         answer:
-          "Yes. Stick-Onn AeroFix Spray Adhesive provides reliable foam-to-plywood, foam-to-foam, and foam-to-fibre bonds for mattress and sofa manufacturing. Spray both surfaces, wait until tacky, and press firmly for immediate bond formation on production lines in Delhi and Chennai.",
+          "Yes. Stick-Onn Wood to Laminate Instant Spray Adhesive provides reliable foam-to-plywood, foam-to-foam, and foam-to-fibre bonds for mattress and sofa manufacturing. Spray both surfaces, wait until tacky, and press firmly for immediate bond formation on production lines in Delhi and Chennai.",
       },
       {
         question: "Is there a repositioning window when using Stick-Onn AeroFix spray adhesive?",
@@ -804,7 +804,7 @@ export const products: Product[] = [
       {
         question: "Is AeroFix suitable for automotive headliner bonding in Delhi NCR plants?",
         answer:
-          "Stick-Onn AeroFix Spray Adhesive meets automotive interior bonding requirements for headliners, door trim, and carpet attachment. It provides heat resistance adequate for cabin temperature exposure and is supplied to automotive trim suppliers across Delhi NCR, Pune, and Chennai.",
+          "Stick-Onn Wood to Laminate Instant Spray Adhesive meets automotive interior bonding requirements for headliners, door trim, and carpet attachment. It provides heat resistance adequate for cabin temperature exposure and is supplied to automotive trim suppliers across Delhi NCR, Pune, and Chennai.",
       },
     ],
     relatedProductSlugs: ["lam2lam", "hotmelt", "clout-d3"],

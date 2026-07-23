@@ -317,7 +317,7 @@ export const landingPages: LandingPage[] = [
     productSlugs: ["aerofix", "hotmelt", "lam2lam"],
     productShowcase: [
       {
-        name: "Stick-Onn AeroFix",
+        name: "Stick-Onn Wood to Laminate Instant Spray Adhesive",
         description:
           "Contact spray adhesive with fine mist coverage, aggressive tack, and low soak-in for upholstery, foam lamination, and panel bonding.",
         image: "/images/products/aerofix.png",
@@ -1865,7 +1865,7 @@ export const landingPages: LandingPage[] = [
     productSlugs: ["aerofix", "lam2lam", "hotmelt"],
     productShowcase: [
       {
-        name: "Stick-Onn AeroFix",
+        name: "Stick-Onn Wood to Laminate Instant Spray Adhesive",
         description:
           "Spray adhesive with fine mist coverage and fast tack for foam lamination, upholstery, and panel bonding — even coverage without over-saturation.",
         image: "/images/products/aerofix.png",
