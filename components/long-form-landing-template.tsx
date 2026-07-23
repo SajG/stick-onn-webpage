@@ -3,6 +3,7 @@ import Link from "next/link";
 import { ArrowRight, MessageCircle } from "lucide-react";
 import type { LandingPage } from "@/lib/types";
 import { products } from "@/lib/data";
+import { cn } from "@/lib/utils";
 import { Breadcrumbs } from "@/components/breadcrumbs";
 import { ContentSection } from "@/components/long-form-content";
 import { FaqSection } from "@/components/faq-section";
@@ -16,6 +17,18 @@ import {
   whatsappUrl,
 } from "@/lib/seo";
 
+const showcaseGradientMap: Record<string, string> = {
+  "aqua-plus": "from-[#b9e1ff] via-white to-[#e9f6ff]",
+  "clout-d3": "from-[#c8d4ff] via-white to-[#eef0ff]",
+  "wood-to-laminate-spray-adhesive": "from-[#ffd9bf] via-white to-[#fff2e5]",
+  wpcfix: "from-[#cbead1] via-white to-[#f0fff4]",
+  "stick-onn-pur-adhesive": "from-[#e8d5ff] via-white to-[#f5edff]",
+  "drill-free": "from-[#d4e8ff] via-white to-[#edf4ff]",
+  lam2lam: "from-[#ffe4cc] via-white to-[#fff5eb]",
+  hotmelt: "from-[#ffd6e0] via-white to-[#fff0f3]",
+  "epoxy-resin": "from-[#d9d4f5] via-white to-[#f0eeff]",
+};
+
 type LongFormLandingTemplateProps = {
   page: LandingPage;
 };
@@ -28,42 +41,53 @@ function ProductShowcase({
   items: NonNullable<LandingPage["productShowcase"]>;
 }) {
   return (
-    <section className="space-y-6">
+    <section className="space-y-8">
       <h2 className="text-2xl font-semibold text-[var(--primary)] sm:text-3xl">{title}</h2>
-      <div className="grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
-        {items.map((item) => (
-          <Link
-            key={item.name}
-            href={item.href}
-            className="group flex flex-col overflow-hidden rounded-2xl border border-slate-200 bg-white transition hover:border-[var(--primary)]/40 hover:shadow-lg hover:shadow-[var(--primary)]/5"
-          >
-            <div className="relative aspect-square bg-slate-50 p-4">
-              <Image
-                src={item.image}
-                alt={item.name}
-                fill
-                className="object-contain p-2 transition group-hover:scale-[1.02]"
-                sizes="(max-width: 768px) 100vw, 33vw"
-              />
-              {item.badge && (
-                <span className="absolute left-3 top-3 rounded-full bg-[var(--primary)] px-3 py-1 text-xs font-semibold text-white">
-                  {item.badge}
+      <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+        {items.map((item) => {
+          const slug = item.href.split("/products/")[1] ?? "";
+          const gradient = showcaseGradientMap[slug] ?? "from-slate-100 via-white to-slate-50";
+          return (
+            <Link
+              key={item.name}
+              href={item.href}
+              className="group flex flex-col overflow-hidden rounded-3xl border border-slate-200/80 bg-white transition-all duration-300 hover:-translate-y-1.5 hover:border-[var(--primary)]/50 hover:shadow-2xl hover:shadow-[var(--primary)]/10"
+            >
+              <div
+                className={cn(
+                  "relative flex h-56 items-center justify-center overflow-hidden rounded-b-[2.5rem] rounded-t-3xl bg-gradient-to-br sm:h-64",
+                  gradient,
+                )}
+              >
+                <span className="pointer-events-none absolute -left-10 top-6 h-32 w-32 rounded-full bg-white/50 blur-3xl" />
+                <span className="pointer-events-none absolute -right-6 bottom-4 h-28 w-28 rounded-full bg-[var(--accent)]/30 opacity-50 blur-3xl" />
+                <Image
+                  src={item.image}
+                  alt={item.name}
+                  fill
+                  className="z-10 object-contain p-6 drop-shadow-xl transition-transform duration-500 group-hover:scale-105"
+                  sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
+                />
+                {item.badge && (
+                  <span className="absolute right-3 top-3 z-20 rounded-full bg-[var(--accent)] px-3 py-1 text-xs font-bold text-white shadow">
+                    {item.badge}
+                  </span>
+                )}
+              </div>
+              <div className="flex flex-1 flex-col gap-2 p-5 sm:p-6">
+                <p className="font-semibold leading-snug text-[var(--primary)] sm:text-base">
+                  {item.name}
+                </p>
+                <p className="text-xs leading-relaxed text-slate-500 sm:text-sm">
+                  {item.description}
+                </p>
+                <span className="mt-auto inline-flex items-center gap-1 pt-2 text-xs font-semibold text-[var(--accent)] transition-all group-hover:gap-2">
+                  View product details <ArrowRight className="h-3 w-3" />
                 </span>
-              )}
-            </div>
-            <div className="flex flex-1 flex-col gap-2 p-5">
-              <p className="text-sm font-semibold text-[var(--primary)] sm:text-base">
-                {item.name}
-              </p>
-              <p className="text-xs leading-relaxed text-slate-600 sm:text-sm">
-                {item.description}
-              </p>
-              <span className="mt-auto pt-2 text-xs font-semibold text-[var(--primary)]">
-                View product details →
-              </span>
-            </div>
-          </Link>
-        ))}
+              </div>
+            </Link>
+          );
+        })}
       </div>
     </section>
   );
