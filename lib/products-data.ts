@@ -444,7 +444,7 @@ export const products: Product[] = [
           "Synergy Bonding Solutions supplies Stick-Onn Lam2Lam in 1 L to 20 L packs for lamination shops. Contact us on WhatsApp at +91 90210 86995 for B2B pricing and delivery to Delhi, Noida, and Gurgaon fabrication hubs.",
       },
     ],
-    relatedProductSlugs: ["heatfix", "clout-d3", "aqua-plus"],
+    relatedProductSlugs: ["lam2lam", "clout-d3", "aqua-plus"],
     applicationSlug: "laminate-bonding",
   },
   {
@@ -597,7 +597,7 @@ export const products: Product[] = [
       "Join components immediately; bond sets upon cooling within seconds.",
     ],
     packs: ["5 kg", "25 kg"],
-    heroImage: "/images/products/hotmelt-1kg.png",
+    heroImage: "/images/products/hotmelt-throughfeed-30kg.png",
     datasheetUrl: "/pdfs/stick-onn-technical-data-sheet.pdf",
     faqs: [
       {
@@ -626,7 +626,7 @@ export const products: Product[] = [
           "Stick-Onn Hotmelt is supplied in 5 kg pillow packs and 25 kg bags for industrial consumption. Synergy Bonding Solutions offers factory-direct bulk pricing with pan-India delivery. WhatsApp +91 90210 86995 for quotes.",
       },
     ],
-    relatedProductSlugs: ["heatfix", "aerofix", "clout-d3"],
+    relatedProductSlugs: ["lam2lam", "aerofix", "clout-d3"],
     applicationSlug: "industrial-assembly",
   },
   {
@@ -807,97 +807,7 @@ export const products: Product[] = [
           "Stick-Onn AeroFix Spray Adhesive meets automotive interior bonding requirements for headliners, door trim, and carpet attachment. It provides heat resistance adequate for cabin temperature exposure and is supplied to automotive trim suppliers across Delhi NCR, Pune, and Chennai.",
       },
     ],
-    relatedProductSlugs: ["heatfix", "hotmelt", "clout-d3"],
+    relatedProductSlugs: ["lam2lam", "hotmelt", "clout-d3"],
     applicationSlug: "upholstery-foam-fabric",
-  },
-  {
-    slug: "heatfix",
-    name: "Stick-Onn HeatFix",
-    tagline: "Heat resistant rubber adhesive for laminates and veneer pressing",
-    shortDescription:
-      "Contact adhesive formulated for high temperature laminate applications.",
-    description:
-      "Stick-Onn HeatFix is a specialty rubber adhesive designed for postforming, membrane pressing, and heat-intense installations. It maintains bond integrity even under elevated temperatures, ensuring lasting finishes.",
-    longDescription: [
-      "Stick-Onn HeatFix is a specialty neoprene rubber contact adhesive engineered for applications where elevated temperatures threaten bond integrity — membrane pressing, postforming, vacuum forming, and high-heat laminate installations that standard contact adhesives cannot survive. Manufactured by Synergy Bonding Solutions, HeatFix serves membrane door manufacturers, postforming workshops, and industrial rubber bonding operations across India.",
-      "Membrane pressing involves heating PVC or PET foil films to 120–160°C while vacuum or positive pressure forms the material over MDF door profiles. Adhesives beneath the foil must survive these temperatures without degrading, outgassing, or losing tack. Stick-Onn HeatFix maintains bond integrity through repeated pressing cycles, enabling consistent production on membrane lines in Pune, Mumbai, and Delhi NCR kitchen door factories.",
-      "Postforming operations heat laminates to 80–120°C for bending around curved edges on kitchen shutters, reception counters, and retail fixtures. The adhesive film must flex during forming and remain bonded after cooling. HeatFix's rubber-based formulation provides the elasticity and heat stability required for crisp, durable postformed edges without delamination or edge lift during subsequent use.",
-      "Beyond furniture applications, HeatFix serves rubber-to-metal bonding in automotive, HVAC, and industrial maintenance contexts. Its resistance to plasticizer migration from flexible PVC and rubber components prevents bond degradation over time — a common failure mode with generic contact adhesives on automotive trim and gasket applications supplied to OEM and aftermarket channels across India.",
-      "Application follows standard contact adhesive protocol: stir thoroughly before use, apply thin coats to both surfaces with brush or spray equipment, allow 10–15 minutes flash-off until tacky-dry, align and contact surfaces for instant bond, and apply roller pressure for complete contact. Excellent grab supports vertical and overhead applications during installation.",
-      "HeatFix is available in 500 ml, 1 L, 5 L, and 10 L packs for workshop and factory consumption. Its long shelf life and batch consistency support production planning on membrane and postforming lines that cannot afford adhesive-related downtime or quality variation between production batches.",
-      "Solvent recovery and ventilation guidelines align with PCB and state pollution control requirements for furniture manufacturing units in Maharashtra, Karnataka, and Uttar Pradesh. Stick-Onn HeatFix formulations use optimised solvent blends that balance flash-off speed with workplace safety, and our technical team provides ventilation rate calculations for lamination shops upgrading their contact adhesive operations in Pune and Delhi NCR.",
-      "Contact Synergy Bonding Solutions on WhatsApp at +91 90210 86995 for HeatFix technical data, membrane pressing application guides, and bulk supply arrangements for furniture manufacturing clusters across India.",
-    ],
-    seoTitle:
-      "Stick-Onn HeatFix — Heat-Resistant Membrane & Postform Adhesive | Stick-Onn Adhesives India",
-    seoDescription:
-      "Stick-Onn HeatFix resists membrane pressing and postforming heat cycles. Rubber contact adhesive for laminate doors and high-temp bonding across India.",
-    keyBenefit: "Heat-Resistant Membrane & Postform Bonding",
-    keywords: [
-      "heat resistant adhesive India",
-      "membrane press adhesive Mumbai",
-      "postforming adhesive Pune",
-      "HeatFix contact adhesive Delhi",
-      "rubber adhesive India",
-      "high temperature laminate glue Mumbai",
-      "Stick-Onn HeatFix",
-      "vacuum press adhesive Pune",
-      "PVC foil bonding adhesive Delhi",
-      "membrane door adhesive India",
-      "Synergy Bonding Solutions HeatFix",
-    ],
-    features: [
-      "Sustains bond under high heat and postforming cycles",
-      "Flexible film that absorbs vibration and impact",
-      "Excellent grab for vertical and overhead applications",
-      "Resistant to plasticizer migration and peeling",
-      "Suitable for membrane, vacuum, and postforming presses",
-      "Available in 500 ml, 1 L, 5 L, and 10 L packs",
-    ],
-    applications: [
-      "Membrane and vacuum pressing",
-      "Postforming laminates and veneers",
-      "High-heat countertop installations",
-      "Rubber to metal bonding",
-      "PVC foil and PET film lamination",
-    ],
-    howToApply: [
-      "Stir adhesive thoroughly and apply to both surfaces using brush or spray.",
-      "Allow solvent flash-off for 10–15 minutes until tacky.",
-      "Align carefully and make contact; bond forms instantly.",
-      "Apply uniform pressure using roller; allow cure before heat exposure.",
-    ],
-    packs: ["500 ml", "1 L", "5 L", "10 L"],
-    heroImage: "/images/products/heatfix.png",
-    datasheetUrl: "/pdfs/stick-onn-technical-data-sheet.pdf",
-    faqs: [
-      {
-        question: "Can Stick-Onn HeatFix survive membrane pressing temperatures of 140°C?",
-        answer:
-          "Yes. Stick-Onn HeatFix is formulated to maintain bond integrity during membrane pressing cycles at 120–160°C. It is used on membrane door production lines in Pune, Mumbai, and Delhi NCR without bond failure or outgassing issues during repeated pressing cycles.",
-      },
-      {
-        question: "Is HeatFix suitable for postforming laminate edges on kitchen shutters?",
-        answer:
-          "Stick-Onn HeatFix provides the heat stability and flexibility required for postforming laminates at 80–120°C. The cured film flexes during bending and maintains bond strength after cooling — standard practice in kitchen shutter postforming workshops across India.",
-      },
-      {
-        question: "How does HeatFix compare to Stick-Onn Lam2Lam for laminate bonding?",
-        answer:
-          "HeatFix excels in high-temperature membrane pressing, postforming, and rubber bonding applications. Lam2Lam is optimised for laminate-to-laminate contact bonding with emphasis on optical clarity. For membrane door lines, HeatFix is the recommended product; for countertop HPL seams, consider Lam2Lam.",
-      },
-      {
-        question: "What is the flash-off time for Stick-Onn HeatFix before joining surfaces?",
-        answer:
-          "Allow 10–15 minutes solvent flash-off at 25°C until the adhesive feels tacky-dry but not dry-to-touch. Insufficient flash-off causes solvent entrapment and weak bonds; excessive flash-off reduces tack. Adjust timing for humidity — monsoon conditions in Mumbai may require slightly longer flash-off.",
-      },
-      {
-        question: "Where can membrane door manufacturers buy Stick-Onn HeatFix in bulk in Pune?",
-        answer:
-          "Synergy Bonding Solutions supplies Stick-Onn HeatFix in 500 ml to 10 L packs with bulk factory pricing. WhatsApp +91 90210 86995 for delivery to Pune membrane door clusters, technical application guides, and volume discounts for production plants.",
-      },
-    ],
-    relatedProductSlugs: ["lam2lam", "aerofix", "hotmelt"],
-    applicationSlug: "laminate-bonding",
   },
 ];

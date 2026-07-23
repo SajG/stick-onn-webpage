@@ -336,7 +336,7 @@ export const landingPages: LandingPage[] = [
         name: "Stick-Onn Hotmelt Adhesive",
         description:
           "Fast-set hot melt for edge banding and point bonds — complements AeroFix on mixed upholstery and furniture lines.",
-        image: "/images/products/hotmelt-1kg.png",
+        image: "/images/products/hotmelt-throughfeed-30kg.png",
         href: "/products/hotmelt",
         badge: "Edge & point bonds",
       },
@@ -1884,7 +1884,7 @@ export const landingPages: LandingPage[] = [
         name: "Stick-Onn Hotmelt Adhesive",
         description:
           "Fast-set hot melt for edge banding and point bonds — complements AeroFix on mixed upholstery and furniture lines.",
-        image: "/images/products/hotmelt-1kg.png",
+        image: "/images/products/hotmelt-throughfeed-30kg.png",
         href: "/products/hotmelt",
         badge: "Edge & point bonds",
       },
