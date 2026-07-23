@@ -12,6 +12,12 @@ const nextConfig: NextConfig = {
   async redirects() {
     return [
       {
+        source: "/:path*",
+        has: [{ type: "host", value: "stickonn.in" }],
+        destination: "https://www.stickonn.in/:path*",
+        permanent: true,
+      },
+      {
         source: "/pur-adhesive-india",
         destination: "/polyurethane-adhesive-manufacturer",
         permanent: true,
