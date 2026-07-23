@@ -342,7 +342,7 @@ export const applicationPages: ApplicationPage[] = [
         ],
       },
     ],
-    recommendedProductSlugs: ["aerofix", "hotmelt"],
+    recommendedProductSlugs: ["wood-to-laminate-spray-adhesive", "hotmelt"],
     faqs: [
       {
         question: "Should I choose AeroFix spray or HotMelt for sofa manufacturing?",
@@ -533,7 +533,7 @@ export const applicationPages: ApplicationPage[] = [
         ],
       },
     ],
-    recommendedProductSlugs: ["aerofix", "hotmelt", "epoxy-resin"],
+    recommendedProductSlugs: ["wood-to-laminate-spray-adhesive", "hotmelt", "epoxy-resin"],
     faqs: [
       {
         question: "Which adhesive is best for headliner lamination?",

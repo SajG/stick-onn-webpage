@@ -26,6 +26,11 @@ const nextConfig: NextConfig = {
         destination: "/d3-adhesive-manufacturer",
         permanent: true,
       },
+      {
+        source: "/products/aerofix",
+        destination: "/products/wood-to-laminate-spray-adhesive",
+        permanent: true,
+      },
     ];
   },
 };

@@ -626,7 +626,7 @@ export const products: Product[] = [
           "Stick-Onn Hotmelt is supplied in 5 kg pillow packs and 25 kg bags for industrial consumption. Synergy Bonding Solutions offers factory-direct bulk pricing with pan-India delivery. WhatsApp +91 90210 86995 for quotes.",
       },
     ],
-    relatedProductSlugs: ["lam2lam", "aerofix", "clout-d3"],
+    relatedProductSlugs: ["lam2lam", "wood-to-laminate-spray-adhesive", "clout-d3"],
     applicationSlug: "industrial-assembly",
   },
   {
@@ -721,7 +721,7 @@ export const products: Product[] = [
     applicationSlug: "epoxy-repairs",
   },
   {
-    slug: "aerofix",
+    slug: "wood-to-laminate-spray-adhesive",
     name: "Stick-Onn Wood to Laminate Instant Spray Adhesive",
     tagline: "Instant spray adhesive for wood to laminate bonding across large surfaces",
     shortDescription:

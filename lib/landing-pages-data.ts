@@ -314,14 +314,14 @@ export const landingPages: LandingPage[] = [
         ],
       },
     ],
-    productSlugs: ["aerofix", "hotmelt", "lam2lam"],
+    productSlugs: ["wood-to-laminate-spray-adhesive", "hotmelt", "lam2lam"],
     productShowcase: [
       {
         name: "Stick-Onn Wood to Laminate Instant Spray Adhesive",
         description:
           "Contact spray adhesive with fine mist coverage, aggressive tack, and low soak-in for upholstery, foam lamination, and panel bonding.",
-        image: "/images/products/aerofix.png",
-        href: "/products/aerofix",
+        image: "/images/products/wood-to-laminate-spray-adhesive.png",
+        href: "/products/wood-to-laminate-spray-adhesive",
         badge: "Contact spray",
       },
       {
@@ -504,7 +504,7 @@ export const landingPages: LandingPage[] = [
         ],
       },
     ],
-    productSlugs: ["hotmelt", "aerofix", "stick-onn-pur-adhesive"],
+    productSlugs: ["hotmelt", "wood-to-laminate-spray-adhesive", "stick-onn-pur-adhesive"],
     productShowcase: [
       {
         name: "Stick-Onn Hot Melt Adhesive — 1 KG",
@@ -1862,14 +1862,14 @@ export const landingPages: LandingPage[] = [
         ],
       },
     ],
-    productSlugs: ["aerofix", "lam2lam", "hotmelt"],
+    productSlugs: ["wood-to-laminate-spray-adhesive", "lam2lam", "hotmelt"],
     productShowcase: [
       {
         name: "Stick-Onn Wood to Laminate Instant Spray Adhesive",
         description:
           "Spray adhesive with fine mist coverage and fast tack for foam lamination, upholstery, and panel bonding — even coverage without over-saturation.",
-        image: "/images/products/aerofix.png",
-        href: "/products/aerofix",
+        image: "/images/products/wood-to-laminate-spray-adhesive.png",
+        href: "/products/wood-to-laminate-spray-adhesive",
         badge: "Fast, even coverage",
       },
       {
@@ -1917,7 +1917,7 @@ export const landingPages: LandingPage[] = [
       },
     ],
     relatedLinks: [
-      { href: "/products/aerofix", label: "View Stick-Onn AeroFix" },
+      { href: "/products/wood-to-laminate-spray-adhesive", label: "View Stick-Onn Wood to Laminate Spray Adhesive" },
       { href: "/applications/upholstery-foam-fabric", label: "Upholstery and spray applications" },
       { href: "/applications/automotive-interior", label: "Automotive interior bonding" },
       { href: "/contact", label: "Request a quote or product trial" },
