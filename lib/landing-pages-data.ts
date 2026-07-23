@@ -947,4 +947,1173 @@ export const landingPages: LandingPage[] = [
       { href: "/contact", label: "Request a quote or product trial" },
     ],
   },
+  {
+    slug: "epoxy-resin-adhesive-manufacturer",
+    fullContent: true,
+    navLabel: "Epoxy Resin Adhesive Manufacturer",
+    seoTitle:
+      "Epoxy Resin Adhesive Manufacturer in India | Epoxy Resin Adhesive Supplier",
+    seoDescription:
+      "Stick-Onn is a trusted epoxy resin adhesive manufacturer in India, delivering high-strength, chemical-resistant bonding solutions for industrial applications. Get a quote today.",
+    keywords: [
+      "epoxy resin adhesive manufacturer India",
+      "epoxy resin adhesive supplier",
+      "epoxy resin adhesive manufacturer",
+      "two part epoxy adhesive India",
+      "structural epoxy adhesive",
+      "chemical resistant epoxy adhesive",
+      "industrial epoxy resin adhesive",
+      "Stick-Onn epoxy resin adhesive",
+      "load bearing epoxy adhesive",
+      "epoxy adhesive for metal and wood",
+    ],
+    h1: "Epoxy Resin Adhesive Manufacturer in India",
+    intro:
+      "Looking for a dependable epoxy resin adhesive manufacturer in India? Stick-Onn formulates high-performance epoxy adhesives engineered for exceptional bond strength, chemical resistance, and long-term durability across wood, metal, and composite substrates. As a dedicated epoxy resin adhesive manufacturer, Stick-Onn combines advanced bonding chemistry with hands-on technical support to help manufacturers and fabricators achieve reliable, high-strength bonds for even the most demanding applications.",
+    heroCta: {
+      primaryLabel: "Get a Quote",
+      secondaryLabel: "Talk on WhatsApp",
+      productName: "Epoxy Resin Adhesive",
+    },
+    rangeSectionTitle: "Epoxy Resin Adhesive Range",
+    productShowcaseTitle: "Stick-Onn Epoxy Resin Adhesive Products",
+    midPageCta: {
+      title: "Need help with structural epoxy bonding?",
+      description:
+        "Share your substrate combination and load requirements — our technical team will recommend the right epoxy resin adhesive formulation.",
+      productName: "Epoxy Resin Adhesive",
+    },
+    bottomCta: {
+      title: "Looking for an Epoxy Resin Adhesive Manufacturer You Can Trust?",
+      description:
+        "Whether you need structural bonding strength, chemical resistance, or reliable performance under stress, Stick-Onn's epoxy resin adhesive range is engineered to deliver. Connect with our technical team for a formulation consultation or product trial.",
+      productName: "Epoxy Resin Adhesive",
+    },
+    sections: [
+      {
+        title: "What is Epoxy Resin Adhesive?",
+        paragraphs: [
+          "Epoxy resin adhesive is a two-part thermosetting adhesive formed by combining a resin and a hardener, which chemically react to create an exceptionally strong, rigid bond. Known for its versatility, epoxy adhesive bonds effectively to a wide range of substrates — including wood, metal, glass, ceramics, and composites — making it a preferred choice for structural and industrial applications where standard adhesives fall short.",
+          "Key characteristics of epoxy resin adhesive include:",
+        ],
+        bullets: [
+          "Exceptional bond strength across dissimilar substrates",
+          "High resistance to chemicals, heat, and moisture",
+          "Rigid, load-bearing bond suitable for structural applications",
+          "Excellent gap-filling properties for uneven surfaces",
+          "Long-term durability under mechanical and environmental stress",
+        ],
+      },
+      {
+        title: "Why Choose Stick-Onn as Your Epoxy Resin Adhesive Manufacturer",
+        paragraphs: [
+          "As a specialized epoxy resin adhesive manufacturer, Stick-Onn engineers formulations that meet rigorous industrial performance standards while offering the technical guidance manufacturers need to apply them correctly.",
+        ],
+      },
+      {
+        title: "High-Strength, Structural-Grade Bonding",
+        layout: "card",
+        paragraphs: [
+          "Stick-Onn's epoxy adhesive formulations are engineered for applications requiring maximum bond strength and rigidity, including structural joints and load-bearing assemblies.",
+        ],
+      },
+      {
+        title: "Chemical & Environmental Resistance",
+        layout: "card",
+        paragraphs: [
+          "Formulated to withstand exposure to chemicals, moisture, and temperature fluctuations, Stick-Onn's epoxy adhesives are suited for demanding industrial and outdoor environments.",
+        ],
+      },
+      {
+        title: "Application-Specific Formulations",
+        layout: "card",
+        paragraphs: [
+          "Rather than a generic one-size-fits-all approach, Stick-Onn develops epoxy adhesive grades tailored to specific substrate combinations and production requirements.",
+        ],
+      },
+      {
+        title: "Dedicated Technical Support",
+        layout: "card",
+        paragraphs: [
+          "Stick-Onn's technical team works directly with manufacturers — from substrate consultation through trial runs and line optimization — to identify the right epoxy formulation before full-scale production.",
+        ],
+      },
+      {
+        title: "Pan-India Supply Network",
+        layout: "card",
+        paragraphs: [
+          "With a network of 120+ dealers across India, Stick-Onn ensures manufacturers and workshops nationwide have consistent, reliable access to epoxy resin adhesive.",
+        ],
+      },
+      {
+        title: "Consistent, Benchmarked Quality",
+        layout: "card",
+        paragraphs: [
+          "Every batch of Stick-Onn's epoxy adhesive is tested against ISO and EN quality standards, ensuring uniform performance across every order.",
+        ],
+      },
+      {
+        title: "Applications of Stick-Onn Epoxy Resin Adhesive",
+        paragraphs: [
+          "Stick-Onn's epoxy resin adhesives are used across a range of demanding applications, including:",
+        ],
+        bullets: [
+          "Industrial Fabrication – bonding metal, composite, and dissimilar substrates",
+          "Structural Assemblies – load-bearing joints requiring maximum bond strength",
+          "Furniture & Woodworking – reinforcing joints and structural components",
+          "Repair & Maintenance Applications – gap-filling and structural repairs",
+          "General Manufacturing – bonding across metal, wood, and composite materials",
+        ],
+      },
+      {
+        title: "Epoxy Resin Adhesive Range",
+        paragraphs: [
+          "Stick-Onn's epoxy adhesive offering is designed to address a range of industrial bonding needs, including:",
+        ],
+        bullets: [
+          "Stick-Onn Epoxy Resin Adhesive – two-component structural epoxy for metal, concrete, stone, and high-strength industrial bonding",
+          "Standard-strength epoxy adhesive for general industrial bonding",
+          "High-strength structural-grade epoxy for load-bearing applications",
+          "Custom formulations developed through trials for specific substrate or process requirements",
+        ],
+      },
+      {
+        title: "Manufacturing Quality & Consistency",
+        paragraphs: [
+          "Every batch of Stick-Onn epoxy resin adhesive undergoes strict quality control, with testing for bond strength, cure time, and chemical resistance before dispatch — ensuring dependable performance across every production run.",
+        ],
+      },
+    ],
+    productSlugs: ["epoxy-resin", "stick-onn-pur-adhesive", "drill-free"],
+    productShowcase: [
+      {
+        name: "Stick-Onn Epoxy Resin Adhesive",
+        description:
+          "Two-component structural epoxy for metal, concrete, stone, and high-strength industrial bonding with gap-filling capability.",
+        image: "/images/products/clout-d3.png",
+        href: "/products/epoxy-resin",
+        badge: "Structural epoxy",
+      },
+      {
+        name: "Stick-Onn 1K PUR Adhesive",
+        description:
+          "Moisture-curing polyurethane adhesive for flexible, high-strength structural joints — complements rigid epoxy bonds on demanding assemblies.",
+        image: "/images/products/stick-onn-pur-adhesive.png",
+        href: "/products/stick-onn-pur-adhesive",
+        badge: "Structural bonding",
+      },
+      {
+        name: "Stick-Onn Drill Free Adhesive",
+        description:
+          "High-strength construction adhesive for mounting fixtures, panels, and hardware without drilling or fasteners.",
+        image: "/images/products/wpcfix.png",
+        href: "/products/drill-free",
+        badge: "No-drill mounting",
+      },
+    ],
+    faqs: [
+      {
+        question: "Who is a reliable epoxy resin adhesive manufacturer in India?",
+        answer:
+          "Stick-Onn is a specialized epoxy resin adhesive manufacturer in India, offering high-strength, chemical-resistant formulations backed by technical support for industrial and structural applications.",
+      },
+      {
+        question: "What makes epoxy resin adhesive different from other adhesives?",
+        answer:
+          "Epoxy resin adhesive is a two-part thermosetting adhesive that chemically cures into an exceptionally strong, rigid bond, offering superior chemical and heat resistance compared to many single-component adhesives.",
+      },
+      {
+        question: "Where is epoxy resin adhesive commonly used?",
+        answer:
+          "Epoxy resin adhesives are commonly used in industrial fabrication, structural assemblies, furniture reinforcement, and repair applications requiring maximum bond strength and durability.",
+      },
+      {
+        question: "Is Stick-Onn's epoxy adhesive suitable for structural bonding?",
+        answer:
+          "Yes. Stick-Onn's epoxy resin adhesive formulations are engineered for high-strength, load-bearing applications, making them suitable for structural and industrial bonding needs.",
+      },
+      {
+        question: "Does Stick-Onn supply epoxy resin adhesive across India?",
+        answer:
+          "Yes, Stick-Onn supplies epoxy resin adhesive nationwide through a network of 120+ dealers, ensuring consistent availability for manufacturers and workshops across India.",
+      },
+    ],
+    relatedLinks: [
+      { href: "/products/epoxy-resin", label: "View Stick-Onn Epoxy Resin Adhesive" },
+      { href: "/applications/epoxy-repairs", label: "Epoxy repair applications" },
+      { href: "/applications/industrial-assembly", label: "Industrial assembly solutions" },
+      { href: "/contact", label: "Request a quote or product trial" },
+    ],
+  },
+  {
+    slug: "waterproof-wood-adhesive-manufacturer",
+    fullContent: true,
+    navLabel: "Waterproof Wood Adhesive Manufacturer",
+    seoTitle:
+      "Waterproof Wood Adhesive Manufacturer in India | Waterproof Wood Adhesive Supplier",
+    seoDescription:
+      "Stick-Onn is a leading waterproof wood adhesive manufacturer in India, offering high-strength Aqua+ adhesive for moisture-resistant furniture bonding. Get a quote today.",
+    keywords: [
+      "waterproof wood adhesive manufacturer India",
+      "waterproof wood adhesive supplier",
+      "waterproof wood adhesive manufacturer",
+      "moisture resistant wood glue India",
+      "waterproof wood glue manufacturer",
+      "Stick-Onn Aqua+ adhesive",
+      "modular kitchen adhesive",
+      "bathroom furniture adhesive",
+      "humid climate wood adhesive",
+      "waterproof adhesive for furniture",
+    ],
+    h1: "Waterproof Wood Adhesive Manufacturer in India",
+    intro:
+      "Looking for a trusted waterproof wood adhesive manufacturer in India? Stick-Onn formulates high-performance waterproof wood adhesives engineered to withstand moisture, humidity, and everyday wear — ideal for modular furniture, carpentry, and interior woodworking projects. As a dedicated waterproof wood adhesive manufacturer, Stick-Onn combines proven bonding chemistry with hands-on technical support to help carpenters and manufacturers deliver furniture that holds up in real-world conditions, not just on paper.",
+    heroCta: {
+      primaryLabel: "Get a Quote",
+      secondaryLabel: "Talk on WhatsApp",
+      productName: "Aqua+ Waterproof Wood Adhesive",
+    },
+    rangeSectionTitle: "Waterproof Wood Adhesive Range",
+    productShowcaseTitle: "Stick-Onn Waterproof Wood Adhesive Products",
+    midPageCta: {
+      title: "Need help with moisture-resistant bonding?",
+      description:
+        "Share your substrate and application environment — our technical team will guide you on Aqua+ application and curing for waterproof performance.",
+      productName: "Aqua+ Waterproof Wood Adhesive",
+    },
+    bottomCta: {
+      title: "Looking for a Waterproof Wood Adhesive Manufacturer You Can Trust?",
+      description:
+        "Whether you're building modular kitchens, bathroom furniture, or everyday woodwork that needs to withstand moisture, Stick-Onn's waterproof wood adhesive is engineered to perform. Connect with our technical team for a formulation consultation or product trial.",
+      productName: "Aqua+ Waterproof Wood Adhesive",
+    },
+    sections: [
+      {
+        title: "What is Waterproof Wood Adhesive?",
+        paragraphs: [
+          "Waterproof wood adhesive is a specially formulated bonding agent designed to maintain strong adhesion even when exposed to moisture, humidity, or direct water contact. Unlike standard wood glues that weaken or fail under wet conditions, waterproof wood adhesives are engineered to preserve bond strength over time — making them essential for furniture used in kitchens, bathrooms, and other moisture-prone environments.",
+          "Key characteristics of waterproof wood adhesive include:",
+        ],
+        bullets: [
+          "Strong resistance to water, humidity, and moisture ingress",
+          "Long-term bond strength even in fluctuating environmental conditions",
+          "Suitable for both interior and semi-exposed furniture applications",
+          "Compatibility with a wide range of wood and wood-based substrates",
+          "Reduced risk of joint failure, swelling, or delamination over time",
+        ],
+      },
+      {
+        title: "Why Choose Stick-Onn as Your Waterproof Wood Adhesive Manufacturer",
+        paragraphs: [
+          "As a specialized waterproof wood adhesive manufacturer, Stick-Onn engineers formulations that solve real bonding challenges faced by carpenters and furniture manufacturers working in India's varied climate conditions.",
+        ],
+      },
+      {
+        title: "Proven Waterproof Formulation",
+        layout: "card",
+        paragraphs: [
+          "Stick-Onn Aqua+ is formulated specifically for waterproof performance, giving carpenters and manufacturers confidence that furniture will hold up in humid or wet-prone environments over the long term.",
+        ],
+      },
+      {
+        title: "Built for Indian Climate Conditions",
+        layout: "card",
+        paragraphs: [
+          "Developed with over 20 years of experience serving Indian woodworkers, Stick-Onn's waterproof wood adhesive is engineered to perform reliably across the humidity and temperature variations found across the country.",
+        ],
+      },
+      {
+        title: "Application-Specific Support",
+        layout: "card",
+        paragraphs: [
+          "Stick-Onn's technical team works directly with carpenters and manufacturers to guide substrate selection, application technique, and curing conditions for optimal waterproof performance.",
+        ],
+      },
+      {
+        title: "Dedicated Technical Assistance",
+        layout: "card",
+        paragraphs: [
+          "From initial consultation to on-site or virtual support, Stick-Onn helps workshops and manufacturers fine-tune their bonding process before scaling up production.",
+        ],
+      },
+      {
+        title: "Pan-India Supply Network",
+        layout: "card",
+        paragraphs: [
+          "With a network of 120+ dealers across India, Stick-Onn ensures consistent availability of waterproof wood adhesive for workshops, carpenters, and furniture manufacturers nationwide.",
+        ],
+      },
+      {
+        title: "Consistent, Benchmarked Quality",
+        layout: "card",
+        paragraphs: [
+          "Every batch of Stick-Onn's waterproof wood adhesive is tested against ISO and EN quality standards, ensuring uniform performance and reliability across every order.",
+        ],
+      },
+      {
+        title: "Applications of Stick-Onn Waterproof Wood Adhesive",
+        paragraphs: [
+          "Stick-Onn's waterproof wood adhesive is used across a range of furniture and woodworking applications, including:",
+        ],
+        bullets: [
+          "Modular Kitchen Furniture – bonding in high-moisture, high-humidity zones",
+          "Bathroom Furniture & Cabinetry – long-term resistance to water exposure",
+          "Modular Wardrobes & Storage Units – durable bonding for everyday furniture",
+          "General Carpentry & Joinery – panel and joint bonding for interior woodworking",
+          "Furniture for Humid Regions – reliable performance in coastal or high-humidity climates",
+        ],
+      },
+      {
+        title: "Waterproof Wood Adhesive Range",
+        paragraphs: ["Stick-Onn's waterproof wood adhesive offering includes:"],
+        bullets: [
+          "Stick-Onn Aqua+ – waterproof wood adhesive engineered for wet environments and modular furniture applications",
+          "Stick-Onn Clout D3 – D3-grade moisture-resistant wood adhesive for export-quality furniture builds",
+          "Stick-Onn 1K PUR Adhesive – moisture-curing polyurethane for structural joints in wet-prone environments",
+        ],
+      },
+      {
+        title: "Manufacturing Quality & Consistency",
+        paragraphs: [
+          "Every batch of Stick-Onn waterproof wood adhesive undergoes rigorous quality control, with testing for water resistance, bond strength, and curing performance before dispatch — ensuring every batch delivers dependable, long-lasting results.",
+        ],
+      },
+    ],
+    productSlugs: ["aqua-plus", "clout-d3", "stick-onn-pur-adhesive"],
+    productShowcase: [
+      {
+        name: "Stick-Onn Aqua Adhesive (Aqua+)",
+        description:
+          "Waterproof wood adhesive engineered for wet and outdoor environments — rapid cure for modular kitchens, bathroom furniture, and on-site carpentry.",
+        image: "/images/products/aqua-plus.png",
+        href: "/products/aqua-plus",
+        badge: "Waterproof",
+      },
+      {
+        name: "Stick-Onn Clout D3",
+        description:
+          "High-performance D3-grade wood adhesive with moisture resistance, fast drying, and anti-termite protection for furniture manufacturing.",
+        image: "/images/products/clout-d3.png",
+        href: "/products/clout-d3",
+        badge: "D3 grade",
+      },
+      {
+        name: "Stick-Onn 1K PUR Adhesive",
+        description:
+          "Moisture-curing polyurethane adhesive for structural, exterior-grade joints where maximum water resistance is required.",
+        image: "/images/products/stick-onn-pur-adhesive.png",
+        href: "/products/stick-onn-pur-adhesive",
+        badge: "Structural bonding",
+      },
+    ],
+    faqs: [
+      {
+        question: "Who is a reliable waterproof wood adhesive manufacturer in India?",
+        answer:
+          "Stick-Onn is a specialized waterproof wood adhesive manufacturer in India, offering Aqua+, a moisture-resistant adhesive backed by technical support for carpenters and furniture manufacturers.",
+      },
+      {
+        question: "What makes an adhesive \"waterproof\" for wood applications?",
+        answer:
+          "A waterproof wood adhesive is formulated to maintain strong adhesion even after prolonged exposure to water or humidity, unlike standard wood glues that weaken or fail under moist conditions.",
+      },
+      {
+        question: "Where is waterproof wood adhesive commonly used?",
+        answer:
+          "Waterproof wood adhesive is commonly used in modular kitchens, bathroom furniture, wardrobes, and general carpentry projects where moisture resistance is essential.",
+      },
+      {
+        question: "Is Stick-Onn's waterproof adhesive suitable for humid climates?",
+        answer:
+          "Yes. Stick-Onn Aqua+ is engineered to perform reliably across varying humidity and temperature conditions, making it well-suited for use across India's diverse climate zones.",
+      },
+      {
+        question: "Does Stick-Onn supply waterproof wood adhesive across India?",
+        answer:
+          "Yes, Stick-Onn supplies waterproof wood adhesive nationwide through a network of 120+ dealers, ensuring consistent availability for carpenters and furniture manufacturers across India.",
+      },
+    ],
+    relatedLinks: [
+      { href: "/products/aqua-plus", label: "View Stick-Onn Aqua+ Adhesive" },
+      { href: "/applications/furniture-manufacturing", label: "Furniture manufacturing applications" },
+      { href: "/d3-adhesive-manufacturer", label: "D3 adhesive for export-quality furniture" },
+      { href: "/contact", label: "Request a quote or product trial" },
+    ],
+  },
+  {
+    slug: "1k-pur-adhesive-manufacturer",
+    fullContent: true,
+    navLabel: "1K PUR Adhesive Manufacturer",
+    seoTitle: "1K PUR Adhesive Manufacturer in India | 1K PUR Adhesive Supplier",
+    seoDescription:
+      "Stick-Onn is a leading 1K PUR adhesive manufacturer in India, offering single-component moisture-curing polyurethane adhesive for high-strength bonding. Get a quote today.",
+    keywords: [
+      "1K PUR adhesive manufacturer India",
+      "1K PUR adhesive supplier",
+      "1K PUR adhesive manufacturer",
+      "single component polyurethane adhesive",
+      "moisture curing PUR adhesive India",
+      "one part PUR adhesive",
+      "Stick-Onn 1K PUR adhesive",
+      "WPC bonding adhesive",
+      "polyurethane reactive adhesive India",
+      "industrial PUR adhesive supplier",
+    ],
+    h1: "1K PUR Adhesive Manufacturer in India",
+    intro:
+      "Looking for a specialized 1K PUR adhesive manufacturer in India? Stick-Onn formulates single-component, moisture-curing polyurethane adhesive engineered to deliver industrial-grade bond strength without the complexity of mixing ratios or pot life restrictions. As a dedicated 1K PUR adhesive manufacturer, Stick-Onn helps manufacturers simplify their bonding process while achieving durable, high-performance results across demanding production environments.",
+    heroCta: {
+      primaryLabel: "Get a Quote",
+      secondaryLabel: "Talk on WhatsApp",
+      productName: "1K PUR Adhesive",
+    },
+    rangeSectionTitle: "1K PUR Adhesive Range",
+    productShowcaseTitle: "Stick-Onn 1K PUR Adhesive Products",
+    midPageCta: {
+      title: "Need help selecting the right 1K PUR grade?",
+      description:
+        "Share your substrate combination and assembly process — our technical team will recommend the optimal 1K PUR formulation.",
+      productName: "1K PUR Adhesive",
+    },
+    bottomCta: {
+      title: "Looking for a 1K PUR Adhesive Manufacturer You Can Trust?",
+      description:
+        "Whether you need simplified application, structural bond strength, or long-term moisture resistance, Stick-Onn's 1K PUR adhesive is engineered to deliver. Connect with our technical team for a formulation consultation or product trial.",
+      productName: "1K PUR Adhesive",
+    },
+    sections: [
+      {
+        title: "What is 1K PUR Adhesive?",
+        paragraphs: [
+          "1K PUR adhesive (single-component polyurethane reactive adhesive) is a ready-to-use bonding agent that cures through a chemical reaction with atmospheric moisture — eliminating the need for a separate hardener or precise mixing ratios required by two-component systems. Once applied, the adhesive builds initial strength quickly and continues curing over time to form an exceptionally strong, flexible, and durable bond.",
+          "Key characteristics of 1K PUR adhesive include:",
+        ],
+        bullets: [
+          "Single-component formulation — no mixing or measuring required",
+          "Moisture-activated curing for consistent, reliable bonding",
+          "High initial tack combined with strong final bond strength",
+          "Excellent flexibility, reducing the risk of cracking under stress",
+          "Strong resistance to heat, moisture, and chemical exposure",
+          "Effective bonding across dissimilar substrates, including wood, metal, and composites",
+        ],
+      },
+      {
+        title: "Why Choose Stick-Onn as Your 1K PUR Adhesive Manufacturer",
+        paragraphs: [
+          "As a specialized 1K PUR adhesive manufacturer, Stick-Onn engineers formulations that simplify application on the production floor while meeting demanding industrial performance requirements.",
+        ],
+      },
+      {
+        title: "Simplified, Ready-to-Use Application",
+        layout: "card",
+        paragraphs: [
+          "Because it's single-component, Stick-Onn's 1K PUR adhesive removes the complexity, waste, and error risk associated with two-part mixing systems — saving time and reducing material wastage on the line.",
+        ],
+      },
+      {
+        title: "High-Strength, Flexible Bonding",
+        layout: "card",
+        paragraphs: [
+          "Engineered for demanding applications, Stick-Onn's 1K PUR adhesive delivers a bond that is both strong and flexible, resisting cracking or failure under mechanical stress or temperature fluctuation.",
+        ],
+      },
+      {
+        title: "Application-Specific Formulations",
+        layout: "card",
+        paragraphs: [
+          "Stick-Onn develops 1K PUR adhesive grades tailored to specific substrate combinations and production processes, ensuring optimal adhesion for each manufacturer's unique requirements.",
+        ],
+      },
+      {
+        title: "Dedicated Technical Support",
+        layout: "card",
+        paragraphs: [
+          "Stick-Onn's technical team works directly with manufacturers — from substrate consultation through trial runs and line optimization — to identify the right formulation before full-scale production.",
+        ],
+      },
+      {
+        title: "Pan-India Supply Network",
+        layout: "card",
+        paragraphs: [
+          "With a network of 120+ dealers across India, Stick-Onn ensures manufacturers and workshops nationwide have consistent, reliable access to 1K PUR adhesive.",
+        ],
+      },
+      {
+        title: "Consistent, Benchmarked Quality",
+        layout: "card",
+        paragraphs: [
+          "Every batch of Stick-Onn's 1K PUR adhesive is tested against ISO and EN quality standards, ensuring uniform performance and reliability across every order.",
+        ],
+      },
+      {
+        title: "Applications of Stick-Onn 1K PUR Adhesive",
+        paragraphs: [
+          "Stick-Onn's 1K PUR adhesive is used across a range of demanding bonding applications, including:",
+        ],
+        bullets: [
+          "Furniture Manufacturing – structural joints and load-bearing assemblies",
+          "Modular & Fit-Out Projects – bonding across wood, laminate, and composite materials",
+          "Wood-Plastic Composite (WPC) Applications – high-strength bonding for WPC boards and profiles",
+          "Industrial Fabrication – bonding dissimilar substrates in demanding environments",
+          "Moisture-Prone Environments – applications requiring long-term water and humidity resistance",
+        ],
+      },
+      {
+        title: "1K PUR Adhesive Range",
+        paragraphs: ["Stick-Onn's 1K PUR adhesive offering includes:"],
+        bullets: [
+          "Stick-Onn 1K PUR Adhesive – single-component, moisture-curing polyurethane adhesive designed for high-strength, demanding bonding applications",
+          "Stick-Onn WPCfix – high-grab composite adhesive that complements 1K PUR on WPC boards and profiles",
+        ],
+      },
+      {
+        title: "Manufacturing Quality & Consistency",
+        paragraphs: [
+          "Every batch of Stick-Onn 1K PUR adhesive undergoes strict quality control, with testing for cure time, bond strength, viscosity, and moisture resistance before dispatch — ensuring dependable performance across every production run.",
+        ],
+      },
+    ],
+    productSlugs: ["stick-onn-pur-adhesive", "wpcfix", "clout-d3"],
+    productShowcase: [
+      {
+        name: "Stick-Onn 1K PUR Adhesive",
+        description:
+          "Industrial-grade, moisture-curing polyurethane adhesive — waterproof, all-weather, and non-hazardous. For high-strength structural bonding on wood, WPC, MDF, and composite substrates.",
+        image: "/images/products/stick-onn-pur-adhesive.png",
+        href: "/products/stick-onn-pur-adhesive",
+        badge: "Industrial grade",
+      },
+      {
+        name: "Stick-Onn 1K PUR — Application & Specs",
+        description:
+          "High bonding strength with moisture-curing for humid conditions. Apply evenly, press firmly, and allow 24–48 hours cure. Available in 500 g packs.",
+        image: "/images/products/stick-onn-pur-adhesive-front-back.png",
+        href: "/products/stick-onn-pur-adhesive",
+        badge: "500 g pack",
+      },
+      {
+        name: "Stick-Onn WPCfix Adhesive",
+        description:
+          "Purpose-engineered for WPC boards and profiles — high initial tack and flexible bond line for door and composite fabrication.",
+        image: "/images/products/wpcfix.png",
+        href: "/products/wpcfix",
+        badge: "WPC bonding",
+      },
+    ],
+    faqs: [
+      {
+        question: "Who is a reliable 1K PUR adhesive manufacturer in India?",
+        answer:
+          "Stick-Onn is a specialized 1K PUR adhesive manufacturer in India, offering single-component, moisture-curing polyurethane adhesive backed by technical support for furniture and industrial manufacturers.",
+      },
+      {
+        question: "What does \"1K\" mean in 1K PUR adhesive?",
+        answer:
+          "\"1K\" refers to a single-component (one-part) formulation, meaning the adhesive is ready to use straight from the container and cures by reacting with atmospheric moisture, unlike two-component (2K) systems that require mixing.",
+      },
+      {
+        question: "How is 1K PUR adhesive different from standard PUR adhesive?",
+        answer:
+          "1K PUR adhesive is a single-component version of polyurethane reactive adhesive, offering the same strength and durability as two-component PUR systems but without the need for precise mixing ratios or limited pot life.",
+      },
+      {
+        question: "Where is 1K PUR adhesive commonly used?",
+        answer:
+          "1K PUR adhesive is commonly used in furniture manufacturing, modular fit-outs, WPC applications, and industrial fabrication where strong, durable, and moisture-resistant bonds are required.",
+      },
+      {
+        question: "Does Stick-Onn supply 1K PUR adhesive across India?",
+        answer:
+          "Yes, Stick-Onn supplies 1K PUR adhesive nationwide through a network of 120+ dealers, ensuring consistent availability for manufacturers and workshops across India.",
+      },
+    ],
+    relatedLinks: [
+      { href: "/products/stick-onn-pur-adhesive", label: "View Stick-Onn 1K PUR Adhesive" },
+      { href: "/applications/wpc-pvc-installation", label: "WPC bonding applications" },
+      { href: "/polyurethane-adhesive-manufacturer", label: "Polyurethane adhesive manufacturing" },
+      { href: "/contact", label: "Request a quote or product trial" },
+    ],
+  },
+  {
+    slug: "nail-free-adhesive-manufacturer",
+    fullContent: true,
+    navLabel: "Nail Free Adhesive Manufacturer",
+    seoTitle:
+      "Nail Free Adhesive Manufacturer in India | Nail Free Adhesive Supplier",
+    seoDescription:
+      "Stick-Onn is a trusted nail free adhesive manufacturer in India, offering high-strength construction-grade adhesive for mounting and bonding without nails or screws.",
+    keywords: [
+      "nail free adhesive manufacturer India",
+      "nail free adhesive supplier",
+      "nail free adhesive manufacturer",
+      "no nails adhesive India",
+      "construction adhesive manufacturer",
+      "drill free adhesive India",
+      "panel mounting adhesive",
+      "Stick-Onn drill free adhesive",
+      "fastener free bonding adhesive",
+      "wall panel adhesive India",
+    ],
+    h1: "Nail Free Adhesive Manufacturer in India",
+    intro:
+      "Looking for a dependable nail free adhesive manufacturer in India? Stick-Onn formulates high-strength, construction-grade adhesives engineered to bond panels, trims, and fixtures securely — without the need for nails, screws, or visible fasteners. As a dedicated nail free adhesive manufacturer, Stick-Onn combines advanced bonding chemistry with hands-on technical support to help carpenters, fabricators, and installers achieve clean, damage-free, long-lasting results.",
+    heroCta: {
+      primaryLabel: "Get a Quote",
+      secondaryLabel: "Talk on WhatsApp",
+      productName: "Nail Free Adhesive",
+    },
+    rangeSectionTitle: "Nail Free Adhesive Range",
+    productShowcaseTitle: "Stick-Onn Nail Free Adhesive Products",
+    midPageCta: {
+      title: "Need help with fastener-free mounting?",
+      description:
+        "Share your substrate and fixture details — our technical team will recommend the right nail free adhesive for a clean, secure bond.",
+      productName: "Nail Free Adhesive",
+    },
+    bottomCta: {
+      title: "Looking for a Nail Free Adhesive Manufacturer You Can Trust?",
+      description:
+        "Whether you're mounting panels, trims, or fixtures, Stick-Onn's nail free adhesive delivers a strong, clean, fastener-free bond. Connect with our technical team for a formulation consultation or product trial.",
+      productName: "Nail Free Adhesive",
+    },
+    sections: [
+      {
+        title: "What is Nail Free Adhesive?",
+        paragraphs: [
+          "Nail free adhesive is a high-strength construction adhesive designed to permanently bond materials such as wood, panels, trims, mouldings, and fixtures to walls, ceilings, or other surfaces — eliminating the need for nails, screws, or drilling. It's especially valued in interior fit-out and carpentry work where a clean, fastener-free finish is essential, or where drilling could damage the substrate.",
+          "Key characteristics of nail free adhesive include:",
+        ],
+        bullets: [
+          "Strong initial grab, holding materials in place without support",
+          "High final bond strength for long-term, secure mounting",
+          "No visible nail holes, screw marks, or surface damage",
+          "Suitable for a wide range of substrates including wood, panels, and trims",
+          "Reduces installation time compared to traditional fastening methods",
+        ],
+      },
+      {
+        title: "Why Choose Stick-Onn as Your Nail Free Adhesive Manufacturer",
+        paragraphs: [
+          "As a specialized nail free adhesive manufacturer, Stick-Onn engineers formulations that make fastener-free bonding fast, clean, and dependable for real installation work.",
+        ],
+      },
+      {
+        title: "Strong Initial Grab & Hold",
+        layout: "card",
+        paragraphs: [
+          "Stick-Onn's nail free adhesive is formulated to grip immediately upon application, holding panels, trims, and fixtures securely in place while the bond fully cures.",
+        ],
+      },
+      {
+        title: "Clean, Damage-Free Installation",
+        layout: "card",
+        paragraphs: [
+          "By eliminating the need for nails or screws, Stick-Onn's nail free adhesive helps carpenters and installers deliver a cleaner finish, free from visible fastener marks or surface damage.",
+        ],
+      },
+      {
+        title: "Application-Specific Formulations",
+        layout: "card",
+        paragraphs: [
+          "Stick-Onn develops nail free adhesive grades suited to a variety of substrate combinations, ensuring reliable performance across different mounting and bonding needs.",
+        ],
+      },
+      {
+        title: "Dedicated Technical Support",
+        layout: "card",
+        paragraphs: [
+          "Stick-Onn's technical team works directly with carpenters and installers — from substrate consultation to trial application — to ensure the right adhesive is used for each project.",
+        ],
+      },
+      {
+        title: "Pan-India Supply Network",
+        layout: "card",
+        paragraphs: [
+          "With a network of 120+ dealers across India, Stick-Onn ensures workshops, carpenters, and fabricators nationwide have consistent access to nail free adhesive.",
+        ],
+      },
+      {
+        title: "Consistent, Benchmarked Quality",
+        layout: "card",
+        paragraphs: [
+          "Every batch of Stick-Onn's nail free adhesive is tested against ISO and EN quality standards, ensuring reliable, repeatable performance across every order.",
+        ],
+      },
+      {
+        title: "Applications of Stick-Onn Nail Free Adhesive",
+        paragraphs: [
+          "Stick-Onn's nail free adhesive is used across a range of interior and carpentry applications, including:",
+        ],
+        bullets: [
+          "Wall Panelling & Wainscoting – secure, fastener-free panel mounting",
+          "Moulding & Trim Installation – clean bonding without nail holes",
+          "Modular Furniture Assembly – bonding components without visible fasteners",
+          "Ceiling & Cornice Fixing – secure mounting on overhead surfaces",
+          "General Interior Fit-Out Work – fastener-free bonding across wood, laminate, and panel materials",
+        ],
+      },
+      {
+        title: "Nail Free Adhesive Range",
+        paragraphs: ["Stick-Onn's nail free adhesive offering includes:"],
+        bullets: [
+          "Stick-Onn Drill Free Adhesive – high-strength construction adhesive for mounting panels, mirrors, and fixtures without drilling or nails",
+          "Standard-grade nail free adhesive for general panel and trim mounting",
+          "High-strength formulations for heavier fixtures and load-bearing applications",
+        ],
+      },
+      {
+        title: "Manufacturing Quality & Consistency",
+        paragraphs: [
+          "Every batch of Stick-Onn nail free adhesive undergoes rigorous quality control, with testing for initial grab strength, final bond strength, and curing performance before dispatch — ensuring dependable results on every job.",
+        ],
+      },
+    ],
+    productSlugs: ["drill-free", "epoxy-resin", "wpcfix"],
+    productShowcase: [
+      {
+        name: "Stick-Onn Drill Free Adhesive",
+        description:
+          "High-strength construction adhesive for drill-free mounting of mirrors, panels, trims, and fixtures — strong initial grab with a clean, fastener-free finish.",
+        image: "/images/products/wpcfix.png",
+        href: "/products/drill-free",
+        badge: "No-drill mounting",
+      },
+      {
+        name: "Stick-Onn Epoxy Resin Adhesive",
+        description:
+          "Two-component structural epoxy for heavier fixtures and load-bearing mounting where maximum rigidity is required.",
+        image: "/images/products/clout-d3.png",
+        href: "/products/epoxy-resin",
+        badge: "Structural epoxy",
+      },
+      {
+        name: "Stick-Onn WPCfix Adhesive",
+        description:
+          "High-grab adhesive for WPC and composite panel bonding — complements nail free mounting in interior fit-out projects.",
+        image: "/images/products/wpcfix.png",
+        href: "/products/wpcfix",
+        badge: "WPC bonding",
+      },
+    ],
+    faqs: [
+      {
+        question: "Who is a reliable nail free adhesive manufacturer in India?",
+        answer:
+          "Stick-Onn is a specialized nail free adhesive manufacturer in India, offering high-strength construction adhesives backed by technical support for carpenters and interior fit-out professionals.",
+      },
+      {
+        question: "What is nail free adhesive used for?",
+        answer:
+          "Nail free adhesive is used to bond panels, trims, mouldings, and fixtures to walls, ceilings, or surfaces without the need for nails, screws, or drilling.",
+      },
+      {
+        question: "Does nail free adhesive hold as strongly as nails or screws?",
+        answer:
+          "Yes. High-quality nail free adhesive is engineered to provide strong initial grab and long-term bond strength, often matching or exceeding the holding power of traditional fasteners for interior applications.",
+      },
+      {
+        question: "Is nail free adhesive suitable for heavy fixtures?",
+        answer:
+          "Depending on the formulation, nail free adhesive can support a range of loads — from lightweight trims to heavier panels and fixtures — making it versatile for various interior applications.",
+      },
+      {
+        question: "Does Stick-Onn supply nail free adhesive across India?",
+        answer:
+          "Yes, Stick-Onn supplies nail free adhesive nationwide through a network of 120+ dealers, ensuring consistent availability for carpenters and installers across India.",
+      },
+    ],
+    relatedLinks: [
+      { href: "/products/drill-free", label: "View Stick-Onn Drill Free Adhesive" },
+      { href: "/applications/construction-mounting", label: "Construction and mounting solutions" },
+      { href: "/applications/furniture-manufacturing", label: "Furniture manufacturing applications" },
+      { href: "/contact", label: "Request a quote or product trial" },
+    ],
+  },
+  {
+    slug: "spray-adhesive-manufacturer",
+    fullContent: true,
+    navLabel: "Spray Adhesive Manufacturer",
+    seoTitle: "Spray Adhesive Manufacturer in India | Spray Adhesive Supplier",
+    seoDescription:
+      "Stick-Onn is a trusted spray adhesive manufacturer in India, offering AeroFix for fast, even bonding of foam, fabric & panels. Get a quote today.",
+    keywords: [
+      "spray adhesive manufacturer India",
+      "spray adhesive supplier",
+      "spray adhesive manufacturer",
+      "aerosol adhesive manufacturer India",
+      "foam lamination spray adhesive",
+      "upholstery spray adhesive India",
+      "Stick-Onn AeroFix",
+      "fabric bonding spray adhesive",
+      "panel lamination spray adhesive",
+      "industrial spray adhesive supplier",
+    ],
+    h1: "Spray Adhesive Manufacturer in India",
+    intro:
+      "Looking for a reliable spray adhesive manufacturer in India? Stick-Onn formulates high-performance spray adhesives engineered for fast, even coverage and strong bonding across foam, fabric, and panel materials. As a dedicated spray adhesive manufacturer, Stick-Onn combines precision formulation with hands-on technical support to help upholsterers, fabricators, and manufacturers achieve consistent, professional-grade results with every application.",
+    heroCta: {
+      primaryLabel: "Get a Quote",
+      secondaryLabel: "Talk on WhatsApp",
+      productName: "AeroFix Spray Adhesive",
+    },
+    rangeSectionTitle: "Spray Adhesive Range",
+    productShowcaseTitle: "Stick-Onn Spray Adhesive Products",
+    midPageCta: {
+      title: "Need help choosing a spray adhesive?",
+      description:
+        "Share your materials and coverage requirements — our technical team will recommend the right spray adhesive formulation for your application.",
+      productName: "AeroFix Spray Adhesive",
+    },
+    bottomCta: {
+      title: "Looking for a Spray Adhesive Manufacturer You Can Trust?",
+      description:
+        "Whether you're laminating foam, bonding fabric, or assembling panels, Stick-Onn's spray adhesive delivers fast, even, and reliable results. Connect with our technical team for a formulation consultation or product trial.",
+      productName: "AeroFix Spray Adhesive",
+    },
+    sections: [
+      {
+        title: "What is Spray Adhesive?",
+        paragraphs: [
+          "Spray adhesive is a bonding agent applied in aerosol or spray form, allowing for fast, even coverage over large or irregular surfaces without the mess or inconsistency of brush or roller application. Its fine, uniform spray pattern makes it especially suited for lamination work involving foam, fabric, and thin panel materials, where even adhesive distribution is critical to achieving a smooth, wrinkle-free bond.",
+          "Key characteristics of spray adhesive include:",
+        ],
+        bullets: [
+          "Fast, even application over large or irregular surfaces",
+          "Uniform coverage that reduces wrinkling and bubbling in fabric or foam",
+          "Quick tack time for efficient production workflows",
+          "Suitable for lightweight materials where liquid adhesives may cause damage",
+          "Reduced material wastage compared to brush or roller application",
+        ],
+      },
+      {
+        title: "Why Choose Stick-Onn as Your Spray Adhesive Manufacturer",
+        paragraphs: [
+          "As a specialized spray adhesive manufacturer, Stick-Onn engineers formulations that solve real lamination and upholstery challenges faced on the production floor.",
+        ],
+      },
+      {
+        title: "Fast, Even Coverage",
+        layout: "card",
+        paragraphs: [
+          "Stick-Onn AeroFix is formulated for a fine, consistent spray pattern, ensuring even adhesive distribution across foam, fabric, and panel surfaces without over-saturation.",
+        ],
+      },
+      {
+        title: "Reliable Bond for Lightweight Materials",
+        layout: "card",
+        paragraphs: [
+          "Engineered specifically for foam and fabric lamination, Stick-Onn's spray adhesive bonds securely without damaging or distorting delicate materials.",
+        ],
+      },
+      {
+        title: "Application-Specific Formulations",
+        layout: "card",
+        paragraphs: [
+          "Stick-Onn develops spray adhesive grades suited to specific materials and production processes, ensuring optimal adhesion across different upholstery and panel applications.",
+        ],
+      },
+      {
+        title: "Dedicated Technical Support",
+        layout: "card",
+        paragraphs: [
+          "Stick-Onn's technical team works directly with manufacturers — from substrate consultation through trial runs and line optimization — to identify the right spray adhesive formulation for each application.",
+        ],
+      },
+      {
+        title: "Pan-India Supply Network",
+        layout: "card",
+        paragraphs: [
+          "With a network of 120+ dealers across India, Stick-Onn ensures manufacturers and workshops nationwide have consistent, reliable access to spray adhesive.",
+        ],
+      },
+      {
+        title: "Consistent, Benchmarked Quality",
+        layout: "card",
+        paragraphs: [
+          "Every batch of Stick-Onn's spray adhesive is tested against ISO and EN quality standards, ensuring uniform performance and reliability across every order.",
+        ],
+      },
+      {
+        title: "Applications of Stick-Onn Spray Adhesive",
+        paragraphs: [
+          "Stick-Onn's spray adhesive, AeroFix, is used across a range of lamination and assembly applications, including:",
+        ],
+        bullets: [
+          "Foam Lamination – bonding foam layers for cushions, mattresses, and seating",
+          "Fabric & Upholstery Work – securing fabric to foam or panel surfaces",
+          "Panel Lamination – bonding thin panels and laminates evenly",
+          "Automotive Interiors – foam and fabric bonding for seating and trim",
+          "General Craft & Fabrication Work – fast, even bonding for lightweight materials",
+        ],
+      },
+      {
+        title: "Spray Adhesive Range",
+        paragraphs: ["Stick-Onn's spray adhesive offering includes:"],
+        bullets: [
+          "Stick-Onn AeroFix – spray adhesive engineered for foam, fabric, and panel lamination",
+          "Stick-Onn Lam2Lam – specialty contact adhesive for laminate-to-laminate and HPL bonding",
+          "Stick-Onn Hotmelt – complementary edge banding and point-bond adhesive for mixed-technology lines",
+        ],
+      },
+      {
+        title: "Manufacturing Quality & Consistency",
+        paragraphs: [
+          "Every batch of Stick-Onn spray adhesive undergoes strict quality control, with testing for spray consistency, tack time, and bond strength before dispatch — ensuring dependable performance across every production run.",
+        ],
+      },
+    ],
+    productSlugs: ["aerofix", "lam2lam", "hotmelt"],
+    productShowcase: [
+      {
+        name: "Stick-Onn AeroFix",
+        description:
+          "Spray adhesive with fine mist coverage and fast tack for foam lamination, upholstery, and panel bonding — even coverage without over-saturation.",
+        image: "/images/products/aerofix.png",
+        href: "/products/aerofix",
+        badge: "Fast, even coverage",
+      },
+      {
+        name: "Stick-Onn Lam2Lam Adhesive",
+        description:
+          "Specialty contact adhesive for laminate-to-laminate, HPL, and countertop fabrication with clean, heat-resistant bonds.",
+        image: "/images/products/heatfix.png",
+        href: "/products/lam2lam",
+        badge: "HPL bonding",
+      },
+      {
+        name: "Stick-Onn Hotmelt Adhesive",
+        description:
+          "Fast-set hot melt for edge banding and point bonds — complements AeroFix on mixed upholstery and furniture lines.",
+        image: "/images/products/hotmelt-1kg.png",
+        href: "/products/hotmelt",
+        badge: "Edge & point bonds",
+      },
+    ],
+    faqs: [
+      {
+        question: "Who is a reliable spray adhesive manufacturer in India?",
+        answer:
+          "Stick-Onn is a specialized spray adhesive manufacturer in India, offering AeroFix, a fast-bonding spray adhesive backed by technical support for upholstery and lamination professionals.",
+      },
+      {
+        question: "What is spray adhesive used for?",
+        answer:
+          "Spray adhesive is used for fast, even bonding of foam, fabric, and panel materials, commonly in upholstery, cushion manufacturing, automotive interiors, and lamination work.",
+      },
+      {
+        question: "Why choose spray adhesive over liquid adhesive for foam and fabric?",
+        answer:
+          "Spray adhesive provides more even coverage over large or irregular surfaces, reducing wrinkling, bubbling, and material damage compared to brush or roller-applied liquid adhesives.",
+      },
+      {
+        question: "Is Stick-Onn's spray adhesive suitable for automotive upholstery?",
+        answer:
+          "Yes. Stick-Onn AeroFix is well-suited for automotive interior applications, including foam and fabric bonding for seating and trim components.",
+      },
+      {
+        question: "Does Stick-Onn supply spray adhesive across India?",
+        answer:
+          "Yes, Stick-Onn supplies spray adhesive nationwide through a network of 120+ dealers, ensuring consistent availability for manufacturers and workshops across India.",
+      },
+    ],
+    relatedLinks: [
+      { href: "/products/aerofix", label: "View Stick-Onn AeroFix" },
+      { href: "/applications/upholstery-foam-fabric", label: "Upholstery and spray applications" },
+      { href: "/applications/automotive-interior", label: "Automotive interior bonding" },
+      { href: "/contact", label: "Request a quote or product trial" },
+    ],
+  },
+  {
+    slug: "wpc-adhesive-manufacturer",
+    fullContent: true,
+    navLabel: "WPC Adhesive Manufacturer",
+    seoTitle: "WPC Adhesive Manufacturer in India | WPC Adhesive Supplier",
+    seoDescription:
+      "Stick-Onn is a trusted WPC adhesive manufacturer in India, offering WPCFix for high-grab bonding of wood-plastic composite boards & profiles. Get a quote today.",
+    keywords: [
+      "WPC adhesive manufacturer India",
+      "WPC adhesive supplier",
+      "WPC adhesive manufacturer",
+      "wood plastic composite adhesive",
+      "WPC board bonding adhesive",
+      "Stick-Onn WPCfix",
+      "WPC profile adhesive India",
+      "composite bonding adhesive",
+      "WPC door adhesive manufacturer",
+      "high grab WPC adhesive",
+    ],
+    h1: "WPC Adhesive Manufacturer in India",
+    intro:
+      "Looking for a reliable WPC adhesive manufacturer in India? Stick-Onn formulates high-grab adhesives specifically engineered for bonding Wood-Plastic Composite (WPC) boards and profiles — delivering the strong, consistent adhesion these modern materials demand. As a dedicated WPC adhesive manufacturer, Stick-Onn combines specialized bonding chemistry with hands-on technical support to help fabricators and manufacturers work confidently with WPC substrates.",
+    heroCta: {
+      primaryLabel: "Get a Quote",
+      secondaryLabel: "Talk on WhatsApp",
+      productName: "WPCfix Adhesive",
+    },
+    rangeSectionTitle: "WPC Adhesive Range",
+    productShowcaseTitle: "Stick-Onn WPC Adhesive Products",
+    midPageCta: {
+      title: "Need help bonding WPC boards or profiles?",
+      description:
+        "Share your composite material and assembly details — our technical team will recommend the right WPC adhesive formulation.",
+      productName: "WPCfix Adhesive",
+    },
+    bottomCta: {
+      title: "Looking for a WPC Adhesive Manufacturer You Can Trust?",
+      description:
+        "Whether you're bonding WPC boards, profiles, or composite fixtures, Stick-Onn's WPC adhesive delivers the strong, lasting adhesion these materials demand. Connect with our technical team for a formulation consultation or product trial.",
+      productName: "WPCfix Adhesive",
+    },
+    sections: [
+      {
+        title: "What is WPC Adhesive?",
+        paragraphs: [
+          "WPC adhesive is a specially formulated bonding agent designed to adhere effectively to Wood-Plastic Composite (WPC) materials — a substrate that combines wood fibers with plastic polymers. Because WPC surfaces behave differently from solid wood or plastic alone, standard adhesives often struggle to achieve a strong, lasting bond on them. WPC adhesive is engineered specifically to overcome this challenge, offering high initial grab and durable adhesion on composite surfaces.",
+          "Key characteristics of WPC adhesive include:",
+        ],
+        bullets: [
+          "High-grab formulation suited to the unique surface properties of WPC",
+          "Strong, durable bond on composite wood-plastic materials",
+          "Resistance to moisture and temperature variation, matching WPC's own durability profile",
+          "Suitable for both WPC boards and profile sections",
+          "Reliable adhesion where standard wood or plastic adhesives may underperform",
+        ],
+      },
+      {
+        title: "Why Choose Stick-Onn as Your WPC Adhesive Manufacturer",
+        paragraphs: [
+          "As a specialized WPC adhesive manufacturer, Stick-Onn engineers formulations that address the specific bonding challenges of composite materials.",
+        ],
+      },
+      {
+        title: "Purpose-Built for WPC Substrates",
+        layout: "card",
+        paragraphs: [
+          "Stick-Onn WPCfix is formulated specifically for Wood-Plastic Composite materials, offering high-grab adhesion that standard wood or contact adhesives often cannot achieve on composite surfaces.",
+        ],
+      },
+      {
+        title: "Strong, Long-Lasting Bond",
+        layout: "card",
+        paragraphs: [
+          "Engineered to match the durability of WPC materials themselves, Stick-Onn's WPC adhesive delivers a bond that holds up over time, even under environmental stress.",
+        ],
+      },
+      {
+        title: "Application-Specific Formulations",
+        layout: "card",
+        paragraphs: [
+          "Stick-Onn develops WPC adhesive grades tailored to different composite board and profile combinations, ensuring optimal adhesion across varied WPC applications.",
+        ],
+      },
+      {
+        title: "Dedicated Technical Support",
+        layout: "card",
+        paragraphs: [
+          "Stick-Onn's technical team works directly with fabricators and manufacturers — from substrate consultation through trial runs and line optimization — to identify the right WPC adhesive formulation for each project.",
+        ],
+      },
+      {
+        title: "Pan-India Supply Network",
+        layout: "card",
+        paragraphs: [
+          "With a network of 120+ dealers across India, Stick-Onn ensures manufacturers and workshops nationwide have consistent, reliable access to WPC adhesive.",
+        ],
+      },
+      {
+        title: "Consistent, Benchmarked Quality",
+        layout: "card",
+        paragraphs: [
+          "Every batch of Stick-Onn's WPC adhesive is tested against ISO and EN quality standards, ensuring uniform performance and reliability across every order.",
+        ],
+      },
+      {
+        title: "Applications of Stick-Onn WPC Adhesive",
+        paragraphs: [
+          "Stick-Onn's WPC adhesive, WPCfix, is used across a range of composite bonding applications, including:",
+        ],
+        bullets: [
+          "WPC Board Bonding – panel-to-panel and panel-to-frame adhesion",
+          "WPC Profile Assembly – bonding of composite profile sections in furniture and fixtures",
+          "Outdoor Decking & Cladding – durable bonding for weather-exposed WPC applications",
+          "Modular Furniture with WPC Components – secure adhesion in composite furniture builds",
+          "Interior Fit-Out Projects – bonding WPC elements in wall panels and fixtures",
+        ],
+      },
+      {
+        title: "WPC Adhesive Range",
+        paragraphs: ["Stick-Onn's WPC adhesive offering includes:"],
+        bullets: [
+          "Stick-Onn WPCfix – high-grab adhesive engineered specifically for Wood-Plastic Composite boards and profiles",
+          "Stick-Onn 1K PUR Adhesive – moisture-curing polyurethane for structural WPC joints and load-bearing assemblies",
+        ],
+      },
+      {
+        title: "Manufacturing Quality & Consistency",
+        paragraphs: [
+          "Every batch of Stick-Onn WPC adhesive undergoes strict quality control, with testing for grab strength, bond durability, and moisture resistance before dispatch — ensuring dependable performance across every production run.",
+        ],
+      },
+    ],
+    productSlugs: ["wpcfix", "stick-onn-pur-adhesive", "drill-free"],
+    productShowcase: [
+      {
+        name: "Stick-Onn WPCfix Adhesive",
+        description:
+          "High-grab adhesive purpose-engineered for WPC boards and profiles — high initial tack and flexible bond line for door and composite fabrication.",
+        image: "/images/products/wpcfix.png",
+        href: "/products/wpcfix",
+        badge: "Purpose-built for WPC",
+      },
+      {
+        name: "Stick-Onn 1K PUR Adhesive",
+        description:
+          "Moisture-curing polyurethane adhesive for structural WPC bonding — waterproof, all-weather performance on composite substrates.",
+        image: "/images/products/stick-onn-pur-adhesive.png",
+        href: "/products/stick-onn-pur-adhesive",
+        badge: "Structural bonding",
+      },
+      {
+        name: "Stick-Onn Drill Free Adhesive",
+        description:
+          "High-strength construction adhesive for mounting WPC panels and fixtures without drilling or visible fasteners.",
+        image: "/images/products/wpcfix.png",
+        href: "/products/drill-free",
+        badge: "No-drill mounting",
+      },
+    ],
+    faqs: [
+      {
+        question: "Who is a reliable WPC adhesive manufacturer in India?",
+        answer:
+          "Stick-Onn is a specialized WPC adhesive manufacturer in India, offering WPCFix, a high-grab adhesive backed by technical support for fabricators working with composite materials.",
+      },
+      {
+        question: "Why do WPC boards need a specialized adhesive?",
+        answer:
+          "WPC (Wood-Plastic Composite) boards combine wood fibers and plastic polymers, giving them surface properties different from solid wood or plastic alone — requiring an adhesive specifically formulated for strong, lasting adhesion on this hybrid material.",
+      },
+      {
+        question: "Where is WPC adhesive commonly used?",
+        answer:
+          "WPC adhesive is commonly used in WPC board and profile bonding, outdoor decking and cladding, modular furniture with composite components, and interior fit-out projects.",
+      },
+      {
+        question: "Is Stick-Onn's WPC adhesive suitable for outdoor applications?",
+        answer:
+          "Yes. Stick-Onn WPCFix is engineered for moisture and temperature resistance, making it suitable for outdoor decking, cladding, and other weather-exposed WPC applications.",
+      },
+      {
+        question: "Does Stick-Onn supply WPC adhesive across India?",
+        answer:
+          "Yes, Stick-Onn supplies WPC adhesive nationwide through a network of 120+ dealers, ensuring consistent availability for fabricators and manufacturers across India.",
+      },
+    ],
+    relatedLinks: [
+      { href: "/products/wpcfix", label: "View Stick-Onn WPCfix Adhesive" },
+      { href: "/applications/wpc-pvc-installation", label: "WPC and PVC installation applications" },
+      { href: "/1k-pur-adhesive-manufacturer", label: "1K PUR adhesive for structural WPC joints" },
+      { href: "/contact", label: "Request a quote or product trial" },
+    ],
+  },
 ];

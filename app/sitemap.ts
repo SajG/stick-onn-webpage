@@ -7,6 +7,8 @@ import {
 } from "@/lib/sanity/queries";
 import { absoluteUrl } from "@/lib/seo";
 
+export const revalidate = 3600;
+
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const lastModified = new Date();
 
