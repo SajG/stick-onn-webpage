@@ -324,7 +324,7 @@ export const products: Product[] = [
       "Allow 24–48 hours before applying full design load.",
     ],
     packs: ["290 ml cartridge", "600 ml sausage", "20 kg pail"],
-    heroImage: "/images/products/wpcfix.png",
+    heroImage: "/images/products/drill-free.png",
     datasheetUrl: "/pdfs/stick-onn-technical-data-sheet.pdf",
     faqs: [
       {
@@ -415,7 +415,7 @@ export const products: Product[] = [
       "Roll firmly from centre outward to eliminate air pockets.",
     ],
     packs: ["500 ml", "1 L", "5 L", "20 L"],
-    heroImage: "/images/products/heatfix.png",
+    heroImage: "/images/products/lam2lam.png",
     datasheetUrl: "/pdfs/stick-onn-technical-data-sheet.pdf",
     faqs: [
       {
@@ -688,7 +688,7 @@ export const products: Product[] = [
       "Allow 24 hours for full cure and maximum strength.",
     ],
     packs: ["50 ml dual cartridge", "500 g kit", "1 kg kit", "5 kg kit"],
-    heroImage: "/images/products/clout-d3.png",
+    heroImage: "/images/products/epoxy-resin-1.jpg",
     datasheetUrl: "/pdfs/stick-onn-technical-data-sheet.pdf",
     faqs: [
       {

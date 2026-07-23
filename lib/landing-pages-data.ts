@@ -133,7 +133,7 @@ export const landingPages: LandingPage[] = [
         name: "Stick-Onn Epoxy Resin Adhesive",
         description:
           "Two-component structural epoxy for metal, concrete, stone, and high-strength industrial bonding with gap-filling capability.",
-        image: "/images/products/clout-d3.png",
+        image: "/images/products/epoxy-resin-1.jpg",
         href: "/products/epoxy-resin",
         badge: "Structural epoxy",
       },
@@ -141,7 +141,7 @@ export const landingPages: LandingPage[] = [
         name: "Stick-Onn Drill-Free Adhesive",
         description:
           "High-strength construction adhesive for mounting mirrors, panels, and fixtures without drilling.",
-        image: "/images/products/heatfix.png",
+        image: "/images/products/drill-free.png",
         href: "/products/drill-free",
         badge: "No-drill mounting",
       },
@@ -328,7 +328,7 @@ export const landingPages: LandingPage[] = [
         name: "Stick-Onn Lam2Lam Adhesive",
         description:
           "Specialty contact adhesive for laminate-to-laminate, HPL, and countertop fabrication with clean, heat-resistant bonds.",
-        image: "/images/products/heatfix.png",
+        image: "/images/products/lam2lam.png",
         href: "/products/lam2lam",
         badge: "HPL bonding",
       },
@@ -1090,7 +1090,7 @@ export const landingPages: LandingPage[] = [
         name: "Stick-Onn Epoxy Resin Adhesive",
         description:
           "Two-component structural epoxy for metal, concrete, stone, and high-strength industrial bonding with gap-filling capability.",
-        image: "/images/products/clout-d3.png",
+        image: "/images/products/epoxy-resin-1.jpg",
         href: "/products/epoxy-resin",
         badge: "Structural epoxy",
       },
@@ -1106,7 +1106,7 @@ export const landingPages: LandingPage[] = [
         name: "Stick-Onn Drill Free Adhesive",
         description:
           "High-strength construction adhesive for mounting fixtures, panels, and hardware without drilling or fasteners.",
-        image: "/images/products/wpcfix.png",
+        image: "/images/products/drill-free.png",
         href: "/products/drill-free",
         badge: "No-drill mounting",
       },
@@ -1674,7 +1674,7 @@ export const landingPages: LandingPage[] = [
         name: "Stick-Onn Drill Free Adhesive",
         description:
           "High-strength construction adhesive for drill-free mounting of mirrors, panels, trims, and fixtures — strong initial grab with a clean, fastener-free finish.",
-        image: "/images/products/wpcfix.png",
+        image: "/images/products/drill-free.png",
         href: "/products/drill-free",
         badge: "No-drill mounting",
       },
@@ -1682,7 +1682,7 @@ export const landingPages: LandingPage[] = [
         name: "Stick-Onn Epoxy Resin Adhesive",
         description:
           "Two-component structural epoxy for heavier fixtures and load-bearing mounting where maximum rigidity is required.",
-        image: "/images/products/clout-d3.png",
+        image: "/images/products/epoxy-resin-2.jpg",
         href: "/products/epoxy-resin",
         badge: "Structural epoxy",
       },
@@ -1876,7 +1876,7 @@ export const landingPages: LandingPage[] = [
         name: "Stick-Onn Lam2Lam Adhesive",
         description:
           "Specialty contact adhesive for laminate-to-laminate, HPL, and countertop fabrication with clean, heat-resistant bonds.",
-        image: "/images/products/heatfix.png",
+        image: "/images/products/lam2lam.png",
         href: "/products/lam2lam",
         badge: "HPL bonding",
       },
@@ -2077,7 +2077,7 @@ export const landingPages: LandingPage[] = [
         name: "Stick-Onn Drill Free Adhesive",
         description:
           "High-strength construction adhesive for mounting WPC panels and fixtures without drilling or visible fasteners.",
-        image: "/images/products/wpcfix.png",
+        image: "/images/products/drill-free.png",
         href: "/products/drill-free",
         badge: "No-drill mounting",
       },
