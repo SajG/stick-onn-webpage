@@ -77,7 +77,7 @@ export default async function ApplicationDetailPage({
       />
 
       <header className="rounded-3xl border border-slate-200 bg-white p-6 sm:p-8">
-        <div className="grid gap-6 lg:grid-cols-[1fr,200px] lg:items-center">
+        <div className="grid gap-6 lg:grid-cols-[1fr_200px] lg:items-center">
           <div className="space-y-3">
             <h1 className="text-2xl font-semibold text-[var(--primary)] sm:text-3xl">
               {page.h1}

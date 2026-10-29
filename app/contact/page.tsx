@@ -60,7 +60,7 @@ export default function ContactPage() {
         description="Request samples, technical guidance, or distributor partnerships. Our adhesive specialists will respond within one business day."
       />
 
-      <div className="grid gap-12 md:grid-cols-[1fr,1.1fr]">
+      <div className="grid gap-12 md:grid-cols-[1fr_1.1fr]">
         <div className="space-y-6">
           <Reveal
             as="div"
