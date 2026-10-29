@@ -14,6 +14,7 @@ const mainLinks = [
   { href: "/products", label: "Products" },
   { href: "/applications", label: "Applications" },
   { href: "/blog", label: "Blog" },
+  { href: "/downloads", label: "Downloads" },
   { href: "/contact", label: "Contact" },
 ];
 

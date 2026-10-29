@@ -9,8 +9,12 @@ import {
   Lightbulb,
   ShieldCheck,
   MapPin,
+  ShieldAlert,
+  FileText,
+  ChevronRight,
 } from "lucide-react";
 import { companyInfo, products } from "@/lib/data";
+import { getProductDocuments } from "@/lib/downloads-data";
 import { displayFeatures, takeItems } from "@/lib/display-content";
 import { Breadcrumbs } from "@/components/breadcrumbs";
 import { FaqSection } from "@/components/faq-section";
@@ -61,6 +65,9 @@ export default async function ProductDetailPage({
     .map((slug) => products.find((p) => p.slug === slug))
     .filter(Boolean) as typeof products;
 
+  const documents = getProductDocuments(product.slug);
+  const msds = documents?.msds[0];
+
   const features = displayFeatures(product.features);
   const steps = takeItems(product.howToApply, 4);
 
@@ -83,10 +90,10 @@ export default async function ProductDetailPage({
         ]}
       />
 
-      <div className="grid gap-8 lg:grid-cols-[1fr,300px] lg:items-start">
+      <div className="grid gap-8 lg:grid-cols-[1fr_300px] lg:items-start">
         <div className="flex flex-col gap-8">
           <section className="overflow-hidden rounded-3xl border border-slate-200 bg-white">
-            <div className="grid gap-6 p-6 md:grid-cols-[1fr,220px] md:items-center md:p-8">
+            <div className="grid gap-6 p-6 md:grid-cols-[1fr_220px] md:items-center md:p-8">
               <div className="space-y-3">
                 <h1 className="text-2xl font-semibold text-[var(--primary)] sm:text-3xl">
                   {product.name}
@@ -105,11 +112,22 @@ export default async function ProductDetailPage({
                 <div className="flex flex-wrap gap-2 pt-2">
                   <a
                     href={product.datasheetUrl}
+                    download
                     className="inline-flex items-center gap-2 rounded-full bg-[var(--primary)] px-4 py-2 text-sm font-semibold text-white transition hover:bg-[var(--primary-dark)]"
                   >
                     <Download className="h-4 w-4" />
                     TDS
                   </a>
+                  {msds && (
+                    <a
+                      href={msds.href}
+                      download
+                      className="inline-flex items-center gap-2 rounded-full bg-[var(--accent)] px-4 py-2 text-sm font-semibold text-white transition hover:bg-[#e86e00]"
+                    >
+                      <ShieldAlert className="h-4 w-4" />
+                      MSDS
+                    </a>
+                  )}
                   <Link
                     href={`/applications/${product.applicationSlug}`}
                     className="inline-flex items-center gap-2 rounded-full border border-slate-300 px-4 py-2 text-sm font-semibold text-[var(--primary)] transition hover:border-[var(--primary)]"
@@ -191,6 +209,43 @@ export default async function ProductDetailPage({
               Get a quote
             </Link>
           </div>
+
+          {documents && (
+            <div className="rounded-2xl border border-slate-200 bg-white p-5 shadow-sm">
+              <div className="mb-3 flex items-center gap-2">
+                <FileText className="h-4 w-4 text-accent" />
+                <h2 className="text-sm font-semibold text-[var(--primary)]">Product documents</h2>
+              </div>
+              <ul className="space-y-1.5">
+                {[
+                  ...documents.tds.map((file) => ({ file, kind: "TDS" })),
+                  ...documents.msds.map((file) => ({ file, kind: "MSDS" })),
+                ].map(({ file, kind }) => (
+                  <li key={file.href}>
+                    <a
+                      href={file.href}
+                      download
+                      className="flex items-center gap-2.5 rounded-lg px-2 py-1.5 text-xs text-slate-600 transition hover:bg-slate-50 hover:text-[var(--primary)]"
+                    >
+                      <Download className="h-3.5 w-3.5 shrink-0 text-slate-400" />
+                      <span className="flex-1">
+                        <span className="font-semibold text-slate-800">{kind}</span>
+                        {file.label ? ` · ${file.label}` : ""}
+                      </span>
+                      <span className="text-slate-400">{file.size}</span>
+                    </a>
+                  </li>
+                ))}
+              </ul>
+              <Link
+                href="/downloads"
+                className="mt-3 inline-flex items-center gap-1 text-xs font-semibold text-[var(--primary)] hover:underline"
+              >
+                All downloads &amp; brochure
+                <ChevronRight className="h-3.5 w-3.5" />
+              </Link>
+            </div>
+          )}
 
           <div className="flex items-start gap-2 rounded-2xl border border-slate-200 bg-slate-50 p-4 text-xs text-slate-600">
             <MapPin className="mt-0.5 h-4 w-4 flex-shrink-0 text-accent" />

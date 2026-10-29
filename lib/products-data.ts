@@ -61,7 +61,7 @@ export const products: Product[] = [
     ],
     packs: ["800 g", "4 kg", "8 kg", "16 kg", "60 kg"],
     heroImage: "/images/products/stick-onn-pur-adhesive.png",
-    datasheetUrl: "/pdfs/stick-onn-1k-pur-adhesive-tds.pdf",
+    datasheetUrl: "/downloads/tds/stick-onn-pur-adhesive-tds.pdf",
     faqs: [
       {
         question: "What is the difference between Stick-Onn 1K PUR Adhesive and standard PVA wood glue?",
@@ -150,7 +150,7 @@ export const products: Product[] = [
     ],
     packs: ["800 g", "4 kg", "8 kg", "16 kg", "60 kg"],
     heroImage: "/images/products/clout-d3.png",
-    datasheetUrl: "/pdfs/stick-onn-technical-data-sheet.pdf",
+    datasheetUrl: "/downloads/tds/clout-d3-tds.pdf",
     faqs: [
       {
         question: "What does D3 grade mean for Stick-Onn Clout D3 adhesive?",
@@ -239,7 +239,7 @@ export const products: Product[] = [
     ],
     packs: ["800 g", "4 kg", "8 kg", "16 kg", "60 kg"],
     heroImage: "/images/products/aqua-plus.png",
-    datasheetUrl: "/pdfs/stick-onn-technical-data-sheet.pdf",
+    datasheetUrl: "/downloads/tds/aqua-plus-tds.pdf",
     faqs: [
       {
         question: "Is Stick-Onn Aqua Adhesive truly waterproof for kitchen cabinet installation?",
@@ -325,7 +325,7 @@ export const products: Product[] = [
     ],
     packs: ["290 ml cartridge", "600 ml sausage", "20 kg pail"],
     heroImage: "/images/products/drill-free.png",
-    datasheetUrl: "/pdfs/stick-onn-technical-data-sheet.pdf",
+    datasheetUrl: "/downloads/tds/drill-free-tds.pdf",
     faqs: [
       {
         question: "Can Stick-Onn Drill Free Adhesive hold heavy mirrors on painted walls without drilling?",
@@ -416,7 +416,7 @@ export const products: Product[] = [
     ],
     packs: ["500 ml", "1 L", "5 L", "20 L"],
     heroImage: "/images/products/lam2lam.png",
-    datasheetUrl: "/pdfs/stick-onn-technical-data-sheet.pdf",
+    datasheetUrl: "/downloads/tds/lam2lam-tds.pdf",
     faqs: [
       {
         question: "Can Stick-Onn Lam2Lam MS Polymer Adhesive bond HPL laminate to HPL without visible glue lines?",
@@ -507,7 +507,7 @@ export const products: Product[] = [
     ],
     packs: ["600 g", "1.2 kg", "6 kg", "12 kg"],
     heroImage: "/images/products/wpcfix.png",
-    datasheetUrl: "/pdfs/stick-onn-technical-data-sheet.pdf",
+    datasheetUrl: "/downloads/tds/wpcfix-tds.pdf",
     faqs: [
       {
         question: "Why do standard wood glues fail on WPC boards and how does WPCfix solve this?",
@@ -598,7 +598,7 @@ export const products: Product[] = [
     ],
     packs: ["5 kg", "25 kg"],
     heroImage: "/images/products/hotmelt-throughfeed-30kg.png",
-    datasheetUrl: "/pdfs/stick-onn-technical-data-sheet.pdf",
+    datasheetUrl: "/downloads/tds/hotmelt-tds.pdf",
     faqs: [
       {
         question: "What temperature should I set for Stick-Onn Hotmelt Adhesive on edge banding machines?",
@@ -689,7 +689,7 @@ export const products: Product[] = [
     ],
     packs: ["50 ml dual cartridge", "500 g kit", "1 kg kit", "5 kg kit"],
     heroImage: "/images/products/epoxy-resin-1.jpg",
-    datasheetUrl: "/pdfs/stick-onn-technical-data-sheet.pdf",
+    datasheetUrl: "/downloads/tds/epoxy-resin-tds.pdf",
     faqs: [
       {
         question: "What is the mixing ratio for Stick-Onn Epoxy Resin Adhesive?",
@@ -779,7 +779,7 @@ export const products: Product[] = [
     ],
     packs: ["500 ml", "1 L", "5 L (bulk)"],
     heroImage: "/images/products/aerofix.png",
-    datasheetUrl: "/pdfs/stick-onn-technical-data-sheet.pdf",
+    datasheetUrl: "/downloads/tds/wood-to-laminate-spray-adhesive-tds.pdf",
     faqs: [
       {
         question: "Does Stick-Onn Wood to Laminate Instant Spray Adhesive soak through upholstery fabric?",

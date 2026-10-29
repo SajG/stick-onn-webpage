@@ -37,6 +37,7 @@ const companyLinks = [
   { href: "/about", label: "About Stick-Onn" },
   { href: "/products", label: "All Products" },
   { href: "/applications", label: "Applications" },
+  { href: "/downloads", label: "Downloads — TDS, MSDS & Brochure" },
   { href: "/contact", label: "Contact & Dealers" },
 ];
 
